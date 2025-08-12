@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "original_file": "tds_rules/tds-rules-bangla-schedule-4-certificate-of-tax-deduction-collection-at-source-details-of-tax-deducte.json",
+    "category": "schedules",
+    "standardization_date": "2025-01-15",
+    "content_length": 68,
+    "standardization_applied": true
+  },
+  "content_versions": {
+    "original": "{'main_content': '', 'tables': [], 'forms': [], 'status': 'success'}",
+    "cleaned": "{'main_content': '', 'tables': [], 'forms': [], 'status': 'success'}",
+    "bengali_normalized": "{'main_content': '', 'tables': [], 'forms': [], 'status': 'success'}",
+    "english_normalized": "{'main_content': '', 'tables': [], 'forms': [], 'status': 'success'}"
+  },
+  "section_mappings": {},
+  "extracted_entities": {
+    "sections": [],
+    "schedules": [],
+    "rules": [],
+    "amounts": [],
+    "dates": []
+  }
+}

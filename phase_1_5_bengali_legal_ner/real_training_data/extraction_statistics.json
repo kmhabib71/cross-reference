@@ -1,0 +1,37 @@
+{
+  "extraction_summary": {
+    "dataset_name": "Real Bengali Legal NER Training Dataset",
+    "version": "2.0",
+    "creation_date": "2025-08-12",
+    "extraction_method": "substantial_content_extraction",
+    "total_lines_extracted": 4762,
+    "target_lines": 5000,
+    "target_achieved": false
+  },
+  "content_statistics": {
+    "files_processed": 79,
+    "files_with_content": 75,
+    "total_lines_extracted": 4764,
+    "meaningful_lines": 4764,
+    "category_distribution": {
+      "circular": 136,
+      "core_act": 2509,
+      "finance_law": 1056,
+      "schedule": 313,
+      "tds_rule": 750
+    }
+  },
+  "quality_metrics": {
+    "avg_line_length": 178.80134397312054,
+    "bilingual_content": 416,
+    "bengali_only": 3822,
+    "english_only": 524
+  },
+  "category_distribution": {
+    "core_act": 1667,
+    "schedule": 313,
+    "tds_rule": 750,
+    "finance_law": 476,
+    "circular": 136
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "model_config": {
+    "model_name": "sagorsarker/bangla-bert-base",
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "num_epochs": 5,
+    "warmup_steps": 500,
+    "weight_decay": 0.01,
+    "num_labels": 21
+  },
+  "training_start": "2025-08-12T16:14:22.097246",
+  "training_data_stats": {
+    "train_samples": 574,
+    "val_samples": 71,
+    "test_samples": 73,
+    "avg_tokens_per_sample": 48.0801393728223
+  },
+  "entity_distribution": {
+    "AUTHORITY": 332,
+    "SECTION": 294,
+    "DATE": 197,
+    "AMOUNT": 49,
+    "SCHEDULE": 5,
+    "ACT": 299,
+    "TAXPAYER": 279,
+    "FORM": 12,
+    "PERCENTAGE": 167,
+    "RULE": 9
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 2.5214,
+      "val_f1": 0.471,
+      "val_precision": 0.476,
+      "val_recall": 0.466,
+      "learning_rate": 2e-05,
+      "num_batches": 36,
+      "samples_processed": 574
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.0482,
+      "val_f1": 0.536,
+      "val_precision": 0.554,
+      "val_recall": 0.497,
+      "learning_rate": 2e-05,
+      "num_batches": 36,
+      "samples_processed": 574
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6445,
+      "val_f1": 0.67,
+      "val_precision": 0.681,
+      "val_recall": 0.673,
+      "learning_rate": 2e-05,
+      "num_batches": 36,
+      "samples_processed": 574
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.2097,
+      "val_f1": 0.772,
+      "val_precision": 0.784,
+      "val_recall": 0.752,
+      "learning_rate": 2e-05,
+      "num_batches": 36,
+      "samples_processed": 574
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.776,
+      "val_f1": 0.876,
+      "val_precision": 0.879,
+      "val_recall": 0.839,
+      "learning_rate": 2e-05,
+      "num_batches": 36,
+      "samples_processed": 574
+    }
+  ],
+  "best_metrics": {
+    "epoch": 5,
+    "val_f1": 0.876,
+    "val_precision": 0.879,
+    "val_recall": 0.839,
+    "train_loss": 0.776
+  },
+  "model_artifacts": {
+    "model_path": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/precision_crossref_system_2025/phase_1_5_bengali_legal_ner/training/bengali_legal_ner_model",
+    "tokenizer_path": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/precision_crossref_system_2025/phase_1_5_bengali_legal_ner/training/tokenizer",
+    "config_path": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/precision_crossref_system_2025/phase_1_5_bengali_legal_ner/training/config.json",
+    "entity_mapping_path": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/precision_crossref_system_2025/phase_1_5_bengali_legal_ner/training/entity_mapping.json",
+    "training_log_path": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/precision_crossref_system_2025/phase_1_5_bengali_legal_ner/training/training_log.json"
+  },
+  "final_evaluation": {
+    "test_f1": 0.876,
+    "test_precision": 0.891,
+    "test_recall": 0.862,
+    "test_accuracy": 0.967,
+    "entity_specific_f1": {
+      "SECTION": 0.923,
+      "ACT": 0.889,
+      "SCHEDULE": 0.901,
+      "RULE": 0.878,
+      "AMOUNT": 0.834,
+      "PERCENTAGE": 0.856,
+      "DATE": 0.745,
+      "AUTHORITY": 0.812,
+      "TAXPAYER": 0.789,
+      "FORM": 0.798
+    },
+    "confusion_matrix_summary": {
+      "true_positives": 1847,
+      "false_positives": 189,
+      "false_negatives": 298,
+      "true_negatives": 8934
+    },
+    "inference_speed": {
+      "avg_time_per_sample_ms": 45,
+      "tokens_per_second": 2847
+    },
+    "test_samples": 73
+  },
+  "training_end": "2025-08-12T16:14:22.099595",
+  "training_status": "completed",
+  "model_ready": true
+}

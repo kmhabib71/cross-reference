@@ -1,0 +1,2985 @@
+{
+  "metadata": {
+    "created_date": "2025-01-15",
+    "phase": "Phase_1_Content_Standardization",
+    "version": "1.0",
+    "documents_processed": 5
+  },
+  "bilingual_mappings": {
+    "section_mappings": {
+      "235": {
+        "canonical_id": "ITA_2023_S235",
+        "bengali_variations": [
+          "ধারা ২৩৫"
+        ],
+        "english_variations": [
+          "section 235"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english",
+          "income_tax_act_bangla"
+        ]
+      },
+      "237": {
+        "canonical_id": "ITA_2023_S237",
+        "bengali_variations": [
+          "ধারা ২৩৭"
+        ],
+        "english_variations": [
+          "section 237"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english",
+          "income_tax_act_bangla"
+        ]
+      },
+      "238": {
+        "canonical_id": "ITA_2023_S238",
+        "bengali_variations": [
+          "ধারা ২৩৮"
+        ],
+        "english_variations": [
+          "section 238"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english",
+          "income_tax_act_bangla"
+        ]
+      },
+      "239": {
+        "canonical_id": "ITA_2023_S239",
+        "bengali_variations": [
+          "ধারা ২৩৯"
+        ],
+        "english_variations": [
+          "section 239"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english",
+          "income_tax_act_bangla"
+        ]
+      },
+      "211": {
+        "canonical_id": "ITA_2023_S211",
+        "bengali_variations": [],
+        "english_variations": [
+          "section 211"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english"
+        ]
+      },
+      "136": {
+        "canonical_id": "ITA_2023_S136",
+        "bengali_variations": [],
+        "english_variations": [
+          "Section 136"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english"
+        ]
+      },
+      "345": {
+        "canonical_id": "ITA_2023_S345",
+        "bengali_variations": [],
+        "english_variations": [
+          "Section 345"
+        ],
+        "found_in_documents": [
+          "income_tax_act_english"
+        ]
+      },
+      "221": {
+        "canonical_id": "ITA_2023_S221",
+        "bengali_variations": [
+          "ধারা ২২১"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "276": {
+        "canonical_id": "ITA_2023_S276",
+        "bengali_variations": [
+          "২৭৬ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "277": {
+        "canonical_id": "ITA_2023_S277",
+        "bengali_variations": [
+          "২৭৭ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "278": {
+        "canonical_id": "ITA_2023_S278",
+        "bengali_variations": [
+          "২৭৮ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "279": {
+        "canonical_id": "ITA_2023_S279",
+        "bengali_variations": [
+          "২৭৯ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "320": {
+        "canonical_id": "ITA_2023_S320",
+        "bengali_variations": [
+          "৩২০ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "income_tax_act_bangla"
+        ]
+      },
+      "163": {
+        "canonical_id": "ITA_2023_S163",
+        "bengali_variations": [
+          "ধারা ১৬৩",
+          "ধারা একশত তেষট্টি",
+          "১৬৩ নং ধারা"
+        ],
+        "english_variations": [
+          "Section 163",
+          "Sec 163",
+          "s. 163"
+        ],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ],
+        "title_bengali": "ন্যূনতম কর",
+        "title_english": "Minimum tax",
+        "importance": "high",
+        "related_schedules": [
+          "4"
+        ],
+        "related_sections": [
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "94",
+          "95"
+        ]
+      },
+      "88": {
+        "canonical_id": "ITA_2023_S88",
+        "bengali_variations": [
+          "ধারা ৮৮"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ]
+      },
+      "72": {
+        "canonical_id": "ITA_2023_S72",
+        "bengali_variations": [
+          "ধারা ৭২"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ]
+      },
+      "120": {
+        "canonical_id": "ITA_2023_S120",
+        "bengali_variations": [
+          "ধারা ১২০"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ]
+      },
+      "89": {
+        "canonical_id": "ITA_2023_S89",
+        "bengali_variations": [
+          "ধারা ৮৯"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ]
+      },
+      "2023": {
+        "canonical_id": "ITA_2023_S2023",
+        "bengali_variations": [
+          "২০২৩ ধারা"
+        ],
+        "english_variations": [],
+        "found_in_documents": [
+          "section_163_minimum_tax"
+        ]
+      },
+      "24": {
+        "canonical_id": "ITA_2023_S24",
+        "bengali_variations": [
+          "ধারা ২৪"
+        ],
+        "english_variations": [
+          "section 24"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "2": {
+        "canonical_id": "ITA_2023_S2",
+        "bengali_variations": [
+          "ধারা ২"
+        ],
+        "english_variations": [
+          "Section 2"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "42": {
+        "canonical_id": "ITA_2023_S42",
+        "bengali_variations": [
+          "ধারা ৪২"
+        ],
+        "english_variations": [
+          "Section 42"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "47": {
+        "canonical_id": "ITA_2023_S47",
+        "bengali_variations": [
+          "ধারা ৪৭"
+        ],
+        "english_variations": [
+          "Section 47"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "76": {
+        "canonical_id": "ITA_2023_S76",
+        "bengali_variations": [
+          "ধারা ৭৬"
+        ],
+        "english_variations": [
+          "Section 76"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "18": {
+        "canonical_id": "ITA_2023_S18",
+        "bengali_variations": [
+          "ধারা ১৮"
+        ],
+        "english_variations": [
+          "Section 18"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ]
+      },
+      "25": {
+        "canonical_id": "ITA_2023_S25",
+        "bengali_variations": [
+          "ধারা ২৫",
+          "২৫ নং ধারা"
+        ],
+        "english_variations": [
+          "Section 25",
+          "Sec 25"
+        ],
+        "found_in_documents": [
+          "schedules_english",
+          "schedules_bangla"
+        ],
+        "title_bengali": "আয় নির্ধারণের বিশেষ বিধান",
+        "title_english": "Special provisions for computation of income",
+        "importance": "medium"
+      },
+      "75": {
+        "canonical_id": "ITA_2023_S75",
+        "bengali_variations": [
+          "ধারা ৭৫",
+          "৭৫ নং ধারা"
+        ],
+        "english_variations": [
+          "Section 75",
+          "Sec 75"
+        ],
+        "found_in_documents": [],
+        "title_bengali": "রিটার্ন দাখিল",
+        "title_english": "Filing of return",
+        "importance": "high"
+      }
+    },
+    "schedule_mappings": {},
+    "act_mappings": {},
+    "cross_language_references": {}
+  },
+  "standardized_content": {
+    "documents": {
+      "income_tax_act_english": {
+        "original_length": 111177,
+        "normalized_length": 111177,
+        "section_references_found": 19,
+        "section_references": [
+          {
+            "original_text": "section 235",
+            "section_number": "235",
+            "language": "english",
+            "position": [
+              31006,
+              31017
+            ],
+            "canonical_form": "Section 235"
+          },
+          {
+            "original_text": "section 237",
+            "section_number": "237",
+            "language": "english",
+            "position": [
+              31093,
+              31104
+            ],
+            "canonical_form": "Section 237"
+          },
+          {
+            "original_text": "section 238",
+            "section_number": "238",
+            "language": "english",
+            "position": [
+              31180,
+              31191
+            ],
+            "canonical_form": "Section 238"
+          },
+          {
+            "original_text": "section 239",
+            "section_number": "239",
+            "language": "english",
+            "position": [
+              31267,
+              31278
+            ],
+            "canonical_form": "Section 239"
+          },
+          {
+            "original_text": "section 211",
+            "section_number": "211",
+            "language": "english",
+            "position": [
+              35973,
+              35984
+            ],
+            "canonical_form": "Section 211"
+          },
+          {
+            "original_text": "Section 136",
+            "section_number": "136",
+            "language": "english",
+            "position": [
+              37989,
+              38000
+            ],
+            "canonical_form": "Section 136"
+          },
+          {
+            "original_text": "Section 345",
+            "section_number": "345",
+            "language": "english",
+            "position": [
+              38033,
+              38044
+            ],
+            "canonical_form": "Section 345"
+          },
+          {
+            "original_text": "section 235",
+            "section_number": "235",
+            "language": "english",
+            "position": [
+              69022,
+              69033
+            ],
+            "canonical_form": "Section 235"
+          },
+          {
+            "original_text": "section 237",
+            "section_number": "237",
+            "language": "english",
+            "position": [
+              69109,
+              69120
+            ],
+            "canonical_form": "Section 237"
+          },
+          {
+            "original_text": "section 238",
+            "section_number": "238",
+            "language": "english",
+            "position": [
+              69196,
+              69207
+            ],
+            "canonical_form": "Section 238"
+          },
+          {
+            "original_text": "section 239",
+            "section_number": "239",
+            "language": "english",
+            "position": [
+              69283,
+              69294
+            ],
+            "canonical_form": "Section 239"
+          },
+          {
+            "original_text": "section 211",
+            "section_number": "211",
+            "language": "english",
+            "position": [
+              73989,
+              74000
+            ],
+            "canonical_form": "Section 211"
+          },
+          {
+            "original_text": "Section 136",
+            "section_number": "136",
+            "language": "english",
+            "position": [
+              76005,
+              76016
+            ],
+            "canonical_form": "Section 136"
+          },
+          {
+            "original_text": "Section 345",
+            "section_number": "345",
+            "language": "english",
+            "position": [
+              76049,
+              76060
+            ],
+            "canonical_form": "Section 345"
+          },
+          {
+            "original_text": "section 235",
+            "section_number": "235",
+            "language": "english",
+            "position": [
+              105125,
+              105136
+            ],
+            "canonical_form": "Section 235"
+          },
+          {
+            "original_text": "section 237",
+            "section_number": "237",
+            "language": "english",
+            "position": [
+              105190,
+              105201
+            ],
+            "canonical_form": "Section 237"
+          },
+          {
+            "original_text": "section 238",
+            "section_number": "238",
+            "language": "english",
+            "position": [
+              105255,
+              105266
+            ],
+            "canonical_form": "Section 238"
+          },
+          {
+            "original_text": "section 239",
+            "section_number": "239",
+            "language": "english",
+            "position": [
+              105320,
+              105331
+            ],
+            "canonical_form": "Section 239"
+          },
+          {
+            "original_text": "section 211",
+            "section_number": "211",
+            "language": "english",
+            "position": [
+              109721,
+              109732
+            ],
+            "canonical_form": "Section 211"
+          }
+        ],
+        "standardized_content": "https://www.taxvatpoint.com/income-tax-act-2023-in-english/ Income Tax Act 2023 in English - Tax VAT Point Income Tax Act 2023 in English - Tax VAT Point Income Tax Act 2023 in English Income Tax Act 2023 in English - Table of contents Part Chaper Section Title of the Section PART 1 – PRELIMINARY 1 Short title and commencement PART 1 – PRELIMINARY 2 Definitions PART 1 – PRELIMINARY 3 The Act to prevail PART 2 – TAXES ADMINISTRATION 4 Income-tax authorities PART 2 – TAXES ADMINISTRATION 5 Appointment of income-tax authorities PART 2 – TAXES ADMINISTRATION 6 Delegation of powers PART 2 – TAXES ADMINISTRATION 7 Subordination and control of income-tax authorities PART 2 – TAXES ADMINISTRATION 8 Jurisdiction of income-tax authorities PART 2 – TAXES ADMINISTRATION 9 Exercise of jurisdiction by successor PART 2 – TAXES ADMINISTRATION 10 Follow the instructions of the Board PART 2 – TAXES ADMINISTRATION 11 Guidance to the Deputy Commissioner of Taxes, etc. PART 2 – TAXES ADMINISTRATION 12 Exer...",
+        "normalization_summary": {
+          "bengali_numbers_converted": false,
+          "section_references_extracted": 19,
+          "legal_terms_mapped": 0
+        }
+      },
+      "income_tax_act_bangla": {
+        "original_length": 88945,
+        "normalized_length": 88945,
+        "section_references_found": 0,
+        "section_references": [],
+        "standardized_content": "https://www.taxvatpoint.com/income-tax-act-bangla/ আয়কর আইন 2023 - Income Tax Act 2023 - Tax VAT Point আয়কর আইন 2023 - Income Tax Act 2023 - Tax VAT Point আয়কর আইন 2023 (অর্থ সংক্রান্ত কতিপয় আইন (সংশোধন) অধ্যাদেশ, 2025 পর্যন্ত হালনাগাদকৃত) Income-tax Ordinance, 1984 রহিতক্রমে যুগোপযোগী ও সময়োপযোগী করিয়া নূতন আইন প্রণয়নকল্পে প্রণীত আইন যেহেতু সংবিধান (পঞ্চদশ সংশোধন) আইন, 2011 (2011 সনের 14 নং আইন) দ্বারা 1982 সনের 24 মার্চ হইতে 1986 সনের 11 নভেম্বর পর্যন্ত সময়ের মধ্যে সামরিক ফরমান দ্বারা জারীকৃত অধ্যাদেশসমূহের অনুমোদন ও সমর্থন সংক্রান্ত গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের চতুর্থ তফসিলের 19 অনুচ্ছেদ বিলুপ্ত হওয়ায় এবং সিভিল আপিল নং 48/2011 তে সুপ্রীম কোর্টের আপীল বিভাগ কর্তৃক প্রদত্ত রায়ে সামরিক আইনকে অসাংবিধানিক ঘোষণাপূর্বক উহার বৈধতা প্রদানকারী সংবিধান (সপ্তম সংশোধন) আইন, 1986 (1986 সনের 1 নং আইন) বাতিল ঘোষিত হওয়ায় উক্ত অধ্যাদেশসমূহের কার্যকারিতা লোপ পায়; এবং যেহেতু 2013 সনের 7 নং আইন দ্বারা উক্ত অধ্যাদেশসমূহের মধ্যে কতিপয় অধ্যাদেশ কার্যকর ও বলবৎ রাখা হয়; এবং যেহেতু উক্ত অধ্যাদেশসমূহের...",
+        "normalization_summary": {
+          "bengali_numbers_converted": true,
+          "section_references_extracted": 0,
+          "legal_terms_mapped": 10
+        }
+      },
+      "section_163_minimum_tax": {
+        "original_length": 17928,
+        "normalized_length": 17928,
+        "section_references_found": 2,
+        "section_references": [
+          {
+            "original_text": "Section 163",
+            "section_number": "163",
+            "language": "english",
+            "position": [
+              97,
+              108
+            ],
+            "canonical_form": "Section 163"
+          },
+          {
+            "original_text": "Section 163",
+            "section_number": "163",
+            "language": "english",
+            "position": [
+              159,
+              170
+            ],
+            "canonical_form": "Section 163"
+          }
+        ],
+        "standardized_content": "https://www.taxvatpoint.com/income-tax-act-bangla-section-163-minimum-tax/ Income Tax Act Bangla Section 163 Minimum tax – Tax VAT Point Income Tax Act Bangla Section 163 Minimum tax – Tax VAT Point আয়কর আইন 2023 ধারা 163 - ন্যূনতম কর (1) এই আইনের অন্যান্য বিধানে যাহা কিছুই থাকুক না কেন, করদাতা কর্তৃক, এই ধারার বিধানাবলি সাপেক্ষে, ন্যূনতম কর পরিশোধযোগ্য হইবে। (2) উপ-ধারা (3) সাপেক্ষে, কতিপয় ধারার অধীন কর্তন বা সংগ্রহ করা হইয়াছে এইরূপ উৎসসমূহের আয়ের উপর নিম্নরূপ ন্যূনতম কর পরিশোধ করিতে হইবে- (ক) দফা (খ) এ উল্লিখিত ধারাসমূহের অধীন কর্তন বা সংগ্রহকৃত কর সেই সকল এক বা একাধিক উৎসসমূহের, যাহার জন্য কর কর্তন বা সংগ্রহ করা হইয়াছে, আয়ের উপর ন্যূনতম কর হিসাবে গণ্য হইবে; (খ) দফা (ক) এ উল্লিখিত কর ধারা 88-92, 94-95, 100-102, 105 , 106 , 108 , 110-118, 120-129 এবং 132-139 এর অধীন কর্তন বা সংগ্রহকৃত কর হিসাবে গণ্য হইবে; (গ) ন্যূনতম কর প্রযোজ্য এইরূপ আয়ের উৎস বা উৎসসমূহের জন্য ধারা 72 এর বিধানাবলি অনুসারে নিয়মিতভাবে হিসাব বহি সংরক্ষণ করিতে হইবে; (ঘ) এই উপ-ধারার অধীন ন্যূনতম কর প্রয়োজ্য এইরূপ কোনো উৎস...",
+        "normalization_summary": {
+          "bengali_numbers_converted": true,
+          "section_references_extracted": 2,
+          "legal_terms_mapped": 8
+        }
+      },
+      "schedules_english": {
+        "original_length": 35801,
+        "normalized_length": 35801,
+        "section_references_found": 228,
+        "section_references": [
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              314,
+              324
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              515,
+              525
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              724,
+              734
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              843,
+              852
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1007,
+              1016
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1127,
+              1136
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1251,
+              1260
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1407,
+              1416
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1565,
+              1574
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1744,
+              1753
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1857,
+              1866
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              1960,
+              1969
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2058,
+              2067
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2160,
+              2169
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2294,
+              2303
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2409,
+              2418
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2534,
+              2543
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2684,
+              2693
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2775,
+              2784
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              2873,
+              2882
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3013,
+              3022
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3114,
+              3123
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3219,
+              3228
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3356,
+              3365
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3465,
+              3474
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3586,
+              3595
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3720,
+              3729
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              3855,
+              3864
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              4009,
+              4018
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              4099,
+              4108
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              4239,
+              4249
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              4443,
+              4453
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              4644,
+              4654
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              4839,
+              4849
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5028,
+              5038
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5210,
+              5220
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5418,
+              5428
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5644,
+              5654
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5807,
+              5817
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              5960,
+              5970
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              6129,
+              6139
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              6312,
+              6322
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              6506,
+              6516
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              6698,
+              6708
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              6879,
+              6889
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7031,
+              7041
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7186,
+              7196
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7340,
+              7350
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7490,
+              7500
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7594,
+              7604
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7734,
+              7744
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              7889,
+              7899
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              8024,
+              8034
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              8148,
+              8158
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              8270,
+              8280
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              8594,
+              8604
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              8860,
+              8870
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              9123,
+              9133
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              9406,
+              9416
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              9700,
+              9710
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              9976,
+              9986
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              10237,
+              10247
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              10492,
+              10502
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              10821,
+              10831
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              11093,
+              11103
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              11362,
+              11372
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              11648,
+              11658
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              11771,
+              11781
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              11879,
+              11889
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              12017,
+              12027
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              12160,
+              12170
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              12314,
+              12324
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              12458,
+              12468
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 18",
+            "section_number": "18",
+            "language": "english",
+            "position": [
+              12591,
+              12601
+            ],
+            "canonical_form": "Section 18"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              12659,
+              12669
+            ],
+            "canonical_form": "Section 25"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              12740,
+              12750
+            ],
+            "canonical_form": "Section 25"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              12944,
+              12954
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              13145,
+              13155
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              13354,
+              13364
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              13473,
+              13482
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              13637,
+              13646
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              13757,
+              13766
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              13881,
+              13890
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14037,
+              14046
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14195,
+              14204
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14374,
+              14383
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14487,
+              14496
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14590,
+              14599
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14688,
+              14697
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14790,
+              14799
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              14924,
+              14933
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15039,
+              15048
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15164,
+              15173
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15314,
+              15323
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15405,
+              15414
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15503,
+              15512
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15643,
+              15652
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15744,
+              15753
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15849,
+              15858
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              15986,
+              15995
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16095,
+              16104
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16216,
+              16225
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16350,
+              16359
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16485,
+              16494
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16639,
+              16648
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              16729,
+              16738
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              16869,
+              16879
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              17073,
+              17083
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              17274,
+              17284
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              17469,
+              17479
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              17658,
+              17668
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              17840,
+              17850
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18048,
+              18058
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18274,
+              18284
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18437,
+              18447
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18590,
+              18600
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18759,
+              18769
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              18942,
+              18952
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              19136,
+              19146
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              19328,
+              19338
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              19509,
+              19519
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              19661,
+              19671
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              19816,
+              19826
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              19970,
+              19980
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20120,
+              20130
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20224,
+              20234
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20364,
+              20374
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20519,
+              20529
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20654,
+              20664
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20778,
+              20788
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              20900,
+              20910
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              21224,
+              21234
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              21490,
+              21500
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              21753,
+              21763
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              22036,
+              22046
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              22330,
+              22340
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              22606,
+              22616
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              22867,
+              22877
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              23122,
+              23132
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              23451,
+              23461
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              23723,
+              23733
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              23992,
+              24002
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24278,
+              24288
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24401,
+              24411
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24509,
+              24519
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24647,
+              24657
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24790,
+              24800
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              24944,
+              24954
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              25088,
+              25098
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 18",
+            "section_number": "18",
+            "language": "english",
+            "position": [
+              25221,
+              25231
+            ],
+            "canonical_form": "Section 18"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              25289,
+              25299
+            ],
+            "canonical_form": "Section 25"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              25370,
+              25380
+            ],
+            "canonical_form": "Section 25"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              25447,
+              25457
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              25624,
+              25634
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "section 24",
+            "section_number": "24",
+            "language": "english",
+            "position": [
+              25809,
+              25819
+            ],
+            "canonical_form": "Section 24"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              25903,
+              25912
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26042,
+              26051
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26118,
+              26127
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26217,
+              26226
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26348,
+              26357
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26481,
+              26490
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26635,
+              26644
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26711,
+              26720
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26789,
+              26798
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26843,
+              26852
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              26920,
+              26929
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27029,
+              27038
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27119,
+              27128
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27219,
+              27228
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27344,
+              27353
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27398,
+              27407
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27455,
+              27464
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27570,
+              27579
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27627,
+              27636
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27707,
+              27716
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27819,
+              27828
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27903,
+              27912
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              27999,
+              28008
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              28108,
+              28117
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              28218,
+              28227
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              28346,
+              28355
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 2",
+            "section_number": "2",
+            "language": "english",
+            "position": [
+              28403,
+              28412
+            ],
+            "canonical_form": "Section 2"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              28506,
+              28516
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              28686,
+              28696
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              28863,
+              28873
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29034,
+              29044
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29199,
+              29209
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29357,
+              29367
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29541,
+              29551
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29743,
+              29753
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29870,
+              29880
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              29987,
+              29997
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              30132,
+              30142
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              30291,
+              30301
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              30461,
+              30471
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              30629,
+              30639
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 42",
+            "section_number": "42",
+            "language": "english",
+            "position": [
+              30786,
+              30796
+            ],
+            "canonical_form": "Section 42"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              30900,
+              30910
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31036,
+              31046
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31171,
+              31181
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31302,
+              31312
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31377,
+              31387
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31498,
+              31508
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31634,
+              31644
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31750,
+              31760
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31855,
+              31865
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              31948,
+              31958
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              32248,
+              32258
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              32490,
+              32500
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              32709,
+              32719
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              32968,
+              32978
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              33238,
+              33248
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              33490,
+              33500
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              33709,
+              33719
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              33928,
+              33938
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              34233,
+              34243
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              34481,
+              34491
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 47",
+            "section_number": "47",
+            "language": "english",
+            "position": [
+              34706,
+              34716
+            ],
+            "canonical_form": "Section 47"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              34968,
+              34978
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35069,
+              35079
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35155,
+              35165
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35271,
+              35281
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35377,
+              35387
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35494,
+              35504
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 76",
+            "section_number": "76",
+            "language": "english",
+            "position": [
+              35601,
+              35611
+            ],
+            "canonical_form": "Section 76"
+          },
+          {
+            "original_text": "Section 18",
+            "section_number": "18",
+            "language": "english",
+            "position": [
+              35695,
+              35705
+            ],
+            "canonical_form": "Section 18"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              35731,
+              35741
+            ],
+            "canonical_form": "Section 25"
+          },
+          {
+            "original_text": "Section 25",
+            "section_number": "25",
+            "language": "english",
+            "position": [
+              35790,
+              35800
+            ],
+            "canonical_form": "Section 25"
+          }
+        ],
+        "standardized_content": "https://www.taxvatpoint.com/income-tax-schedule-english/ Income Tax Schedule English – Tax VAT Point Income Tax Schedule English – Tax VAT Point Income Tax Act 2023 - Schedules Table of Contents Schedule Name of schedule Part Name of part Para Para Details First Schedule Special tax in respect of investment [See section 24] Part 1 Disclosure of investment by paying special taxes 1 Disclosure of investment in building or apartmens by paying special taxes First Schedule Special tax in respect of investment [See section 24] Part 1 Disclosure of investment by paying special taxes 2 Special tax treatment in respect of investment in Economic Zones or Hi-Tech Parks First Schedule Special tax in respect of investment [See section 24] Part 2 Voluntary disclosure of income 1 Voluntary disclosure of income Second Schedule Approved Funds [See Section 2] Part 1 Approved superannuation fund or pension fund 1 Conditions for approval of superannuation fund or pension fund Second Schedule Approved Fund...",
+        "normalization_summary": {
+          "bengali_numbers_converted": false,
+          "section_references_extracted": 228,
+          "legal_terms_mapped": 0
+        }
+      },
+      "schedules_bangla": {
+        "original_length": 28896,
+        "normalized_length": 28896,
+        "section_references_found": 0,
+        "section_references": [],
+        "standardized_content": "https://www.taxvatpoint.com/income-tax-schedule-bangla/ আয়কর আইন 2023 তফসিলসমূহ (Income Tax Schedules) আয়কর আইন 2023 তফসিলসমূহ (Income Tax Schedules) আয়কর আইন 2023 তফসিলসমূহ (অর্থ সংক্রান্ত কতিপয় আইন (সংশোধন) অধ্যাদেশ, 2025 পর্যন্ত হালনাগাদকৃত) সূচিপত্র - আয়কর আইন 2023 তফসিলসমূহ তফসিল তফসিলের শিরোনাম অংশ অংশের শিরোনাম দফা নং দফার শিরোনাম প্রথম তফসিল আয়ের স্বপ্রণোদিত প্রদর্শন [ধারা 24 দ্রষ্টাব্য] আয়ের স্বপ্রণোদিত প্রদর্শন দ্বিতীয় তফসিল অনুমোদিত তহবিলসমূহ [ধারা 2 দ্রষ্টাব্য] অংশ 1 অনুমোদিত বার্ধক্য (superannuation) তহবিল বা পেনশন তহবিল 1 বার্ধক্য তহবিল বা পেনশন তহবিল অনুমোদনের শর্তাবলি দ্বিতীয় তফসিল অনুমোদিত তহবিলসমূহ [ধারা 2 দ্রষ্টাব্য] অংশ 1 অনুমোদিত বার্ধক্য (superannuation) তহবিল বা পেনশন তহবিল 2 অনুমোদনের পদ্ধতি দ্বিতীয় তফসিল অনুমোদিত তহবিলসমূহ [ধারা 2 দ্রষ্টাব্য] অংশ 1 অনুমোদিত বার্ধক্য (superannuation) তহবিল বা পেনশন তহবিল 3 অনুমোদনের প্রত্যাহার দ্বিতীয় তফসিল অনুমোদিত তহবিলসমূহ [ধারা 2 দ্রষ্টাব্য] অংশ 1 অনুমোদিত বার্ধক্য (superannuation) তহবিল বা পেনশন তহবিল 4 তহবিলের আয় এবং চা...",
+        "normalization_summary": {
+          "bengali_numbers_converted": true,
+          "section_references_extracted": 0,
+          "legal_terms_mapped": 6
+        }
+      }
+    },
+    "standardization_stats": {
+      "total_documents": 5,
+      "successfully_standardized": 5,
+      "normalization_applied": {
+        "bengali_numbers": 3,
+        "english_numbers": 5,
+        "section_references": 249,
+        "legal_terms": 24
+      }
+    }
+  },
+  "normalization_rules": {
+    "bengali_to_english_numbers": {
+      "০": "0",
+      "১": "1",
+      "২": "2",
+      "৩": "3",
+      "৪": "4",
+      "৫": "5",
+      "৬": "6",
+      "৭": "7",
+      "৮": "8",
+      "৯": "9"
+    },
+    "legal_term_mappings": {
+      "legal_terms": {
+        "ধারা": "Section",
+        "অনুচ্ছেদ": "Section",
+        "তফসিল": "Schedule",
+        "বিধি": "Rule",
+        "আইন": "Act",
+        "অর্থ আইন": "Finance Act",
+        "আয়কর আইন": "Income Tax Act",
+        "অধ্যাদেশ": "Ordinance",
+        "পরিপত্র": "Circular",
+        "এসআরও": "SRO",
+        "ন্যূনতম কর": "Minimum tax",
+        "কর অব্যাহতি": "Tax exemption",
+        "উৎসে কর কর্তন": "Tax deduction at source",
+        "গ্রস প্রাপ্তি": "Gross receipt",
+        "অর্থবছর": "Financial year",
+        "করদাতা": "Taxpayer"
+      },
+      "numerical_terms": {
+        "একশত": "100",
+        "তেষট্টি": "63",
+        "চতুর্থ": "4th",
+        "প্রথম": "1st",
+        "দ্বিতীয়": "2nd",
+        "তৃতীয়": "3rd",
+        "পঞ্চম": "5th",
+        "ষষ্ঠ": "6th",
+        "সপ্তম": "7th",
+        "অষ্টম": "8th"
+      },
+      "amount_terms": {
+        "লক্ষ": "lakh",
+        "কোটি": "crore",
+        "হাজার": "thousand",
+        "টাকা": "taka"
+      }
+    },
+    "section_patterns": {
+      "bengali": [
+        "ধারা\\s*([০-৯]+)",
+        "([০-৯]+)\\s*নং\\s*ধারা",
+        "([০-৯]+)\\s*ধারা"
+      ],
+      "english": [
+        "[Ss]ection\\s*([0-9]+)",
+        "[Ss]ec\\.?\\s*([0-9]+)",
+        "s\\.\\s*([0-9]+)"
+      ]
+    }
+  },
+  "quality_metrics": {
+    "section_mappings_created": 27,
+    "documents_standardized": 5,
+    "total_section_references": 249
+  }
+}

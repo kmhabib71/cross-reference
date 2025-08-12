@@ -1,0 +1,88 @@
+{
+  "pipeline_overview": {
+    "name": "Bengali Legal NER Transfer Learning Pipeline",
+    "version": "1.0",
+    "creation_date": "2025-08-12",
+    "purpose": "Fine-tune Bengali NER models for legal document processing"
+  },
+  "data_summary": {
+    "training_examples": 512,
+    "validation_examples": 64,
+    "test_examples": 64,
+    "entity_types": 21,
+    "entity_mapping": {
+      "O": 0,
+      "B-SECTION": 1,
+      "I-SECTION": 2,
+      "B-SCHEDULE": 3,
+      "I-SCHEDULE": 4,
+      "B-RULE": 5,
+      "I-RULE": 6,
+      "B-ACT": 7,
+      "I-ACT": 8,
+      "B-AMOUNT": 9,
+      "I-AMOUNT": 10,
+      "B-PERCENTAGE": 11,
+      "I-PERCENTAGE": 12,
+      "B-DATE": 13,
+      "I-DATE": 14,
+      "B-AUTHORITY": 15,
+      "I-AUTHORITY": 16,
+      "B-TAXPAYER": 17,
+      "I-TAXPAYER": 18,
+      "B-FORM": 19,
+      "I-FORM": 20
+    }
+  },
+  "model_options": [
+    {
+      "model_key": "bert_base_bengali",
+      "model_name": "sagorsarker/bangla-bert-base",
+      "description": "Bengali BERT base model",
+      "size": "110M parameters",
+      "performance": "Good general purpose Bengali understanding"
+    },
+    {
+      "model_key": "roberta_bengali",
+      "model_name": "flax-community/bangla-roberta-base",
+      "description": "Bengali RoBERTa model",
+      "size": "125M parameters",
+      "performance": "Enhanced contextual understanding"
+    },
+    {
+      "model_key": "distilbert_bengali",
+      "model_name": "neuropark/sahaj-bangla-distilbert",
+      "description": "Distilled Bengali BERT",
+      "size": "66M parameters",
+      "performance": "Faster inference, good accuracy"
+    }
+  ],
+  "training_pipeline": [
+    "Load pre-trained Bengali model",
+    "Adapt tokenizer for legal terminology",
+    "Add classification head for legal entities",
+    "Fine-tune on legal training data",
+    "Validate on held-out legal text",
+    "Optimize for inference speed"
+  ],
+  "optimization_strategies": [
+    "Gradual unfreezing of model layers",
+    "Learning rate scheduling",
+    "Class weight balancing for rare entities",
+    "Data augmentation with legal synonyms",
+    "Ensemble predictions from multiple models"
+  ],
+  "performance_targets": {
+    "target_f1_score": 0.85,
+    "target_inference_time": "< 100ms",
+    "target_accuracy": 0.9
+  },
+  "next_steps": [
+    "Install required dependencies (transformers, torch)",
+    "Download pre-trained Bengali models",
+    "Prepare annotated training data",
+    "Run transfer learning training",
+    "Evaluate model performance",
+    "Deploy for legal document processing"
+  ]
+}

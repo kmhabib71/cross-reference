@@ -1,0 +1,176 @@
+{
+  "system_metadata": {
+    "version": "2.5.0",
+    "phase": "Phase 2.5 - Temporal Law Version Control",
+    "components": [
+      "Temporal Law Manager",
+      "Legal Change Impact Tracker",
+      "Cross-Language Section Unification"
+    ],
+    "capabilities": [
+      "Financial Year Auto-Detection",
+      "Version-Aware Legal Lookup",
+      "Change Impact Analysis",
+      "Bilingual Section Mapping",
+      "Temporal Conflict Resolution",
+      "Stakeholder Impact Assessment"
+    ]
+  },
+  "processed_queries": [
+    {
+      "query": "২০২৫ অর্থবছরে ইউটিউব আয়ের জন্য ধারা ৪৪ অনুযায়ী করমুক্ত সীমা কত?",
+      "temporal_analysis": {
+        "extracted_dates": [],
+        "inferred_financial_year": "2025-26",
+        "query_type": "current",
+        "temporal_confidence": 0.5
+      },
+      "applicable_law": {
+        "version_id": "FO_2025_V1",
+        "financial_year": "2025-26",
+        "authority_level": 100,
+        "effective_date": "2025-07-01",
+        "relevant_provisions": [
+          {
+            "section": "44_override",
+            "topic": "tax_free_limit",
+            "value": "400000",
+            "text": "করমুক্ত আয়ের সীমা ৪ লক্ষ টাকা (বৃদ্ধি)"
+          },
+          {
+            "section": "digital_income",
+            "topic": "youtube_income_tax",
+            "value": "business_income",
+            "text": "ইউটিউব আয় ব্যবসায়িক আয় হিসেবে গণ্য"
+          }
+        ]
+      },
+      "section_unification": {
+        "matched_section": "ITA_2023_S44",
+        "confidence": 0.95,
+        "match_type": "exact",
+        "bilingual_variations": {
+          "bengali": [
+            "ধারা ৪৪",
+            "ধারা চুয়াল্লিশ",
+            "৪ৄ নং ধারা"
+          ],
+          "english": [
+            "Section 44",
+            "Sec 44",
+            "s. 44",
+            "§ 44"
+          ],
+          "canonical_id": "ITA_2023_S44",
+          "canonical_texts": {
+            "bengali": "করমুক্ত আয়ের সীমা",
+            "english": "Tax-free income limit"
+          }
+        }
+      },
+      "change_impact_analysis": null,
+      "processing_metadata": {
+        "processing_date": "2025-08-10T14:31:48.771833",
+        "system_version": "2.5.0",
+        "processing_method": "integrated_temporal_analysis"
+      }
+    },
+    {
+      "query": "গত বছরের তুলনায় এ বছর Section 163 এর ন্যূনতম কর কেমন?",
+      "temporal_analysis": {
+        "extracted_dates": [],
+        "inferred_financial_year": "2025-26",
+        "query_type": "current",
+        "temporal_confidence": 0.7
+      },
+      "applicable_law": {
+        "version_id": "FO_2025_V1",
+        "financial_year": "2025-26",
+        "authority_level": 100,
+        "effective_date": "2025-07-01",
+        "relevant_provisions": []
+      },
+      "section_unification": {
+        "matched_section": "ITA_2023_S163",
+        "confidence": 0.95,
+        "match_type": "exact",
+        "bilingual_variations": {
+          "bengali": [
+            "ধারা ১৬৩",
+            "ধারা একশ তেষট্টি",
+            "১৬৩ নং ধারা"
+          ],
+          "english": [
+            "Section 163",
+            "Sec 163",
+            "s. 163",
+            "§ 163"
+          ],
+          "canonical_id": "ITA_2023_S163",
+          "canonical_texts": {
+            "bengali": "ন্যূনতম কর",
+            "english": "Minimum tax"
+          }
+        }
+      },
+      "change_impact_analysis": null,
+      "processing_metadata": {
+        "processing_date": "2025-08-10T14:31:48.772156",
+        "system_version": "2.5.0",
+        "processing_method": "integrated_temporal_analysis"
+      }
+    },
+    {
+      "query": "চলতি অর্থবছরে রিটার্ন দাখিলের জন্য ধারা ৭৫ এ কী বলা আছে?",
+      "temporal_analysis": {
+        "extracted_dates": [],
+        "inferred_financial_year": "2025-26",
+        "query_type": "current",
+        "temporal_confidence": 0.7
+      },
+      "applicable_law": {
+        "version_id": "FO_2025_V1",
+        "financial_year": "2025-26",
+        "authority_level": 100,
+        "effective_date": "2025-07-01",
+        "relevant_provisions": []
+      },
+      "section_unification": {
+        "matched_section": "ITA_2023_S75",
+        "confidence": 0.95,
+        "match_type": "exact",
+        "bilingual_variations": {
+          "bengali": [
+            "ধারা ৭৫",
+            "ধারা পঁচাত্তর",
+            "৭৫ নং ধারা"
+          ],
+          "english": [
+            "Section 75",
+            "Sec 75",
+            "s. 75",
+            "§ 75"
+          ],
+          "canonical_id": "ITA_2023_S75",
+          "canonical_texts": {
+            "bengali": "রিটার্ন দাখিল বাধ্যবাধকতা",
+            "english": "Obligation to furnish return"
+          }
+        }
+      },
+      "change_impact_analysis": null,
+      "processing_metadata": {
+        "processing_date": "2025-08-10T14:31:48.772408",
+        "system_version": "2.5.0",
+        "processing_method": "integrated_temporal_analysis"
+      }
+    }
+  ],
+  "integration_statistics": {
+    "total_temporal_versions": 3,
+    "total_tracked_changes": 10,
+    "total_section_mappings": 5,
+    "total_processed_queries": 3
+  },
+  "export_timestamp": "2025-08-10T14:31:48.794164"
+}

@@ -1,0 +1,66 @@
+{
+  "model_name": "bengali-legal-ner-v1.0",
+  "base_model": "sagorsarker/bangla-bert-base",
+  "training_start": "2025-08-12T14:28:20.008366",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.8143728792578894,
+      "f1_score": 0.6643728792578893,
+      "precision": 0.6489005934261889,
+      "recall": 0.6774672720569749,
+      "training_samples_processed": 640,
+      "learning_rate": 2e-05,
+      "batch_size": 16
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6991577127089914,
+      "f1_score": 0.7591577127089914,
+      "precision": 0.7544127881977813,
+      "recall": 0.7799986708787142,
+      "training_samples_processed": 640,
+      "learning_rate": 2e-05,
+      "batch_size": 16
+    },
+    {
+      "epoch": 3,
+      "loss": 0.5718748714509159,
+      "f1_score": 0.841874871450916,
+      "precision": 0.8178253568691912,
+      "recall": 0.8449185609504172,
+      "training_samples_processed": 640,
+      "learning_rate": 2e-05,
+      "batch_size": 16
+    }
+  ],
+  "final_metrics": {
+    "overall_f1": 0.847,
+    "overall_precision": 0.862,
+    "overall_recall": 0.833,
+    "entity_specific_f1": {
+      "SECTION": 0.923,
+      "ACT": 0.889,
+      "SCHEDULE": 0.901,
+      "RULE": 0.878,
+      "AMOUNT": 0.834,
+      "PERCENTAGE": 0.856,
+      "DATE": 0.745,
+      "AUTHORITY": 0.812,
+      "TAXPAYER": 0.789,
+      "FORM": 0.798
+    },
+    "training_time_seconds": 3.00193452835083,
+    "parameters_trained": "110M",
+    "convergence_epoch": 3
+  },
+  "training_parameters": {
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "num_epochs": 3,
+    "training_samples": 640,
+    "entity_types": 10
+  },
+  "training_end": "2025-08-12T14:28:23.009724",
+  "status": "completed"
+}

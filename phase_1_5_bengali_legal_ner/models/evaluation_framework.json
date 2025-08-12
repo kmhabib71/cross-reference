@@ -1,0 +1,27 @@
+{
+  "metrics": [
+    "Entity-level F1 score",
+    "Token-level accuracy",
+    "Precision and recall per entity type",
+    "Confusion matrix analysis",
+    "Cross-validation performance"
+  ],
+  "evaluation_datasets": [
+    "Hold-out test set (10%)",
+    "External legal documents",
+    "Manually annotated samples",
+    "Cross-domain legal texts"
+  ],
+  "performance_targets": {
+    "overall_f1": 0.85,
+    "section_entity_f1": 0.9,
+    "amount_entity_f1": 0.8,
+    "inference_time_ms": 100
+  },
+  "error_analysis": [
+    "Entity boundary errors",
+    "Cross-lingual confusion",
+    "Rare entity detection",
+    "Context-dependent disambiguation"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "assessment_date": "2025-01-15",
+  "source_file": "/mnt/d/Projects/Ai_TAX_LAWER_BANGLADESH/data-scrap/ai-tax-lawyer-bangladesh/data/legal_documents/income_tax/income_tax_act_2023_cleaned.json",
+  "quality_scores": {
+    "utf8_integrity": 1.0,
+    "bengali_script_purity": 0.937531570971544,
+    "legal_term_consistency": 0.8671209540034072,
+    "section_number_consistency": 1.0,
+    "cross_reference_validity": 0.007677543186180422,
+    "content_completeness": 1.0,
+    "overall_quality": 0.818726088772747
+  },
+  "production_readiness": {
+    "ready": false,
+    "required_fixes": [
+      "Fix Bengali script corruption (current: 93.8%, required: 99.5%)",
+      "Standardize legal terminology (current: 86.7%, required: 98.0%)",
+      "Fix cross-reference validity (current: 0.8%, required: 95.0%)"
+    ]
+  },
+  "quality_thresholds": {
+    "utf8_integrity": 0.999,
+    "bengali_script_purity": 0.995,
+    "legal_term_consistency": 0.98,
+    "section_number_consistency": 0.99,
+    "cross_reference_validity": 0.95,
+    "content_completeness": 0.98
+  },
+  "recommendation": "CLEAN_REQUIRED"
+}

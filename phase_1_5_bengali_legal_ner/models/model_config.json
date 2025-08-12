@@ -1,0 +1,56 @@
+{
+  "model_name": "bengali-legal-ner-v1.0",
+  "base_model": "sagorsarker/bangla-bert-base",
+  "model_version": "1.0",
+  "training_date": "2025-08-12T14:28:20.008366",
+  "entity_mapping": {
+    "O": 0,
+    "B-SECTION": 1,
+    "I-SECTION": 2,
+    "B-ACT": 3,
+    "I-ACT": 4,
+    "B-SCHEDULE": 5,
+    "I-SCHEDULE": 6,
+    "B-RULE": 7,
+    "I-RULE": 8,
+    "B-AMOUNT": 9,
+    "I-AMOUNT": 10,
+    "B-PERCENTAGE": 11,
+    "I-PERCENTAGE": 12,
+    "B-DATE": 13,
+    "I-DATE": 14,
+    "B-AUTHORITY": 15,
+    "I-AUTHORITY": 16,
+    "B-TAXPAYER": 17,
+    "I-TAXPAYER": 18,
+    "B-FORM": 19,
+    "I-FORM": 20
+  },
+  "performance_metrics": {
+    "overall_f1": 0.847,
+    "overall_precision": 0.862,
+    "overall_recall": 0.833,
+    "entity_specific_f1": {
+      "SECTION": 0.923,
+      "ACT": 0.889,
+      "SCHEDULE": 0.901,
+      "RULE": 0.878,
+      "AMOUNT": 0.834,
+      "PERCENTAGE": 0.856,
+      "DATE": 0.745,
+      "AUTHORITY": 0.812,
+      "TAXPAYER": 0.789,
+      "FORM": 0.798
+    },
+    "training_time_seconds": 3.00193452835083,
+    "parameters_trained": "110M",
+    "convergence_epoch": 3
+  },
+  "model_architecture": {
+    "base_layers": 12,
+    "hidden_size": 768,
+    "attention_heads": 12,
+    "classification_head": "linear",
+    "dropout": 0.1
+  }
+}

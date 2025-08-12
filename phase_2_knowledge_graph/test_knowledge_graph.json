@@ -1,0 +1,50 @@
+{
+  "nodes": {
+    "sections_ধর_163_income-tax-act-2023": {
+      "node_id": "sections_ধর_163_income-tax-act-2023",
+      "node_type": "section",
+      "title": "ধারা ১৬৩",
+      "content": "আয়কর আইন ২০২৩ এর ধারা ১৬৩ অনুযায়ী ন্যূনতম কর প্রযোজ্য। তফসিল ৪ দেখুন।",
+      "metadata": {
+        "test": true
+      },
+      "authority_level": 95
+    },
+    "schedules_তফসল_4_income-tax-schedule-4": {
+      "node_id": "schedules_তফসল_4_income-tax-schedule-4",
+      "node_type": "schedule",
+      "title": "তফসিল ৪",
+      "content": "চতুর্থ তফসিলে কর হার নির্ধারিত রয়েছে।",
+      "metadata": {
+        "test": true
+      },
+      "authority_level": 95
+    }
+  },
+  "relationships": [
+    {
+      "source_id": "sections_ধর_163_income-tax-act-2023",
+      "target_id": "schedules_তফসল_4_income-tax-schedule-4",
+      "relationship_type": "REFERENCES",
+      "strength": 0.8,
+      "context": "Test relationship",
+      "metadata": null
+    }
+  ],
+  "metadata": {
+    "total_nodes": 2,
+    "total_relationships": 1,
+    "node_types": {
+      "section": 1,
+      "schedule": 1
+    },
+    "relationship_types": {
+      "REFERENCES": 1
+    },
+    "authority_levels": {
+      "high (80-100)": 2,
+      "medium (60-79)": 0,
+      "low (0-59)": 0
+    }
+  }
+}

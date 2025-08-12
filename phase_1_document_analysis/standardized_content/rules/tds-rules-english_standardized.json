@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "original_file": "tds_rules/tds-rules-english.json",
+    "category": "rules",
+    "standardization_date": "2025-01-15",
+    "content_length": 170,
+    "standardization_applied": true
+  },
+  "content_versions": {
+    "original": "আমাদের ইংরেজি সম্পাদনের কাজ চলমান রহিয়াছে। ইংরেজি সম্পাদনের কাজ সম্পূর্ণ হওয়ার সাথে সাথেই আমরা ওয়েবসাইটে আপলোড করব। অনুগ্রহ করে অপেক্ষা করুন। Thanks for your patience.",
+    "cleaned": "আমাদের ইংরেজি সম্পাদনের কাজ চলমান রহিয়াছে। ইংরেজি সম্পাদনের কাজ সম্পূর্ণ হওয়ার সাথে সাথেই আমরা ওয়েবসাইটে আপলোড করব। অনুগ্রহ করে অপেক্ষা করুন। Thanks for your patience.",
+    "bengali_normalized": "আমাদের ইংরেজি সম্পাদনের কাজ চলমান রহিয়াছে। ইংরেজি সম্পাদনের কাজ সম্পূর্ণ হওয়ার সাথে সাথেই আমরা ওয়েবসাইটে আপলোড করব। অনুগ্রহ করে অপেক্ষা করুন। Thanks for your patience.",
+    "english_normalized": "আমাদের ইংরেজি সম্পাদনের কাজ চলমান রহিয়াছে। ইংরেজি সম্পাদনের কাজ সম্পূর্ণ হওয়ার সাথে সাথেই আমরা ওয়েবসাইটে আপলোড করব। অনুগ্রহ করে অপেক্ষা করুন। Thanks for your patience."
+  },
+  "section_mappings": {},
+  "extracted_entities": {
+    "sections": [],
+    "schedules": [],
+    "rules": [],
+    "amounts": [],
+    "dates": []
+  }
+}

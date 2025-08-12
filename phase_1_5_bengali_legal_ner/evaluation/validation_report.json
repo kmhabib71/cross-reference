@@ -1,0 +1,580 @@
+{
+  "evaluation_date": "2025-08-12T14:29:53.837705",
+  "model_name": "bengali-legal-ner-v1.0",
+  "test_samples_count": 128,
+  "total_tokens_evaluated": 45839,
+  "overall_metrics": {
+    "token_accuracy": 0.9936,
+    "precision": 0.9972,
+    "recall": 0.8291,
+    "f1_score": 0.9054
+  },
+  "entity_specific_metrics": {
+    "TAXPAYER": {
+      "precision": 1.0,
+      "recall": 0.6694,
+      "f1_score": 0.802,
+      "true_count": 121,
+      "pred_count": 81
+    },
+    "RULE": {
+      "precision": 0.7692,
+      "recall": 0.9091,
+      "f1_score": 0.8333,
+      "true_count": 11,
+      "pred_count": 13
+    },
+    "PERCENTAGE": {
+      "precision": 0.9991,
+      "recall": 0.8348,
+      "f1_score": 0.9096,
+      "true_count": 1271,
+      "pred_count": 1062
+    },
+    "SCHEDULE": {
+      "precision": 1.0,
+      "recall": 0.9211,
+      "f1_score": 0.9589,
+      "true_count": 38,
+      "pred_count": 35
+    },
+    "AMOUNT": {
+      "precision": 1.0,
+      "recall": 0.9545,
+      "f1_score": 0.9767,
+      "true_count": 44,
+      "pred_count": 42
+    },
+    "FORM": {
+      "precision": 1.0,
+      "recall": 0.8592,
+      "f1_score": 0.9242,
+      "true_count": 71,
+      "pred_count": 61
+    },
+    "DATE": {
+      "precision": 1.0,
+      "recall": 0.7273,
+      "f1_score": 0.8421,
+      "true_count": 33,
+      "pred_count": 24
+    },
+    "AUTHORITY": {
+      "precision": 1.0,
+      "recall": 0.807,
+      "f1_score": 0.8932,
+      "true_count": 57,
+      "pred_count": 46
+    },
+    "ACT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_count": 8,
+      "pred_count": 8
+    },
+    "SECTION": {
+      "precision": 1.0,
+      "recall": 0.8833,
+      "f1_score": 0.9381,
+      "true_count": 60,
+      "pred_count": 53
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "B-ACT",
+      "B-AMOUNT",
+      "B-AUTHORITY",
+      "B-DATE",
+      "B-FORM",
+      "B-PERCENTAGE",
+      "B-RULE",
+      "B-SCHEDULE",
+      "B-SECTION",
+      "B-TAXPAYER",
+      "I-AMOUNT",
+      "I-DATE",
+      "I-FORM",
+      "I-PERCENTAGE",
+      "I-RULE",
+      "I-SECTION",
+      "O"
+    ],
+    "matrix": {
+      "O": {
+        "O": 44125
+      },
+      "B-AUTHORITY": {
+        "B-AUTHORITY": 46,
+        "O": 11
+      },
+      "B-TAXPAYER": {
+        "B-TAXPAYER": 81,
+        "O": 40
+      },
+      "B-ACT": {
+        "B-ACT": 8
+      },
+      "B-DATE": {
+        "B-DATE": 24,
+        "O": 8
+      },
+      "B-SECTION": {
+        "B-SECTION": 27,
+        "B-RULE": 2,
+        "O": 1
+      },
+      "I-SECTION": {
+        "I-SECTION": 26,
+        "O": 3,
+        "I-RULE": 1
+      },
+      "B-PERCENTAGE": {
+        "B-PERCENTAGE": 494,
+        "O": 96
+      },
+      "B-AMOUNT": {
+        "B-AMOUNT": 29,
+        "B-PERCENTAGE": 1,
+        "O": 1
+      },
+      "I-PERCENTAGE": {
+        "I-PERCENTAGE": 567,
+        "O": 114
+      },
+      "I-AMOUNT": {
+        "I-AMOUNT": 13
+      },
+      "B-RULE": {
+        "B-RULE": 5,
+        "O": 1
+      },
+      "I-RULE": {
+        "I-RULE": 5
+      },
+      "B-SCHEDULE": {
+        "B-SCHEDULE": 35,
+        "O": 3
+      },
+      "B-FORM": {
+        "B-FORM": 58,
+        "O": 10
+      },
+      "I-DATE": {
+        "O": 1
+      },
+      "I-FORM": {
+        "I-FORM": 3
+      }
+    }
+  },
+  "performance_by_length": {
+    "short": {
+      "count": 3,
+      "avg_f1": 0.4889,
+      "min_f1": 0.0,
+      "max_f1": 0.8
+    },
+    "medium": {
+      "count": 82,
+      "avg_f1": 0.8435,
+      "min_f1": 0.0,
+      "max_f1": 1.0
+    },
+    "long": {
+      "count": 43,
+      "avg_f1": 0.7898,
+      "min_f1": 0.0,
+      "max_f1": 1.0
+    }
+  },
+  "error_analysis": {
+    "error_type_counts": {
+      "boundary_errors": 0,
+      "entity_confusion": 4,
+      "false_positives": 0,
+      "false_negatives": 289
+    },
+    "total_errors": 293,
+    "most_common_errors": [
+      {
+        "true_label": "I-PERCENTAGE",
+        "predicted_label": "O",
+        "count": 114
+      },
+      {
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "count": 96
+      },
+      {
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "count": 40
+      },
+      {
+        "true_label": "B-AUTHORITY",
+        "predicted_label": "O",
+        "count": 11
+      },
+      {
+        "true_label": "B-FORM",
+        "predicted_label": "O",
+        "count": 10
+      },
+      {
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "count": 8
+      },
+      {
+        "true_label": "I-SECTION",
+        "predicted_label": "O",
+        "count": 3
+      },
+      {
+        "true_label": "B-SCHEDULE",
+        "predicted_label": "O",
+        "count": 3
+      },
+      {
+        "true_label": "B-SECTION",
+        "predicted_label": "B-RULE",
+        "count": 2
+      },
+      {
+        "true_label": "B-AMOUNT",
+        "predicted_label": "B-PERCENTAGE",
+        "count": 1
+      },
+      {
+        "true_label": "B-AMOUNT",
+        "predicted_label": "O",
+        "count": 1
+      },
+      {
+        "true_label": "I-SECTION",
+        "predicted_label": "I-RULE",
+        "count": 1
+      },
+      {
+        "true_label": "I-DATE",
+        "predicted_label": "O",
+        "count": 1
+      },
+      {
+        "true_label": "B-SECTION",
+        "predicted_label": "O",
+        "count": 1
+      },
+      {
+        "true_label": "B-RULE",
+        "predicted_label": "O",
+        "count": 1
+      }
+    ],
+    "error_examples": [
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "ব্যক্তি বা ব্যক্তি শ্রেণি সম্পর্কিত"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "সময় উক্ত ব্যক্তি মোটরযানের মালিকানা"
+      },
+      {
+        "token": "কোম্পানি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "অর্থ ফাইন্যান্স কোম্পানি আইন, ২০২৩"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "মূল্যের ৬ % বা কাঠাপ্রতি"
+      },
+      {
+        "token": "টাকা",
+        "true_label": "B-AMOUNT",
+        "predicted_label": "B-PERCENTAGE",
+        "context": ", ০০০ টাকা যেটি অধিক"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "মূল্যের ৬ % বা কাঠাপ্রতি"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "মূল্যের ৬ % ২ ।"
+      },
+      {
+        "token": "২৩৫",
+        "true_label": "I-SECTION",
+        "predicted_label": "O",
+        "context": "দ্বারা ধারা ২৩৫ অনুসারে আন্তর্জাতিক"
+      },
+      {
+        "token": "জুলাই",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "সনের ১ জুলাই হইতে কার্যকর"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "ক্ষেত্রে ৩ % ১২ ।"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "ক্ষেত্রে- ৫ % ] (ঘ)"
+      },
+      {
+        "token": "জুন",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "। অর্থবৎসরের জুন মাসের ১"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "কোনো নির্দিষ্ট ব্যক্তি নহে, যে"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "এইরূপ কোনো ব্যক্তি যিনি তামাক"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": ". ৬ % ২ ।"
+      },
+      {
+        "token": "২",
+        "true_label": "I-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "৬ % ২ । পেট্রোল"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "ক্ষেত্রে ৩ % ৬ ।"
+      },
+      {
+        "token": "টাকা",
+        "true_label": "B-AMOUNT",
+        "predicted_label": "O",
+        "context": ", ০০০ টাকা যাহা অধিক"
+      },
+      {
+        "token": "২",
+        "true_label": "I-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "৬ % ২ । সারণী-"
+      },
+      {
+        "token": "৩",
+        "true_label": "I-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "৪ % ৩ । সারণী-"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "মূল্যের ২ % ( ২"
+      },
+      {
+        "token": "করদাতা",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "সেই পরিমাণ করদাতা কর্তৃক নিরুপিত"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "যেইক্ষেত্রে নির্দিষ্ট ব্যক্তি বা দায়িত্বপ্রাপ্ত"
+      },
+      {
+        "token": "৬",
+        "true_label": "I-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "২০ % ৬ ।"
+      },
+      {
+        "token": "৭০",
+        "true_label": "I-SECTION",
+        "predicted_label": "O",
+        "context": "। ধারা ৭০ এর বিধানাবলি"
+      },
+      {
+        "token": "কোম্পানি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "ভাতা ফলশ্রুত কোম্পানি বরাবর, সময়"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "] ৪ % (চার শতাংশ)]"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "ক্ষেত্রে ৩ % ১০ ।"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "দায়িত্ব প্রাপ্ত ব্যক্তি উক্ত সারচার্জ"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "উপর ২০ % (বিশ শতাংশ)"
+      },
+      {
+        "token": "%",
+        "true_label": "B-PERCENTAGE",
+        "predicted_label": "O",
+        "context": "প্রিমিয়ামের ৯০ % (নব্বই শতাংশ),"
+      },
+      {
+        "token": "form",
+        "true_label": "B-FORM",
+        "predicted_label": "O",
+        "context": "in the form of pellets,"
+      },
+      {
+        "token": "form",
+        "true_label": "B-FORM",
+        "predicted_label": "O",
+        "context": "in the form of pellets,"
+      },
+      {
+        "token": "form",
+        "true_label": "B-FORM",
+        "predicted_label": "O",
+        "context": "in the form of pellets,"
+      },
+      {
+        "token": "form",
+        "true_label": "B-FORM",
+        "predicted_label": "O",
+        "context": "in the form of pellets,"
+      },
+      {
+        "token": "SCHEDULE",
+        "true_label": "B-SCHEDULE",
+        "predicted_label": "O",
+        "context": "of FIRST SCHEDULE of কাস্টমস"
+      },
+      {
+        "token": "জুলাই",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "অর্থ বৎসরের জুলাই মাসের প্রথম"
+      },
+      {
+        "token": "কোম্পানি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "অর্থ কোনো কোম্পানি যাহা বাংলাদেশি"
+      },
+      {
+        "token": "৪",
+        "true_label": "I-SECTION",
+        "predicted_label": "I-RULE",
+        "context": "অর্থ ধারা ৪ এ উল্লিখিত"
+      },
+      {
+        "token": "ধারা",
+        "true_label": "B-SECTION",
+        "predicted_label": "B-RULE",
+        "context": "(প্রশিক্ষণ)” অর্থ ধারা ৪ এ"
+      },
+      {
+        "token": "করদাতা",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "অর্থ- কোনো করদাতা কর্তৃক ধারণকৃত"
+      },
+      {
+        "token": "করদাতা",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "যানবাহন যাহা করদাতা কর্তৃক অথবা"
+      },
+      {
+        "token": "জুন",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "পরবর্তী ৩০ জুন তারিখ; বিদেশে"
+      },
+      {
+        "token": "করদাতা",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "স্বাভাবিক ব্যক্তি করদাতা কর্তৃক রিটার্ন"
+      },
+      {
+        "token": "জুলাই",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "২১ ) জুলাই ১ ,"
+      },
+      {
+        "token": "১",
+        "true_label": "I-DATE",
+        "predicted_label": "O",
+        "context": ") জুলাই ১ , ২০২০"
+      },
+      {
+        "token": "তারিখ",
+        "true_label": "B-DATE",
+        "predicted_label": "O",
+        "context": "জুন, ২০২৪ তারিখ পর্যন্ত সময়ের"
+      },
+      {
+        "token": "ব্যক্তি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "দ্বারা প্রভাবিত ব্যক্তি বা অন্য"
+      },
+      {
+        "token": "কোম্পানি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "(ক) কোনো কোম্পানি যাহার সহিত"
+      },
+      {
+        "token": "কোম্পানি",
+        "true_label": "B-TAXPAYER",
+        "predicted_label": "O",
+        "context": "যেইক্ষেত্রে একীভূত কোম্পানি বাংলাদেশি কোম্পানি,"
+      }
+    ]
+  }
+}

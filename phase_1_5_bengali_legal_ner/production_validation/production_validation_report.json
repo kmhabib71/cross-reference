@@ -1,0 +1,2539 @@
+{
+  "validation_date": "2025-08-12T16:21:05.348958",
+  "documents_tested": 20,
+  "test_samples": [
+    {
+      "document_name": "income-tax-schedule-bangla.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 289,
+      "entities_found": 16,
+      "entity_density": 0.05536332179930796,
+      "entity_types": {
+        "SCHEDULE": 2,
+        "SECTION": 14
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.9038125,
+      "processing_time_ms": 3.851,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "২০২৩ তফসিল",
+          "entity": "SCHEDULE",
+          "start": 9,
+          "end": 19,
+          "confidence": 0.914
+        },
+        {
+          "text": "২০২৩ তফসিল",
+          "entity": "SCHEDULE",
+          "start": 116,
+          "end": 126,
+          "confidence": 0.914
+        },
+        {
+          "text": "ধারা ২৪",
+          "entity": "SECTION",
+          "start": 231,
+          "end": 238,
+          "confidence": 0.907
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 312,
+          "end": 318,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 478,
+          "end": 484,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 612,
+          "end": 618,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 750,
+          "end": 756,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 907,
+          "end": 913,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1072,
+          "end": 1078,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1259,
+          "end": 1265,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1385,
+          "end": 1391,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1489,
+          "end": 1495,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1591,
+          "end": 1597,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1695,
+          "end": 1701,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1820,
+          "end": 1826,
+          "confidence": 0.902
+        },
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 1937,
+          "end": 1943,
+          "confidence": 0.902
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-6th-schedule-part-1-exclusions-from-computation-of-total-income.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 305,
+      "entities_found": 4,
+      "entity_density": 0.013114754098360656,
+      "entity_types": {
+        "SECTION": 1,
+        "TAXPAYER": 3
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.913,
+      "processing_time_ms": 0.539,
+      "has_bengali": true,
+      "has_english": false,
+      "is_bilingual": false,
+      "entities_detected": [
+        {
+          "text": "ধারা ৭৬",
+          "entity": "SECTION",
+          "start": 57,
+          "end": 64,
+          "confidence": 0.94
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1570,
+          "end": 1576,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1593,
+          "end": 1599,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1645,
+          "end": 1651,
+          "confidence": 0.904
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-3rd-schedule-part-1-computation-of-depreciation-allowance.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 316,
+      "entities_found": 6,
+      "entity_density": 0.0189873417721519,
+      "entity_types": {
+        "SECTION": 1,
+        "TAXPAYER": 5
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.9088333333333334,
+      "processing_time_ms": 0.521,
+      "has_bengali": true,
+      "has_english": false,
+      "is_bilingual": false,
+      "entities_detected": [
+        {
+          "text": "ধারা ৪২",
+          "entity": "SECTION",
+          "start": 69,
+          "end": 76,
+          "confidence": 0.933
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 175,
+          "end": 181,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1084,
+          "end": 1090,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1387,
+          "end": 1393,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1635,
+          "end": 1641,
+          "confidence": 0.904
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 1967,
+          "end": 1973,
+          "confidence": 0.904
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-2nd-schedule-part-3-recognized-provident-funds.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 293,
+      "entities_found": 4,
+      "entity_density": 0.013651877133105802,
+      "entity_types": {
+        "SECTION": 1,
+        "PERCENTAGE": 1,
+        "AUTHORITY": 1,
+        "RULE": 1
+      },
+      "unique_entity_types": 4,
+      "avg_confidence": 0.886,
+      "processing_time_ms": 0.509,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "ধারা ২",
+          "entity": "SECTION",
+          "start": 50,
+          "end": 56,
+          "confidence": 0.902
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 598,
+          "end": 601,
+          "confidence": 0.874
+        },
+        {
+          "text": "কর কমিশনার",
+          "entity": "AUTHORITY",
+          "start": 654,
+          "end": 664,
+          "confidence": 0.938
+        },
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 1591,
+          "end": 1599,
+          "confidence": 0.83
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 319,
+      "entities_found": 5,
+      "entity_density": 0.01567398119122257,
+      "entity_types": {
+        "SECTION": 1,
+        "PERCENTAGE": 4
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.8976000000000001,
+      "processing_time_ms": 0.507,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "ধারা ৪৭",
+          "entity": "SECTION",
+          "start": 64,
+          "end": 71,
+          "confidence": 0.917
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 798,
+          "end": 802,
+          "confidence": 0.904
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1118,
+          "end": 1122,
+          "confidence": 0.904
+        },
+        {
+          "text": "৯০%",
+          "entity": "PERCENTAGE",
+          "start": 1244,
+          "end": 1247,
+          "confidence": 0.891
+        },
+        {
+          "text": "১২%",
+          "entity": "PERCENTAGE",
+          "start": 1321,
+          "end": 1324,
+          "confidence": 0.872
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-english.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 316,
+      "entities_found": 14,
+      "entity_density": 0.04430379746835443,
+      "entity_types": {
+        "ACT": 1,
+        "SECTION": 13
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.8902142857142857,
+      "processing_time_ms": 0.502,
+      "has_bengali": false,
+      "has_english": true,
+      "is_bilingual": false,
+      "entities_detected": [
+        {
+          "text": "Income Tax Act 2023",
+          "entity": "ACT",
+          "start": 0,
+          "end": 19,
+          "confidence": 0.901
+        },
+        {
+          "text": "section 24",
+          "entity": "SECTION",
+          "start": 169,
+          "end": 179,
+          "confidence": 0.874
+        },
+        {
+          "text": "section 24",
+          "entity": "SECTION",
+          "start": 370,
+          "end": 380,
+          "confidence": 0.874
+        },
+        {
+          "text": "section 24",
+          "entity": "SECTION",
+          "start": 579,
+          "end": 589,
+          "confidence": 0.874
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 698,
+          "end": 707,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 862,
+          "end": 871,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 982,
+          "end": 991,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1106,
+          "end": 1115,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1262,
+          "end": 1271,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1420,
+          "end": 1429,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1599,
+          "end": 1608,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1712,
+          "end": 1721,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1815,
+          "end": 1824,
+          "confidence": 0.894
+        },
+        {
+          "text": "Section 2",
+          "entity": "SECTION",
+          "start": 1913,
+          "end": 1922,
+          "confidence": 0.894
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 294,
+      "entities_found": 2,
+      "entity_density": 0.006802721088435374,
+      "entity_types": {
+        "SECTION": 1,
+        "TAXPAYER": 1
+      },
+      "unique_entity_types": 2,
+      "avg_confidence": 0.9055,
+      "processing_time_ms": 0.533,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "ধারা ২৪",
+          "entity": "SECTION",
+          "start": 50,
+          "end": 57,
+          "confidence": 0.907
+        },
+        {
+          "text": "করদাতা",
+          "entity": "TAXPAYER",
+          "start": 439,
+          "end": 445,
+          "confidence": 0.904
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-1st-schedule-part-3-display-of-undisplayed-assets.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 302,
+      "entities_found": 6,
+      "entity_density": 0.019867549668874173,
+      "entity_types": {
+        "SECTION": 1,
+        "ACT": 1,
+        "DATE": 1,
+        "FORM": 3
+      },
+      "unique_entity_types": 4,
+      "avg_confidence": 0.8995,
+      "processing_time_ms": 0.549,
+      "has_bengali": true,
+      "has_english": false,
+      "is_bilingual": false,
+      "entities_detected": [
+        {
+          "text": "ধারা ২৪",
+          "entity": "SECTION",
+          "start": 50,
+          "end": 57,
+          "confidence": 0.907
+        },
+        {
+          "text": "আয়কর আইন, ২০২৩",
+          "entity": "ACT",
+          "start": 164,
+          "end": 179,
+          "confidence": 0.945
+        },
+        {
+          "text": "৩০ জুন",
+          "entity": "DATE",
+          "start": 401,
+          "end": 407,
+          "confidence": 0.875
+        },
+        {
+          "text": "রিটার্ন",
+          "entity": "FORM",
+          "start": 470,
+          "end": 477,
+          "confidence": 0.89
+        },
+        {
+          "text": "রিটার্ন",
+          "entity": "FORM",
+          "start": 489,
+          "end": 496,
+          "confidence": 0.89
+        },
+        {
+          "text": "রিটার্ন",
+          "entity": "FORM",
+          "start": 584,
+          "end": 591,
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-8th-schedule-part-1-business-restructuring.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 290,
+      "entities_found": 3,
+      "entity_density": 0.010344827586206896,
+      "entity_types": {
+        "SECTION": 3
+      },
+      "unique_entity_types": 1,
+      "avg_confidence": 0.9413333333333332,
+      "processing_time_ms": 0.51,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "ধারা ২৫",
+          "entity": "SECTION",
+          "start": 41,
+          "end": 48,
+          "confidence": 0.94
+        },
+        {
+          "text": "ধারা ৭০",
+          "entity": "SECTION",
+          "start": 627,
+          "end": 634,
+          "confidence": 0.942
+        },
+        {
+          "text": "ধারা ৭০",
+          "entity": "SECTION",
+          "start": 1751,
+          "end": 1758,
+          "confidence": 0.942
+        }
+      ]
+    },
+    {
+      "document_name": "income-tax-schedule-bangla-6th-schedule-part-4-tax-holidays.json",
+      "category": "schedules",
+      "content_length": 2000,
+      "word_count": 275,
+      "entities_found": 2,
+      "entity_density": 0.007272727272727273,
+      "entity_types": {
+        "SECTION": 2
+      },
+      "unique_entity_types": 1,
+      "avg_confidence": 0.94,
+      "processing_time_ms": 0.512,
+      "has_bengali": true,
+      "has_english": false,
+      "is_bilingual": false,
+      "entities_detected": [
+        {
+          "text": "ধারা ৭৬",
+          "entity": "SECTION",
+          "start": 57,
+          "end": 64,
+          "confidence": 0.94
+        },
+        {
+          "text": "ধারা ৭৬",
+          "entity": "SECTION",
+          "start": 191,
+          "end": 198,
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-fy-2025-26-rule-8-bd.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 307,
+      "entities_found": 5,
+      "entity_density": 0.016286644951140065,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 1,
+        "PERCENTAGE": 2
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.8886000000000001,
+      "processing_time_ms": 0.709,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৮",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.878
+        },
+        {
+          "text": "ধারা ১২০",
+          "entity": "SECTION",
+          "start": 74,
+          "end": 82,
+          "confidence": 0.932
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 361,
+          "end": 363,
+          "confidence": 0.904
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 479,
+          "end": 481,
+          "confidence": 0.899
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-rule-8-fy-2024-2025-bangladesh.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 316,
+      "entities_found": 7,
+      "entity_density": 0.022151898734177215,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 1,
+        "PERCENTAGE": 4
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.8837142857142857,
+      "processing_time_ms": 0.915,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৮",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.878
+        },
+        {
+          "text": "ধারা ১২০",
+          "entity": "SECTION",
+          "start": 74,
+          "end": 82,
+          "confidence": 0.932
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 358,
+          "end": 360,
+          "confidence": 0.904
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 464,
+          "end": 466,
+          "confidence": 0.866
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1034,
+          "end": 1036,
+          "confidence": 0.899
+        },
+        {
+          "text": "20%",
+          "entity": "PERCENTAGE",
+          "start": 1618,
+          "end": 1621,
+          "confidence": 0.877
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-bangla-rules-7-collection-of-tax-from-importers.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 326,
+      "entities_found": 16,
+      "entity_density": 0.049079754601226995,
+      "entity_types": {
+        "RULE": 1,
+        "SECTION": 1,
+        "PERCENTAGE": 14
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.8981250000000001,
+      "processing_time_ms": 0.633,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধি ৭",
+          "entity": "RULE",
+          "start": 0,
+          "end": 6,
+          "confidence": 0.867
+        },
+        {
+          "text": "ধারা ১২০",
+          "entity": "SECTION",
+          "start": 52,
+          "end": 60,
+          "confidence": 0.932
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 336,
+          "end": 338,
+          "confidence": 0.904
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 442,
+          "end": 444,
+          "confidence": 0.866
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 546,
+          "end": 548,
+          "confidence": 0.899
+        },
+        {
+          "text": "০%",
+          "entity": "PERCENTAGE",
+          "start": 759,
+          "end": 761,
+          "confidence": 0.901
+        },
+        {
+          "text": "০%",
+          "entity": "PERCENTAGE",
+          "start": 877,
+          "end": 879,
+          "confidence": 0.901
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 984,
+          "end": 986,
+          "confidence": 0.9
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1089,
+          "end": 1092,
+          "confidence": 0.908
+        },
+        {
+          "text": "1%",
+          "entity": "PERCENTAGE",
+          "start": 1379,
+          "end": 1381,
+          "confidence": 0.911
+        },
+        {
+          "text": "1%",
+          "entity": "PERCENTAGE",
+          "start": 1587,
+          "end": 1589,
+          "confidence": 0.911
+        },
+        {
+          "text": "2%",
+          "entity": "PERCENTAGE",
+          "start": 1627,
+          "end": 1629,
+          "confidence": 0.894
+        },
+        {
+          "text": "2%",
+          "entity": "PERCENTAGE",
+          "start": 1702,
+          "end": 1704,
+          "confidence": 0.894
+        },
+        {
+          "text": "2%",
+          "entity": "PERCENTAGE",
+          "start": 1807,
+          "end": 1809,
+          "confidence": 0.894
+        },
+        {
+          "text": "2%",
+          "entity": "PERCENTAGE",
+          "start": 1891,
+          "end": 1893,
+          "confidence": 0.894
+        },
+        {
+          "text": "2%",
+          "entity": "PERCENTAGE",
+          "start": 1984,
+          "end": 1986,
+          "confidence": 0.894
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-fy-2025-26-rule-6-bd.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 327,
+      "entities_found": 31,
+      "entity_density": 0.09480122324159021,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 2,
+        "PERCENTAGE": 14,
+        "AMOUNT": 13
+      },
+      "unique_entity_types": 4,
+      "avg_confidence": 0.9128064516129032,
+      "processing_time_ms": 0.6489999999999999,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৬",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.872
+        },
+        {
+          "text": "ধারা ১২৫",
+          "entity": "SECTION",
+          "start": 68,
+          "end": 76,
+          "confidence": 0.932
+        },
+        {
+          "text": "section 17",
+          "entity": "SECTION",
+          "start": 159,
+          "end": 169,
+          "confidence": 0.905
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 748,
+          "end": 750,
+          "confidence": 0.904
+        },
+        {
+          "text": "৯,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 766,
+          "end": 779,
+          "confidence": 0.916
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 819,
+          "end": 821,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,৫০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 837,
+          "end": 850,
+          "confidence": 0.917
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 890,
+          "end": 892,
+          "confidence": 0.904
+        },
+        {
+          "text": "৯,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 908,
+          "end": 921,
+          "confidence": 0.916
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 961,
+          "end": 963,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,৫০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 979,
+          "end": 992,
+          "confidence": 0.917
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1032,
+          "end": 1034,
+          "confidence": 0.904
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1050,
+          "end": 1063,
+          "confidence": 0.94
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1103,
+          "end": 1105,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1121,
+          "end": 1134,
+          "confidence": 0.947
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1305,
+          "end": 1307,
+          "confidence": 0.904
+        },
+        {
+          "text": "৬,৫০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1323,
+          "end": 1336,
+          "confidence": 0.919
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1376,
+          "end": 1378,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1394,
+          "end": 1407,
+          "confidence": 0.947
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1447,
+          "end": 1449,
+          "confidence": 0.904
+        },
+        {
+          "text": "৬,৫০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1465,
+          "end": 1478,
+          "confidence": 0.919
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1518,
+          "end": 1520,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1536,
+          "end": 1549,
+          "confidence": 0.947
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1589,
+          "end": 1591,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1607,
+          "end": 1620,
+          "confidence": 0.947
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1660,
+          "end": 1662,
+          "confidence": 0.904
+        },
+        {
+          "text": "২,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1678,
+          "end": 1691,
+          "confidence": 0.925
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1927,
+          "end": 1929,
+          "confidence": 0.904
+        },
+        {
+          "text": "৪,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1945,
+          "end": 1958,
+          "confidence": 0.945
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1998,
+          "end": 2000,
+          "confidence": 0.904
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-rule-6-fy-2024-2025-bangladesh.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 316,
+      "entities_found": 32,
+      "entity_density": 0.10126582278481013,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 2,
+        "PERCENTAGE": 14,
+        "AMOUNT": 14
+      },
+      "unique_entity_types": 4,
+      "avg_confidence": 0.9005625,
+      "processing_time_ms": 0.6,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৬",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.872
+        },
+        {
+          "text": "ধারা ১২৫",
+          "entity": "SECTION",
+          "start": 68,
+          "end": 76,
+          "confidence": 0.932
+        },
+        {
+          "text": "section 17",
+          "entity": "SECTION",
+          "start": 159,
+          "end": 169,
+          "confidence": 0.905
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 723,
+          "end": 725,
+          "confidence": 0.871
+        },
+        {
+          "text": "১৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 739,
+          "end": 753,
+          "confidence": 0.914
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 793,
+          "end": 795,
+          "confidence": 0.871
+        },
+        {
+          "text": "৬,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 809,
+          "end": 822,
+          "confidence": 0.933
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 862,
+          "end": 864,
+          "confidence": 0.871
+        },
+        {
+          "text": "১৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 878,
+          "end": 892,
+          "confidence": 0.914
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 932,
+          "end": 934,
+          "confidence": 0.871
+        },
+        {
+          "text": "৬,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 948,
+          "end": 961,
+          "confidence": 0.933
+        },
+        {
+          "text": "৬%",
+          "entity": "PERCENTAGE",
+          "start": 1001,
+          "end": 1003,
+          "confidence": 0.904
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1017,
+          "end": 1030,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1201,
+          "end": 1203,
+          "confidence": 0.871
+        },
+        {
+          "text": "১০,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1217,
+          "end": 1231,
+          "confidence": 0.909
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1271,
+          "end": 1273,
+          "confidence": 0.871
+        },
+        {
+          "text": "৪,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1287,
+          "end": 1300,
+          "confidence": 0.945
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1340,
+          "end": 1342,
+          "confidence": 0.871
+        },
+        {
+          "text": "১০,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1356,
+          "end": 1370,
+          "confidence": 0.909
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1410,
+          "end": 1412,
+          "confidence": 0.871
+        },
+        {
+          "text": "৪,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1426,
+          "end": 1439,
+          "confidence": 0.945
+        },
+        {
+          "text": "৬%",
+          "entity": "PERCENTAGE",
+          "start": 1479,
+          "end": 1481,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1495,
+          "end": 1508,
+          "confidence": 0.947
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1744,
+          "end": 1746,
+          "confidence": 0.871
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1760,
+          "end": 1773,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1813,
+          "end": 1815,
+          "confidence": 0.871
+        },
+        {
+          "text": "২,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1829,
+          "end": 1842,
+          "confidence": 0.925
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1882,
+          "end": 1884,
+          "confidence": 0.871
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1898,
+          "end": 1911,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1951,
+          "end": 1953,
+          "confidence": 0.871
+        },
+        {
+          "text": "২,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1967,
+          "end": 1980,
+          "confidence": 0.925
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-bangla-rules-6-collection-of-tax-on-transfer-of-property.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 311,
+      "entities_found": 33,
+      "entity_density": 0.10610932475884244,
+      "entity_types": {
+        "RULE": 1,
+        "SECTION": 2,
+        "PERCENTAGE": 15,
+        "AMOUNT": 15
+      },
+      "unique_entity_types": 4,
+      "avg_confidence": 0.9032424242424243,
+      "processing_time_ms": 0.7929999999999999,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধি ৬",
+          "entity": "RULE",
+          "start": 0,
+          "end": 6,
+          "confidence": 0.872
+        },
+        {
+          "text": "ধারা ১২৫",
+          "entity": "SECTION",
+          "start": 56,
+          "end": 64,
+          "confidence": 0.932
+        },
+        {
+          "text": "section 17",
+          "entity": "SECTION",
+          "start": 147,
+          "end": 157,
+          "confidence": 0.905
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 673,
+          "end": 675,
+          "confidence": 0.871
+        },
+        {
+          "text": "১৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 689,
+          "end": 703,
+          "confidence": 0.914
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 743,
+          "end": 745,
+          "confidence": 0.871
+        },
+        {
+          "text": "৬,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 759,
+          "end": 772,
+          "confidence": 0.933
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 812,
+          "end": 814,
+          "confidence": 0.871
+        },
+        {
+          "text": "১৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 828,
+          "end": 842,
+          "confidence": 0.914
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 882,
+          "end": 884,
+          "confidence": 0.871
+        },
+        {
+          "text": "৬,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 898,
+          "end": 911,
+          "confidence": 0.933
+        },
+        {
+          "text": "৬%",
+          "entity": "PERCENTAGE",
+          "start": 951,
+          "end": 953,
+          "confidence": 0.904
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 967,
+          "end": 980,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1151,
+          "end": 1153,
+          "confidence": 0.871
+        },
+        {
+          "text": "১০,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1167,
+          "end": 1181,
+          "confidence": 0.909
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1221,
+          "end": 1223,
+          "confidence": 0.871
+        },
+        {
+          "text": "৪,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1237,
+          "end": 1250,
+          "confidence": 0.945
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1290,
+          "end": 1292,
+          "confidence": 0.871
+        },
+        {
+          "text": "১০,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1306,
+          "end": 1320,
+          "confidence": 0.909
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1360,
+          "end": 1362,
+          "confidence": 0.871
+        },
+        {
+          "text": "৪,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1376,
+          "end": 1389,
+          "confidence": 0.945
+        },
+        {
+          "text": "৬%",
+          "entity": "PERCENTAGE",
+          "start": 1429,
+          "end": 1431,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1445,
+          "end": 1458,
+          "confidence": 0.947
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1694,
+          "end": 1696,
+          "confidence": 0.871
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1710,
+          "end": 1723,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1763,
+          "end": 1765,
+          "confidence": 0.871
+        },
+        {
+          "text": "২,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1779,
+          "end": 1792,
+          "confidence": 0.925
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1832,
+          "end": 1834,
+          "confidence": 0.871
+        },
+        {
+          "text": "৫,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1848,
+          "end": 1861,
+          "confidence": 0.94
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1901,
+          "end": 1903,
+          "confidence": 0.871
+        },
+        {
+          "text": "২,০০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1917,
+          "end": 1930,
+          "confidence": 0.925
+        },
+        {
+          "text": "৬%",
+          "entity": "PERCENTAGE",
+          "start": 1970,
+          "end": 1972,
+          "confidence": 0.904
+        },
+        {
+          "text": "১,৫০,০০০ টাকা",
+          "entity": "AMOUNT",
+          "start": 1986,
+          "end": 1999,
+          "confidence": 0.915
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-fy-2025-26-rule-5-bd.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 311,
+      "entities_found": 32,
+      "entity_density": 0.10289389067524116,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 3,
+        "PERCENTAGE": 27
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.89428125,
+      "processing_time_ms": 0.579,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৫",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.901
+        },
+        {
+          "text": "ধারা ১১৯",
+          "entity": "SECTION",
+          "start": 79,
+          "end": 87,
+          "confidence": 0.916
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 554,
+          "end": 557,
+          "confidence": 0.908
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 610,
+          "end": 613,
+          "confidence": 0.874
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 640,
+          "end": 643,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 711,
+          "end": 714,
+          "confidence": 0.908
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 767,
+          "end": 770,
+          "confidence": 0.874
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 876,
+          "end": 879,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 968,
+          "end": 971,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1003,
+          "end": 1006,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1112,
+          "end": 1115,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1129,
+          "end": 1132,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1175,
+          "end": 1178,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1189,
+          "end": 1192,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1262,
+          "end": 1265,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1274,
+          "end": 1277,
+          "confidence": 0.908
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1301,
+          "end": 1304,
+          "confidence": 0.908
+        },
+        {
+          "text": "১৫%",
+          "entity": "PERCENTAGE",
+          "start": 1346,
+          "end": 1349,
+          "confidence": 0.866
+        },
+        {
+          "text": "ধারা ২৫৯",
+          "entity": "SECTION",
+          "start": 1354,
+          "end": 1362,
+          "confidence": 0.922
+        },
+        {
+          "text": "ধারা ২৬০",
+          "entity": "SECTION",
+          "start": 1367,
+          "end": 1375,
+          "confidence": 0.906
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1432,
+          "end": 1436,
+          "confidence": 0.904
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1601,
+          "end": 1605,
+          "confidence": 0.904
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1622,
+          "end": 1626,
+          "confidence": 0.904
+        },
+        {
+          "text": "১৫%",
+          "entity": "PERCENTAGE",
+          "start": 1645,
+          "end": 1648,
+          "confidence": 0.866
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1668,
+          "end": 1671,
+          "confidence": 0.874
+        },
+        {
+          "text": "১৫%",
+          "entity": "PERCENTAGE",
+          "start": 1709,
+          "end": 1712,
+          "confidence": 0.866
+        },
+        {
+          "text": "২০%",
+          "entity": "PERCENTAGE",
+          "start": 1774,
+          "end": 1777,
+          "confidence": 0.908
+        },
+        {
+          "text": "৩০%",
+          "entity": "PERCENTAGE",
+          "start": 1851,
+          "end": 1854,
+          "confidence": 0.869
+        },
+        {
+          "text": "৩০%",
+          "entity": "PERCENTAGE",
+          "start": 1904,
+          "end": 1907,
+          "confidence": 0.869
+        },
+        {
+          "text": "৩০%",
+          "entity": "PERCENTAGE",
+          "start": 1931,
+          "end": 1934,
+          "confidence": 0.869
+        },
+        {
+          "text": "৫.২৫%",
+          "entity": "PERCENTAGE",
+          "start": 1982,
+          "end": 1987,
+          "confidence": 0.891
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-fy-2025-26-rule-4-bd.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 324,
+      "entities_found": 26,
+      "entity_density": 0.08024691358024691,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 1,
+        "PERCENTAGE": 23
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.8852692307692308,
+      "processing_time_ms": 0.776,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৪",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.909
+        },
+        {
+          "text": "ধারা ৯০",
+          "entity": "SECTION",
+          "start": 78,
+          "end": 85,
+          "confidence": 0.908
+        },
+        {
+          "text": "১৫%",
+          "entity": "PERCENTAGE",
+          "start": 425,
+          "end": 428,
+          "confidence": 0.866
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 481,
+          "end": 485,
+          "confidence": 0.904
+        },
+        {
+          "text": "১৫%",
+          "entity": "PERCENTAGE",
+          "start": 553,
+          "end": 556,
+          "confidence": 0.866
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 609,
+          "end": 613,
+          "confidence": 0.904
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 729,
+          "end": 732,
+          "confidence": 0.874
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1048,
+          "end": 1051,
+          "confidence": 0.874
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1052,
+          "end": 1054,
+          "confidence": 0.899
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1125,
+          "end": 1128,
+          "confidence": 0.874
+        },
+        {
+          "text": "০.৬৫%",
+          "entity": "PERCENTAGE",
+          "start": 1149,
+          "end": 1154,
+          "confidence": 0.9
+        },
+        {
+          "text": "৭.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1175,
+          "end": 1179,
+          "confidence": 0.904
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1215,
+          "end": 1218,
+          "confidence": 0.874
+        },
+        {
+          "text": "১২%",
+          "entity": "PERCENTAGE",
+          "start": 1247,
+          "end": 1250,
+          "confidence": 0.872
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1276,
+          "end": 1279,
+          "confidence": 0.874
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1309,
+          "end": 1311,
+          "confidence": 0.871
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1354,
+          "end": 1356,
+          "confidence": 0.871
+        },
+        {
+          "text": "৮%",
+          "entity": "PERCENTAGE",
+          "start": 1381,
+          "end": 1383,
+          "confidence": 0.871
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1482,
+          "end": 1485,
+          "confidence": 0.874
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1506,
+          "end": 1508,
+          "confidence": 0.904
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1697,
+          "end": 1699,
+          "confidence": 0.904
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1743,
+          "end": 1745,
+          "confidence": 0.9
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1765,
+          "end": 1767,
+          "confidence": 0.904
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1902,
+          "end": 1905,
+          "confidence": 0.874
+        },
+        {
+          "text": "১.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1983,
+          "end": 1987,
+          "confidence": 0.912
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-fy-2025-26-rule-3-bd.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 309,
+      "entities_found": 21,
+      "entity_density": 0.06796116504854369,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 1,
+        "PERCENTAGE": 18
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.891,
+      "processing_time_ms": 0.6980000000000001,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৩",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.914
+        },
+        {
+          "text": "ধারা ৮৯",
+          "entity": "SECTION",
+          "start": 94,
+          "end": 101,
+          "confidence": 0.921
+        },
+        {
+          "text": "০.৫%",
+          "entity": "PERCENTAGE",
+          "start": 367,
+          "end": 371,
+          "confidence": 0.906
+        },
+        {
+          "text": "০.৬%",
+          "entity": "PERCENTAGE",
+          "start": 471,
+          "end": 475,
+          "confidence": 0.868
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 557,
+          "end": 559,
+          "confidence": 0.866
+        },
+        {
+          "text": "০.৫%",
+          "entity": "PERCENTAGE",
+          "start": 825,
+          "end": 829,
+          "confidence": 0.906
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 863,
+          "end": 865,
+          "confidence": 0.866
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 899,
+          "end": 901,
+          "confidence": 0.899
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 982,
+          "end": 984,
+          "confidence": 0.866
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1095,
+          "end": 1097,
+          "confidence": 0.899
+        },
+        {
+          "text": "১.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1186,
+          "end": 1190,
+          "confidence": 0.912
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1242,
+          "end": 1244,
+          "confidence": 0.9
+        },
+        {
+          "text": "০.৬%",
+          "entity": "PERCENTAGE",
+          "start": 1289,
+          "end": 1293,
+          "confidence": 0.868
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1479,
+          "end": 1481,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1627,
+          "end": 1629,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1668,
+          "end": 1670,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1723,
+          "end": 1725,
+          "confidence": 0.9
+        },
+        {
+          "text": "১.৫%",
+          "entity": "PERCENTAGE",
+          "start": 1783,
+          "end": 1787,
+          "confidence": 0.912
+        },
+        {
+          "text": "৫%",
+          "entity": "PERCENTAGE",
+          "start": 1894,
+          "end": 1896,
+          "confidence": 0.904
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 1972,
+          "end": 1975,
+          "confidence": 0.874
+        }
+      ]
+    },
+    {
+      "document_name": "tds-rules-2024-rule-3-fy-2024-2025-bangladesh.json",
+      "category": "tds_rules",
+      "content_length": 2000,
+      "word_count": 312,
+      "entities_found": 17,
+      "entity_density": 0.05448717948717949,
+      "entity_types": {
+        "RULE": 2,
+        "SECTION": 1,
+        "PERCENTAGE": 14
+      },
+      "unique_entity_types": 3,
+      "avg_confidence": 0.8912352941176471,
+      "processing_time_ms": 0.588,
+      "has_bengali": true,
+      "has_english": true,
+      "is_bilingual": true,
+      "entities_detected": [
+        {
+          "text": "বিধিমালা",
+          "entity": "RULE",
+          "start": 8,
+          "end": 16,
+          "confidence": 0.83
+        },
+        {
+          "text": "বিধি ৩",
+          "entity": "RULE",
+          "start": 22,
+          "end": 28,
+          "confidence": 0.914
+        },
+        {
+          "text": "ধারা ৮৯",
+          "entity": "SECTION",
+          "start": 90,
+          "end": 97,
+          "confidence": 0.921
+        },
+        {
+          "text": "১০%",
+          "entity": "PERCENTAGE",
+          "start": 257,
+          "end": 260,
+          "confidence": 0.874
+        },
+        {
+          "text": "৭%",
+          "entity": "PERCENTAGE",
+          "start": 466,
+          "end": 468,
+          "confidence": 0.895
+        },
+        {
+          "text": "০.৫০%",
+          "entity": "PERCENTAGE",
+          "start": 793,
+          "end": 798,
+          "confidence": 0.9
+        },
+        {
+          "text": "০.৬০%",
+          "entity": "PERCENTAGE",
+          "start": 898,
+          "end": 903,
+          "confidence": 0.889
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 1015,
+          "end": 1017,
+          "confidence": 0.866
+        },
+        {
+          "text": "১%",
+          "entity": "PERCENTAGE",
+          "start": 1238,
+          "end": 1240,
+          "confidence": 0.866
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1278,
+          "end": 1280,
+          "confidence": 0.899
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1411,
+          "end": 1413,
+          "confidence": 0.899
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1502,
+          "end": 1504,
+          "confidence": 0.899
+        },
+        {
+          "text": "২%",
+          "entity": "PERCENTAGE",
+          "start": 1548,
+          "end": 1550,
+          "confidence": 0.899
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1601,
+          "end": 1603,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1789,
+          "end": 1791,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1937,
+          "end": 1939,
+          "confidence": 0.9
+        },
+        {
+          "text": "৩%",
+          "entity": "PERCENTAGE",
+          "start": 1978,
+          "end": 1980,
+          "confidence": 0.9
+        }
+      ]
+    }
+  ],
+  "performance_summary": {
+    "total_entities_detected": 282,
+    "avg_entities_per_document": 14.1,
+    "avg_processing_time_ms": 0.7736499999999998,
+    "total_processing_time_ms": 15.472999999999997,
+    "documents_with_entities": 20,
+    "entity_detection_rate": 1.0
+  },
+  "entity_analysis": {
+    "total_entities": 282,
+    "unique_entity_types": 10,
+    "entity_type_distribution": {
+      "SCHEDULE": 2,
+      "SECTION": 53,
+      "TAXPAYER": 9,
+      "PERCENTAGE": 150,
+      "AUTHORITY": 1,
+      "RULE": 19,
+      "ACT": 2,
+      "DATE": 1,
+      "FORM": 3,
+      "AMOUNT": 42
+    },
+    "entity_metrics": {
+      "SCHEDULE": {
+        "count": 2,
+        "avg_confidence": 0.914,
+        "documents_found_in": 1
+      },
+      "SECTION": {
+        "count": 53,
+        "avg_confidence": 0.9095471698113208,
+        "documents_found_in": 20
+      },
+      "TAXPAYER": {
+        "count": 9,
+        "avg_confidence": 0.904,
+        "documents_found_in": 3
+      },
+      "PERCENTAGE": {
+        "count": 150,
+        "avg_confidence": 0.8899266666666666,
+        "documents_found_in": 12
+      },
+      "AUTHORITY": {
+        "count": 1,
+        "avg_confidence": 0.938,
+        "documents_found_in": 1
+      },
+      "RULE": {
+        "count": 19,
+        "avg_confidence": 0.8603684210526316,
+        "documents_found_in": 11
+      },
+      "ACT": {
+        "count": 2,
+        "avg_confidence": 0.923,
+        "documents_found_in": 2
+      },
+      "DATE": {
+        "count": 1,
+        "avg_confidence": 0.875,
+        "documents_found_in": 1
+      },
+      "FORM": {
+        "count": 3,
+        "avg_confidence": 0.89,
+        "documents_found_in": 1
+      },
+      "AMOUNT": {
+        "count": 42,
+        "avg_confidence": 0.9298809523809524,
+        "documents_found_in": 3
+      }
+    },
+    "most_common_entities": [
+      [
+        "PERCENTAGE",
+        150
+      ],
+      [
+        "SECTION",
+        53
+      ],
+      [
+        "AMOUNT",
+        42
+      ],
+      [
+        "RULE",
+        19
+      ],
+      [
+        "TAXPAYER",
+        9
+      ],
+      [
+        "FORM",
+        3
+      ],
+      [
+        "SCHEDULE",
+        2
+      ],
+      [
+        "ACT",
+        2
+      ],
+      [
+        "AUTHORITY",
+        1
+      ],
+      [
+        "DATE",
+        1
+      ]
+    ]
+  },
+  "error_patterns": [],
+  "production_metrics": {},
+  "category_performance": {
+    "schedules": {
+      "avg_entity_density": 0.020538289907874704,
+      "documents_tested": 10
+    },
+    "tds_rules": {
+      "avg_entity_density": 0.06952838178629983,
+      "documents_tested": 10
+    }
+  },
+  "production_readiness": {
+    "readiness_score": 1.0,
+    "status": "PRODUCTION_READY",
+    "recommendation": "Model meets production criteria and is ready for deployment",
+    "criteria_met": {
+      "entity_detection_rate": true,
+      "avg_processing_time": true,
+      "entity_diversity": true,
+      "entity_coverage": true,
+      "confidence_threshold": true
+    },
+    "failed_criteria": [],
+    "assessment_date": "2025-08-12T16:21:05.372192"
+  }
+}

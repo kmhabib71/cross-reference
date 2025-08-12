@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "test_date": "2025-08-10T13:21:11.289005",
+    "phase": "Phase_1.5_Basic_Testing",
+    "version": "1.0"
+  },
+  "test_results": {
+    "pattern_recognition": [
+      {
+        "text": "আয়কর আইন ২০২৩ এর ধারা ১৬৩ অনুযায়ী ন্যূনতম কর প্রদান করতে হবে।",
+        "detected_patterns": [
+          {
+            "type": "section_direct",
+            "text": "ধারা ১৬৩",
+            "start": 18,
+            "end": 26,
+            "matched_group": "১৬৩"
+          }
+        ],
+        "pattern_count": 1
+      },
+      {
+        "text": "তফসিল ৄ এ উল্লিখিত হার অনুসারে কর কাটা হবে।",
+        "detected_patterns": [],
+        "pattern_count": 0
+      },
+      {
+        "text": "Section 163 of Income Tax Act 2023 prescribes minimum tax.",
+        "detected_patterns": [
+          {
+            "type": "section_direct",
+            "text": "Section 163",
+            "start": 0,
+            "end": 11,
+            "matched_group": "163"
+          }
+        ],
+        "pattern_count": 1
+      },
+      {
+        "text": "আমার বার্ষিক আয় ৫.৫ লক্ষ টাকা হলে কত কর দিতে হবে?",
+        "detected_patterns": [
+          {
+            "type": "amount_bengali",
+            "text": "৫.৫ লক্ষ টাকা",
+            "start": 17,
+            "end": 30,
+            "matched_group": "৫.৫"
+          }
+        ],
+        "pattern_count": 1
+      },
+      {
+        "text": "কোম্পানির টার্নওভার ২ কোটি টাকা হলে কর হার কত?",
+        "detected_patterns": [
+          {
+            "type": "amount_bengali",
+            "text": "২ কোটি টাকা",
+            "start": 20,
+            "end": 31,
+            "matched_group": "২"
+          }
+        ],
+        "pattern_count": 1
+      }
+    ],
+    "disambiguation": [
+      {
+        "text": "আমার ইউটিউব চ্যানেল থেকে AdSense এর মাধ্যমে নিয়মিত আয় হয়",
+        "detected_income_type": "youtube_income",
+        "classification_scores": {
+          "business": 0.3333333333333333,
+          "professional": 0.0,
+          "freelance": 0.0
+        },
+        "predicted_classification": "business",
+        "expected_classification": "business",
+        "correct_prediction": true
+      },
+      {
+        "text": "ইউটিউব এ কোম্পানির সাথে চুক্তিভিত্তিক কাজ করি",
+        "detected_income_type": "youtube_income",
+        "classification_scores": {
+          "business": 0.0,
+          "professional": 1.0,
+          "freelance": 0.0
+        },
+        "predicted_classification": "professional",
+        "expected_classification": "professional",
+        "correct_prediction": true
+      },
+      {
+        "text": "ফ্রিল্যান্স ভিত্তিতে ইউটিউব ভিডিও তৈরি করি",
+        "detected_income_type": "youtube_income",
+        "classification_scores": {
+          "business": 0.0,
+          "professional": 0.0,
+          "freelance": 0.5
+        },
+        "predicted_classification": "freelance",
+        "expected_classification": "freelance",
+        "correct_prediction": true
+      }
+    ],
+    "false_positive": [
+      {
+        "text": "আমার রিটার্ন পেতে কত সময় লাগবে?",
+        "detected_patterns": [],
+        "total_risk_score": 0.0,
+        "predicted_risk": "low",
+        "expected_risk": "high",
+        "should_detect": [
+          "ambiguous_verb"
+        ],
+        "detection_correct": false
+      },
+      {
+        "text": "ভ্যাট এর ক্ষেত্রে আয়কর আইনের ধারা ১৬৩ কি প্রযোজ্য?",
+        "detected_patterns": [
+          "domain_mixing"
+        ],
+        "total_risk_score": 0.5,
+        "predicted_risk": "high",
+        "expected_risk": "very_high",
+        "should_detect": [
+          "domain_mixing"
+        ],
+        "detection_correct": true
+      },
+      {
+        "text": "মূল্য সংযোজন কর এর হার কত?",
+        "detected_patterns": [
+          "domain_confusion"
+        ],
+        "total_risk_score": 0.6,
+        "predicted_risk": "very_high",
+        "expected_risk": "high",
+        "should_detect": [
+          "domain_confusion"
+        ],
+        "detection_correct": true
+      },
+      {
+        "text": "আয়কর আইনের ধারা ১৬৩ অনুযায়ী ন্যূনতম কর কত?",
+        "detected_patterns": [],
+        "total_risk_score": 0.0,
+        "predicted_risk": "low",
+        "expected_risk": "low",
+        "should_detect": [],
+        "detection_correct": true
+      }
+    ],
+    "integration": {
+      "text": "আমার ইউটিউব চ্যানেল থেকে বছরে ৮ লক্ষ টাকা আয় হয়, ধারা ১৬৩ অনুযায়ী ন্যূনতম কর কত?",
+      "entities_detected": [
+        "ইউটিউব",
+        "৮ লক্ষ টাকা",
+        "ধারা ১৬৩"
+      ],
+      "entity_detection_score": 1.0,
+      "predicted_classification": "business_income",
+      "disambiguation_correct": true,
+      "risk_score": 0.1,
+      "false_positive_check_passed": true,
+      "overall_success": true
+    }
+  },
+  "summary": {
+    "pattern_recognition_patterns_detected": 4,
+    "disambiguation_accuracy": 1.0,
+    "false_positive_detection_accuracy": 0.75,
+    "system_integration_success": true
+  },
+  "phase_1_5_readiness": {
+    "core_patterns_working": true,
+    "disambiguation_logic_functional": true,
+    "false_positive_detection_active": true,
+    "system_integration_successful": true,
+    "ready_for_full_implementation": true
+  }
+}

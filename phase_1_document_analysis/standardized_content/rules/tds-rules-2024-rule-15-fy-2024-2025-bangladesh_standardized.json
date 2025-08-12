@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "original_file": "tds_rules/tds-rules-2024-rule-15-fy-2024-2025-bangladesh.json",
+    "category": "rules",
+    "standardization_date": "2025-01-15",
+    "content_length": 407,
+    "standardization_applied": true
+  },
+  "content_versions": {
+    "original": "উৎসে কর বিধিমালা ২০২৪ বিধি ১৫ - উৎসে কর এর রিটার্ন দাখিল আইনের এর ধারা ১৭৭ মোতাবেক তফসিল ১ এ বর্ণিত উৎসে কর এর রিটার্ন দাখিল করিতে হইবে। Click here to see English version Click here to view Section 177 of ITA 2023 বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "cleaned": "উৎসে কর বিধিমালা ২০২৪ বিধি ১৫ - উৎসে কর এর রিটার্ন দাখিল আইনের এর ধারা 177 মোতাবেক তফসিল ১ এ বর্ণিত উৎসে কর এর রিটার্ন দাখিল করিতে হইবে। Click here to see English version Click here to view Section 177 of ITA 2023 বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "bengali_normalized": "উৎসে কর বিধিমালা ২০২৪ বিধি ১৫ - উৎসে কর এর রিটার্ন দাখিল আইনের এর ধারা ১৭৭ মোতাবেক তফসিল ১ এ বর্ণিত উৎসে কর এর রিটার্ন দাখিল করিতে হইবে। Click here to see English version Click here to view Section ১৭৭ of ITA ২০২৩ বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "english_normalized": "উৎসে কর বিধিমালা 2024 বিধি 15 - উৎসে কর এর রিটার্ন দাখিল আইনের এর ধারা 177 মোতাবেক তফসিল 1 এ বর্ণিত উৎসে কর এর রিটার্ন দাখিল করিতে হইবে। Click here to see English version Click here to view Section 177 of ITA 2023 বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।"
+  },
+  "section_mappings": {
+    "ধারা ১৭৭": {
+      "canonical_id": "ITA_2023_S177",
+      "section_number": "177",
+      "language": "bengali",
+      "bengali_standard": "ধারা ১৭৭",
+      "english_standard": "Section 177"
+    },
+    "Section 177": {
+      "canonical_id": "ITA_2023_S177",
+      "section_number": "177",
+      "language": "english",
+      "bengali_standard": "ধারা ১৭৭",
+      "english_standard": "Section 177"
+    }
+  },
+  "extracted_entities": {
+    "sections": [],
+    "schedules": [],
+    "rules": [],
+    "amounts": [],
+    "dates": []
+  }
+}

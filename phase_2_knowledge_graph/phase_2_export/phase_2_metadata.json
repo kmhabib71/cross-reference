@@ -1,0 +1,28 @@
+{
+  "system_metadata": {
+    "version": "2.1.0",
+    "phase": "Phase 2 - Legal Knowledge Graph",
+    "components": [
+      "Entity Recognition System",
+      "Knowledge Graph Constructor",
+      "Legal Precedence Engine"
+    ],
+    "capabilities": [
+      "Bengali/English Entity Extraction",
+      "Cross-reference Relationship Mapping",
+      "Authority Hierarchy Enforcement",
+      "Conflict Resolution with Evidence",
+      "Query Processing with Precedence"
+    ]
+  },
+  "processed_documents": [
+    "test_doc"
+  ],
+  "statistics": {
+    "total_documents": 1,
+    "total_entities": 1,
+    "graph_nodes": 0,
+    "graph_relationships": 0
+  },
+  "export_timestamp": "2025-08-10T13:48:17.950937"
+}

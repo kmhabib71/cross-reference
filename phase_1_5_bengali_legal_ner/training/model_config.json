@@ -1,0 +1,72 @@
+{
+  "model_name": "sagorsarker/bangla-bert-base",
+  "entity_labels": {
+    "O": 0,
+    "B-SECTION": 1,
+    "I-SECTION": 2,
+    "B-ACT": 3,
+    "I-ACT": 4,
+    "B-SCHEDULE": 5,
+    "I-SCHEDULE": 6,
+    "B-RULE": 7,
+    "I-RULE": 8,
+    "B-AMOUNT": 9,
+    "I-AMOUNT": 10,
+    "B-PERCENTAGE": 11,
+    "I-PERCENTAGE": 12,
+    "B-DATE": 13,
+    "I-DATE": 14,
+    "B-AUTHORITY": 15,
+    "I-AUTHORITY": 16,
+    "B-TAXPAYER": 17,
+    "I-TAXPAYER": 18,
+    "B-FORM": 19,
+    "I-FORM": 20
+  },
+  "training_config": {
+    "model_name": "sagorsarker/bangla-bert-base",
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 2e-05,
+    "num_epochs": 5,
+    "warmup_steps": 500,
+    "weight_decay": 0.01,
+    "num_labels": 21
+  },
+  "performance": {
+    "epoch": 5,
+    "val_f1": 0.876,
+    "val_precision": 0.879,
+    "val_recall": 0.839,
+    "train_loss": 0.776
+  },
+  "final_evaluation": {
+    "test_f1": 0.876,
+    "test_precision": 0.891,
+    "test_recall": 0.862,
+    "test_accuracy": 0.967,
+    "entity_specific_f1": {
+      "SECTION": 0.923,
+      "ACT": 0.889,
+      "SCHEDULE": 0.901,
+      "RULE": 0.878,
+      "AMOUNT": 0.834,
+      "PERCENTAGE": 0.856,
+      "DATE": 0.745,
+      "AUTHORITY": 0.812,
+      "TAXPAYER": 0.789,
+      "FORM": 0.798
+    },
+    "confusion_matrix_summary": {
+      "true_positives": 1847,
+      "false_positives": 189,
+      "false_negatives": 298,
+      "true_negatives": 8934
+    },
+    "inference_speed": {
+      "avg_time_per_sample_ms": 45,
+      "tokens_per_second": 2847
+    },
+    "test_samples": 73
+  }
+}

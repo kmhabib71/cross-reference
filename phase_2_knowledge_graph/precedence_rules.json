@@ -1,0 +1,100 @@
+{
+  "precedence_hierarchy": {
+    "finance_ordinance": {
+      "authority_level": 100,
+      "overrides": [
+        "income_tax_act",
+        "schedules",
+        "tds_rules",
+        "sro_orders",
+        "circulars"
+      ],
+      "keywords": [
+        "finance ordinance",
+        "অর্থ অধ্যাদেশ",
+        "budget",
+        "বাজেট"
+      ],
+      "temporal_authority": "high"
+    },
+    "income_tax_act": {
+      "authority_level": 95,
+      "overrides": [
+        "schedules",
+        "tds_rules",
+        "circulars"
+      ],
+      "keywords": [
+        "income tax act",
+        "আয়কর আইন",
+        "ITA 2023"
+      ],
+      "temporal_authority": "medium"
+    },
+    "schedules": {
+      "authority_level": 90,
+      "overrides": [
+        "tds_rules",
+        "circulars"
+      ],
+      "keywords": [
+        "schedule",
+        "তফসিল",
+        "annexure"
+      ],
+      "temporal_authority": "medium"
+    },
+    "tds_rules": {
+      "authority_level": 85,
+      "overrides": [
+        "circulars"
+      ],
+      "keywords": [
+        "tds rules",
+        "টিডিএস বিধি",
+        "withholding tax"
+      ],
+      "temporal_authority": "high"
+    },
+    "sro_orders": {
+      "authority_level": 80,
+      "overrides": [
+        "circulars"
+      ],
+      "keywords": [
+        "sro",
+        "এসআরও",
+        "notification"
+      ],
+      "temporal_authority": "high"
+    },
+    "circulars": {
+      "authority_level": 70,
+      "overrides": [],
+      "keywords": [
+        "circular",
+        "সার্কুলার",
+        "memorandum"
+      ],
+      "temporal_authority": "low"
+    }
+  },
+  "temporal_rules": {
+    "financial_year_rule": "Current FY provisions override previous FY",
+    "amendment_rule": "Later amendments override earlier versions",
+    "sunset_clause": "Temporary provisions expire automatically",
+    "emergency_rule": "Emergency provisions have temporary highest authority"
+  },
+  "special_rules": {
+    "specific_over_general": "Specific provisions override general provisions",
+    "exception_rule": "Exception provisions override regular provisions",
+    "penalty_rule": "Penalty provisions have enhanced authority",
+    "procedural_rule": "Procedural rules follow substantive law",
+    "retrospective_rule": "Retrospective provisions have special handling"
+  },
+  "metadata": {
+    "version": "2.3.0",
+    "export_date": "2025-08-10T13:46:49.241678",
+    "description": "Bangladesh Tax Law Precedence Rules"
+  }
+}

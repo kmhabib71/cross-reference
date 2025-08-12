@@ -1,0 +1,2552 @@
+{
+  "canonical_references": {
+    "SECTION_182": {
+      "primary_id": "SECTION_182",
+      "citation_frequency": 185,
+      "document_coverage": 185,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৮২"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_2": {
+      "primary_id": "SECTION_2",
+      "citation_frequency": 510,
+      "document_coverage": 510,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২",
+        "s. 2",
+        "Section 2"
+      ],
+      "precision_score": 1.0
+    },
+    "SECTION_12": {
+      "primary_id": "SECTION_12",
+      "citation_frequency": 263,
+      "document_coverage": 263,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১২"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_38": {
+      "primary_id": "SECTION_38",
+      "citation_frequency": 75,
+      "document_coverage": 75,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৮"
+      ],
+      "precision_score": 0.8
+    },
+    "SECTION_39": {
+      "primary_id": "SECTION_39",
+      "citation_frequency": 56,
+      "document_coverage": 56,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৯"
+      ],
+      "precision_score": 0.724
+    },
+    "SECTION_27": {
+      "primary_id": "SECTION_27",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৭"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_6": {
+      "primary_id": "SECTION_6",
+      "citation_frequency": 27,
+      "document_coverage": 27,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৬"
+      ],
+      "precision_score": 0.608
+    },
+    "SECTION_31": {
+      "primary_id": "SECTION_31",
+      "citation_frequency": 25,
+      "document_coverage": 25,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩১"
+      ],
+      "precision_score": 0.6
+    },
+    "SECTION_76": {
+      "primary_id": "SECTION_76",
+      "citation_frequency": 71,
+      "document_coverage": 71,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 76",
+        "ধারা ৭৬"
+      ],
+      "precision_score": 0.884
+    },
+    "SECTION_4": {
+      "primary_id": "SECTION_4",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৪"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_5": {
+      "primary_id": "SECTION_5",
+      "citation_frequency": 19,
+      "document_coverage": 19,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 5",
+        "under Section 5",
+        "ধারা ৫"
+      ],
+      "precision_score": 0.676
+    },
+    "SECTION_153": {
+      "primary_id": "SECTION_153",
+      "citation_frequency": 63,
+      "document_coverage": 63,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৫৩"
+      ],
+      "precision_score": 0.752
+    },
+    "SECTION_197": {
+      "primary_id": "SECTION_197",
+      "citation_frequency": 152,
+      "document_coverage": 152,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৯৭"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_130": {
+      "primary_id": "SECTION_130",
+      "citation_frequency": 69,
+      "document_coverage": 69,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৩০"
+      ],
+      "precision_score": 0.776
+    },
+    "SECTION_124": {
+      "primary_id": "SECTION_124",
+      "citation_frequency": 63,
+      "document_coverage": 63,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১২৪"
+      ],
+      "precision_score": 0.752
+    },
+    "SECTION_144": {
+      "primary_id": "SECTION_144",
+      "citation_frequency": 81,
+      "document_coverage": 81,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৪৪"
+      ],
+      "precision_score": 0.824
+    },
+    "SECTION_134": {
+      "primary_id": "SECTION_134",
+      "citation_frequency": 115,
+      "document_coverage": 115,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৩৪"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_270": {
+      "primary_id": "SECTION_270",
+      "citation_frequency": 107,
+      "document_coverage": 107,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৭০"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_155": {
+      "primary_id": "SECTION_155",
+      "citation_frequency": 118,
+      "document_coverage": 118,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৫৫",
+        "১৫৫ ধারা"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_135": {
+      "primary_id": "SECTION_135",
+      "citation_frequency": 63,
+      "document_coverage": 63,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৩৫"
+      ],
+      "precision_score": 0.752
+    },
+    "SECTION_183": {
+      "primary_id": "SECTION_183",
+      "citation_frequency": 43,
+      "document_coverage": 43,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৮৩"
+      ],
+      "precision_score": 0.672
+    },
+    "SECTION_285": {
+      "primary_id": "SECTION_285",
+      "citation_frequency": 71,
+      "document_coverage": 71,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৮৫"
+      ],
+      "precision_score": 0.784
+    },
+    "SECTION_266": {
+      "primary_id": "SECTION_266",
+      "citation_frequency": 70,
+      "document_coverage": 70,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৬৬"
+      ],
+      "precision_score": 0.78
+    },
+    "SECTION_10": {
+      "primary_id": "SECTION_10",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "১০ ধারা",
+        "ধারা ১০"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_343": {
+      "primary_id": "SECTION_343",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৪৩"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_346": {
+      "primary_id": "SECTION_346",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৪৬"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_13": {
+      "primary_id": "SECTION_13",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৩"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_170": {
+      "primary_id": "SECTION_170",
+      "citation_frequency": 39,
+      "document_coverage": 39,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৭০"
+      ],
+      "precision_score": 0.656
+    },
+    "SECTION_36": {
+      "primary_id": "SECTION_36",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৬"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_37": {
+      "primary_id": "SECTION_37",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩৭"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_175": {
+      "primary_id": "SECTION_175",
+      "citation_frequency": 44,
+      "document_coverage": 44,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৭৫"
+      ],
+      "precision_score": 0.676
+    },
+    "SECTION_186": {
+      "primary_id": "SECTION_186",
+      "citation_frequency": 15,
+      "document_coverage": 15,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৮৬"
+      ],
+      "precision_score": 0.56
+    },
+    "SECTION_221": {
+      "primary_id": "SECTION_221",
+      "citation_frequency": 13,
+      "document_coverage": 13,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ২২১"
+      ],
+      "precision_score": 0.552
+    },
+    "SECTION_119": {
+      "primary_id": "SECTION_119",
+      "citation_frequency": 21,
+      "document_coverage": 21,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১১৯",
+        "Section 119"
+      ],
+      "precision_score": 0.684
+    },
+    "SECTION_67": {
+      "primary_id": "SECTION_67",
+      "citation_frequency": 106,
+      "document_coverage": 106,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৬৭"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_147": {
+      "primary_id": "SECTION_147",
+      "citation_frequency": 12,
+      "document_coverage": 12,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৪৭"
+      ],
+      "precision_score": 0.548
+    },
+    "SECTION_46": {
+      "primary_id": "SECTION_46",
+      "citation_frequency": 176,
+      "document_coverage": 176,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "৪৬ ধারা",
+        "ধারা ৪৬"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_66": {
+      "primary_id": "SECTION_66",
+      "citation_frequency": 18,
+      "document_coverage": 18,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৬৬"
+      ],
+      "precision_score": 0.572
+    },
+    "SECTION_49": {
+      "primary_id": "SECTION_49",
+      "citation_frequency": 32,
+      "document_coverage": 32,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৪৯"
+      ],
+      "precision_score": 0.628
+    },
+    "SECTION_198": {
+      "primary_id": "SECTION_198",
+      "citation_frequency": 16,
+      "document_coverage": 16,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৯৮"
+      ],
+      "precision_score": 0.564
+    },
+    "SECTION_55": {
+      "primary_id": "SECTION_55",
+      "citation_frequency": 819,
+      "document_coverage": 819,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৫৫",
+        "৫৫ ধারা"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_51": {
+      "primary_id": "SECTION_51",
+      "citation_frequency": 69,
+      "document_coverage": 69,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৫১"
+      ],
+      "precision_score": 0.776
+    },
+    "SECTION_72": {
+      "primary_id": "SECTION_72",
+      "citation_frequency": 8,
+      "document_coverage": 8,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৭২"
+      ],
+      "precision_score": 0.452
+    },
+    "SECTION_73": {
+      "primary_id": "SECTION_73",
+      "citation_frequency": 5,
+      "document_coverage": 5,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৭৩"
+      ],
+      "precision_score": 0.32
+    },
+    "SECTION_126": {
+      "primary_id": "SECTION_126",
+      "citation_frequency": 61,
+      "document_coverage": 61,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১২৬",
+        "Section 126"
+      ],
+      "precision_score": 0.844
+    },
+    "SECTION_167": {
+      "primary_id": "SECTION_167",
+      "citation_frequency": 9,
+      "document_coverage": 9,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৬৭"
+      ],
+      "precision_score": 0.496
+    },
+    "SECTION_56": {
+      "primary_id": "SECTION_56",
+      "citation_frequency": 416,
+      "document_coverage": 416,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "৫৬ ধারা",
+        "ধারা ৫৬"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_140": {
+      "primary_id": "SECTION_140",
+      "citation_frequency": 27,
+      "document_coverage": 27,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৪০"
+      ],
+      "precision_score": 0.608
+    },
+    "SECTION_86": {
+      "primary_id": "SECTION_86",
+      "citation_frequency": 22,
+      "document_coverage": 22,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৮৬"
+      ],
+      "precision_score": 0.588
+    },
+    "SECTION_9": {
+      "primary_id": "SECTION_9",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৯"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_62": {
+      "primary_id": "SECTION_62",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৬২"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_32": {
+      "primary_id": "SECTION_32",
+      "citation_frequency": 68,
+      "document_coverage": 68,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৩২"
+      ],
+      "precision_score": 0.772
+    },
+    "SECTION_41": {
+      "primary_id": "SECTION_41",
+      "citation_frequency": 196,
+      "document_coverage": 196,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৪১"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_52": {
+      "primary_id": "SECTION_52",
+      "citation_frequency": 136,
+      "document_coverage": 136,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৫২"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_163": {
+      "primary_id": "SECTION_163",
+      "citation_frequency": 186,
+      "document_coverage": 186,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৬৩"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_211": {
+      "primary_id": "SECTION_211",
+      "citation_frequency": 12,
+      "document_coverage": 12,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২১১"
+      ],
+      "precision_score": 0.548
+    },
+    "SECTION_293": {
+      "primary_id": "SECTION_293",
+      "citation_frequency": 18,
+      "document_coverage": 18,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৯৩"
+      ],
+      "precision_score": 0.572
+    },
+    "SECTION_70": {
+      "primary_id": "SECTION_70",
+      "citation_frequency": 11,
+      "document_coverage": 11,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৭০"
+      ],
+      "precision_score": 0.544
+    },
+    "SECTION_74": {
+      "primary_id": "SECTION_74",
+      "citation_frequency": 9,
+      "document_coverage": 9,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৭৪"
+      ],
+      "precision_score": 0.496
+    },
+    "SECTION_82": {
+      "primary_id": "SECTION_82",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৮২"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_88": {
+      "primary_id": "SECTION_88",
+      "citation_frequency": 8,
+      "document_coverage": 8,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৮৮"
+      ],
+      "precision_score": 0.452
+    },
+    "SECTION_234": {
+      "primary_id": "SECTION_234",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৩৪"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_94": {
+      "primary_id": "SECTION_94",
+      "citation_frequency": 138,
+      "document_coverage": 138,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৯৪"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_97": {
+      "primary_id": "SECTION_97",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৯৭"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_98": {
+      "primary_id": "SECTION_98",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৯৮"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_102": {
+      "primary_id": "SECTION_102",
+      "citation_frequency": 119,
+      "document_coverage": 119,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১০২",
+        "১০২ ধারা"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_14": {
+      "primary_id": "SECTION_14",
+      "citation_frequency": 558,
+      "document_coverage": 558,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৪"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_89": {
+      "primary_id": "SECTION_89",
+      "citation_frequency": 125,
+      "document_coverage": 125,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 89",
+        "ধারা ৮৯"
+      ],
+      "precision_score": 1.0
+    },
+    "SECTION_103": {
+      "primary_id": "SECTION_103",
+      "citation_frequency": 11,
+      "document_coverage": 11,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১০৩"
+      ],
+      "precision_score": 0.544
+    },
+    "SECTION_113": {
+      "primary_id": "SECTION_113",
+      "citation_frequency": 37,
+      "document_coverage": 37,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১১৩"
+      ],
+      "precision_score": 0.648
+    },
+    "SECTION_114": {
+      "primary_id": "SECTION_114",
+      "citation_frequency": 18,
+      "document_coverage": 18,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১১৪"
+      ],
+      "precision_score": 0.572
+    },
+    "SECTION_18": {
+      "primary_id": "SECTION_18",
+      "citation_frequency": 9,
+      "document_coverage": 9,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৮",
+        "Section 18"
+      ],
+      "precision_score": 0.596
+    },
+    "SECTION_47": {
+      "primary_id": "SECTION_47",
+      "citation_frequency": 90,
+      "document_coverage": 90,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৪৭",
+        "Section 47"
+      ],
+      "precision_score": 0.96
+    },
+    "SECTION_91": {
+      "primary_id": "SECTION_91",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৯১"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_162": {
+      "primary_id": "SECTION_162",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৬২"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_28": {
+      "primary_id": "SECTION_28",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৮"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_54": {
+      "primary_id": "SECTION_54",
+      "citation_frequency": 14,
+      "document_coverage": 14,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৫৪"
+      ],
+      "precision_score": 0.556
+    },
+    "SECTION_125": {
+      "primary_id": "SECTION_125",
+      "citation_frequency": 9,
+      "document_coverage": 9,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 125",
+        "ধারা ১২৫"
+      ],
+      "precision_score": 0.596
+    },
+    "SECTION_166": {
+      "primary_id": "SECTION_166",
+      "citation_frequency": 89,
+      "document_coverage": 89,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৬৬"
+      ],
+      "precision_score": 0.856
+    },
+    "SECTION_128": {
+      "primary_id": "SECTION_128",
+      "citation_frequency": 11,
+      "document_coverage": 11,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১২৮"
+      ],
+      "precision_score": 0.544
+    },
+    "SECTION_142": {
+      "primary_id": "SECTION_142",
+      "citation_frequency": 13,
+      "document_coverage": 13,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৪২",
+        "Section 142"
+      ],
+      "precision_score": 0.652
+    },
+    "SECTION_164": {
+      "primary_id": "SECTION_164",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৬৪"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_165": {
+      "primary_id": "SECTION_165",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৬৫"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_168": {
+      "primary_id": "SECTION_168",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৬৮"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_169": {
+      "primary_id": "SECTION_169",
+      "citation_frequency": 83,
+      "document_coverage": 83,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৬৯"
+      ],
+      "precision_score": 0.832
+    },
+    "SECTION_171": {
+      "primary_id": "SECTION_171",
+      "citation_frequency": 26,
+      "document_coverage": 26,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "under section 171",
+        "section 171",
+        "ধারা ১৭১"
+      ],
+      "precision_score": 0.704
+    },
+    "SECTION_174": {
+      "primary_id": "SECTION_174",
+      "citation_frequency": 84,
+      "document_coverage": 84,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৭৪"
+      ],
+      "precision_score": 0.836
+    },
+    "SECTION_176": {
+      "primary_id": "SECTION_176",
+      "citation_frequency": 83,
+      "document_coverage": 83,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৭৬"
+      ],
+      "precision_score": 0.832
+    },
+    "SECTION_177": {
+      "primary_id": "SECTION_177",
+      "citation_frequency": 16,
+      "document_coverage": 16,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 177",
+        "ধারা ১৭৭"
+      ],
+      "precision_score": 0.664
+    },
+    "SECTION_7": {
+      "primary_id": "SECTION_7",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৭"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_179": {
+      "primary_id": "SECTION_179",
+      "citation_frequency": 27,
+      "document_coverage": 27,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ১৭৯"
+      ],
+      "precision_score": 0.608
+    },
+    "SECTION_180": {
+      "primary_id": "SECTION_180",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৮০"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_181": {
+      "primary_id": "SECTION_181",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৮১"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_118": {
+      "primary_id": "SECTION_118",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১১৮"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_264": {
+      "primary_id": "SECTION_264",
+      "citation_frequency": 5,
+      "document_coverage": 5,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৬৪"
+      ],
+      "precision_score": 0.32
+    },
+    "SECTION_265": {
+      "primary_id": "SECTION_265",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ২৬৫"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_212": {
+      "primary_id": "SECTION_212",
+      "citation_frequency": 165,
+      "document_coverage": 165,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "section 212",
+        "ধারা ২১২",
+        "under section 212"
+      ],
+      "precision_score": 1.0
+    },
+    "SECTION_173": {
+      "primary_id": "SECTION_173",
+      "citation_frequency": 160,
+      "document_coverage": 160,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৭৩"
+      ],
+      "precision_score": 0.9
+    },
+    "SECTION_271": {
+      "primary_id": "SECTION_271",
+      "citation_frequency": 10,
+      "document_coverage": 10,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৭১"
+      ],
+      "precision_score": 0.54
+    },
+    "SECTION_191": {
+      "primary_id": "SECTION_191",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৯১"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_334": {
+      "primary_id": "SECTION_334",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৩৩৪"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_3": {
+      "primary_id": "SECTION_3",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৩",
+        "৩ ধারা",
+        "section 3"
+      ],
+      "precision_score": 0.508
+    },
+    "SECTION_44": {
+      "primary_id": "SECTION_44",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ৪৪"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_263": {
+      "primary_id": "SECTION_263",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৬৩"
+      ],
+      "precision_score": 0.408
+    },
+    "SECTION_81": {
+      "primary_id": "SECTION_81",
+      "citation_frequency": 68,
+      "document_coverage": 68,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "৮১ ধারা"
+      ],
+      "precision_score": 0.772
+    },
+    "SECTION_117": {
+      "primary_id": "SECTION_117",
+      "citation_frequency": 68,
+      "document_coverage": 68,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "১১৭ ধারা"
+      ],
+      "precision_score": 0.772
+    },
+    "SECTION_120": {
+      "primary_id": "SECTION_120",
+      "citation_frequency": 85,
+      "document_coverage": 85,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 120",
+        "১২০ ধারা",
+        "ধারা ১২০"
+      ],
+      "precision_score": 0.94
+    },
+    "SECTION_1": {
+      "primary_id": "SECTION_1",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "১ ধারা"
+      ],
+      "precision_score": 0.144
+    },
+    "SCHEDULE_4": {
+      "primary_id": "SCHEDULE_4",
+      "citation_frequency": 9,
+      "document_coverage": 9,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "schedule"
+      ],
+      "semantic_variations": [
+        "তফসিল ৪"
+      ],
+      "precision_score": 0.496
+    },
+    "SCHEDULE_1": {
+      "primary_id": "SCHEDULE_1",
+      "citation_frequency": 13,
+      "document_coverage": 13,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "তফসিল ১"
+      ],
+      "precision_score": 0.552
+    },
+    "RULE_3": {
+      "primary_id": "RULE_3",
+      "citation_frequency": 197,
+      "document_coverage": 197,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৩"
+      ],
+      "precision_score": 0.9
+    },
+    "RULE_11": {
+      "primary_id": "RULE_11",
+      "citation_frequency": 17,
+      "document_coverage": 17,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১১"
+      ],
+      "precision_score": 0.568
+    },
+    "RULE_15": {
+      "primary_id": "RULE_15",
+      "citation_frequency": 8,
+      "document_coverage": 8,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১৫"
+      ],
+      "precision_score": 0.452
+    },
+    "CONCEPT_MINIMUM_TAX": {
+      "primary_id": "CONCEPT_MINIMUM_TAX",
+      "citation_frequency": 629,
+      "document_coverage": 629,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ন্যূনতম কর"
+      ],
+      "precision_score": 0.9
+    },
+    "CONCEPT_TDS": {
+      "primary_id": "CONCEPT_TDS",
+      "citation_frequency": 709,
+      "document_coverage": 709,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "উৎসে কর কর্তন",
+        "TDS"
+      ],
+      "precision_score": 1.0
+    },
+    "CONCEPT_TAX_EXEMPTION": {
+      "primary_id": "CONCEPT_TAX_EXEMPTION",
+      "citation_frequency": 508,
+      "document_coverage": 508,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Tax Exemption",
+        "tax exemption",
+        "Tax exemption",
+        "কর অব্যাহতি"
+      ],
+      "precision_score": 1.0
+    },
+    "ACT_2023": {
+      "primary_id": "ACT_2023",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Income Tax Act 2023"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_22": {
+      "primary_id": "SECTION_22",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "under Section 22",
+        "Section 22",
+        "ধারা ২২"
+      ],
+      "precision_score": 0.332
+    },
+    "SECTION_345": {
+      "primary_id": "SECTION_345",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 345"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_24": {
+      "primary_id": "SECTION_24",
+      "citation_frequency": 11,
+      "document_coverage": 11,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৪",
+        "section 24"
+      ],
+      "precision_score": 0.644
+    },
+    "SECTION_311": {
+      "primary_id": "SECTION_311",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৩১১"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_200": {
+      "primary_id": "SECTION_200",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২০০"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_42": {
+      "primary_id": "SECTION_42",
+      "citation_frequency": 62,
+      "document_coverage": 62,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule"
+      ],
+      "semantic_variations": [
+        "ধারা ৪২",
+        "Section 42"
+      ],
+      "precision_score": 0.848
+    },
+    "SECTION_158": {
+      "primary_id": "SECTION_158",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ১৫৮"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_48": {
+      "primary_id": "SECTION_48",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ৪৮"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_133": {
+      "primary_id": "SECTION_133",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "১৩৩ ধারা"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_84": {
+      "primary_id": "SECTION_84",
+      "citation_frequency": 1,
+      "document_coverage": 1,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "৮৪ ধারা"
+      ],
+      "precision_score": 0.144
+    },
+    "SECTION_25": {
+      "primary_id": "SECTION_25",
+      "citation_frequency": 11,
+      "document_coverage": 11,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "ধারা ২৫",
+        "Section 25"
+      ],
+      "precision_score": 0.644
+    },
+    "SCHEDULE_2": {
+      "primary_id": "SCHEDULE_2",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "schedule"
+      ],
+      "semantic_variations": [
+        "তফসিল ২"
+      ],
+      "precision_score": 0.408
+    },
+    "SCHEDULE_3": {
+      "primary_id": "SCHEDULE_3",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "schedule"
+      ],
+      "semantic_variations": [
+        "তফসিল ৩"
+      ],
+      "precision_score": 0.408
+    },
+    "RULE_1": {
+      "primary_id": "RULE_1",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১"
+      ],
+      "precision_score": 0.276
+    },
+    "RULE_2024": {
+      "primary_id": "RULE_2024",
+      "citation_frequency": 32,
+      "document_coverage": 32,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "২০২৪ বিধি"
+      ],
+      "precision_score": 0.628
+    },
+    "RULE_10": {
+      "primary_id": "RULE_10",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১০"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_145": {
+      "primary_id": "SECTION_145",
+      "citation_frequency": 12,
+      "document_coverage": 12,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "schedule",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 145",
+        "ধারা ১৪৫"
+      ],
+      "precision_score": 0.648
+    },
+    "RULE_12": {
+      "primary_id": "RULE_12",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১২"
+      ],
+      "precision_score": 0.232
+    },
+    "RULE_13": {
+      "primary_id": "RULE_13",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১৩"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_141": {
+      "primary_id": "SECTION_141",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "Section 141"
+      ],
+      "precision_score": 0.232
+    },
+    "RULE_14": {
+      "primary_id": "RULE_14",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১৪"
+      ],
+      "precision_score": 0.232
+    },
+    "RULE_16": {
+      "primary_id": "RULE_16",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ১৬"
+      ],
+      "precision_score": 0.188
+    },
+    "RULE_2": {
+      "primary_id": "RULE_2",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ২"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_90": {
+      "primary_id": "SECTION_90",
+      "citation_frequency": 6,
+      "document_coverage": 6,
+      "languages_supported": [
+        "english",
+        "bengali"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 90",
+        "ধারা ৯০"
+      ],
+      "precision_score": 0.464
+    },
+    "RULE_4": {
+      "primary_id": "RULE_4",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৪"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_259": {
+      "primary_id": "SECTION_259",
+      "citation_frequency": 6,
+      "document_coverage": 6,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ২৫৯"
+      ],
+      "precision_score": 0.364
+    },
+    "SECTION_260": {
+      "primary_id": "SECTION_260",
+      "citation_frequency": 6,
+      "document_coverage": 6,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "ধারা ২৬০"
+      ],
+      "precision_score": 0.364
+    },
+    "RULE_5": {
+      "primary_id": "RULE_5",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৫"
+      ],
+      "precision_score": 0.232
+    },
+    "RULE_6": {
+      "primary_id": "RULE_6",
+      "citation_frequency": 10,
+      "document_coverage": 10,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৬"
+      ],
+      "precision_score": 0.54
+    },
+    "SECTION_17": {
+      "primary_id": "SECTION_17",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "section 17",
+        "s. 17"
+      ],
+      "precision_score": 0.408
+    },
+    "RULE_7": {
+      "primary_id": "RULE_7",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৭"
+      ],
+      "precision_score": 0.232
+    },
+    "RULE_8": {
+      "primary_id": "RULE_8",
+      "citation_frequency": 7,
+      "document_coverage": 7,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৮"
+      ],
+      "precision_score": 0.408
+    },
+    "SECTION_143": {
+      "primary_id": "SECTION_143",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "s. 143"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_08": {
+      "primary_id": "SECTION_08",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "s. 08"
+      ],
+      "precision_score": 0.276
+    },
+    "RULE_9": {
+      "primary_id": "RULE_9",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "bengali"
+      ],
+      "authority_contexts": [
+        "secondary_legislation",
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "বিধি ৯"
+      ],
+      "precision_score": 0.276
+    },
+    "SECTION_146": {
+      "primary_id": "SECTION_146",
+      "citation_frequency": 3,
+      "document_coverage": 3,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [
+        "primary_legislation"
+      ],
+      "semantic_variations": [
+        "Section 146"
+      ],
+      "precision_score": 0.232
+    },
+    "SECTION_106": {
+      "primary_id": "SECTION_106",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "s. 106"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_137": {
+      "primary_id": "SECTION_137",
+      "citation_frequency": 2,
+      "document_coverage": 2,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "s. 137"
+      ],
+      "precision_score": 0.188
+    },
+    "SECTION_0": {
+      "primary_id": "SECTION_0",
+      "citation_frequency": 4,
+      "document_coverage": 4,
+      "languages_supported": [
+        "english"
+      ],
+      "authority_contexts": [],
+      "semantic_variations": [
+        "s. 0"
+      ],
+      "precision_score": 0.276
+    }
+  },
+  "bilingual_mappings": {
+    "section_mappings": {},
+    "schedule_mappings": {},
+    "concept_mappings": {
+      "ধারা": "Section",
+      "তফসিল": "Schedule",
+      "বিধি": "Rule",
+      "আইন": "Act",
+      "অধ্যাদেশ": "Ordinance",
+      "ন্যূনতম কর": "Minimum Tax",
+      "উৎসে কর কর্তন": "Tax Deduction at Source",
+      "কর অব্যাহতি": "Tax Exemption",
+      "কর অবকাশ": "Tax Holiday",
+      "করমুক্ত আয়": "Tax-free Income",
+      "আয়কর": "Income Tax",
+      "অর্থ আইন": "Finance Act",
+      "পরিপত্র": "Circular",
+      "প্রজ্ঞাপন": "Notification"
+    },
+    "amount_mappings": {}
+  },
+  "hierarchical_relationships": {
+    "authority_levels": {
+      "constitution": 200,
+      "primary_acts": 100,
+      "ordinances": 100,
+      "schedules": 90,
+      "rules_regulations": 85,
+      "sro_orders": 80,
+      "circulars": 70,
+      "notifications": 60
+    },
+    "precedence_rules": {
+      "higher_authority_prevails": true,
+      "later_in_time_prevails": true,
+      "specific_over_general": true
+    },
+    "relationship_network": {
+      "finance_ordinance_2025": {
+        "authority_level": 100,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      },
+      "income_tax_act_2023": {
+        "authority_level": 100,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [
+          "finance_ordinance_2025"
+        ],
+        "references": [
+          "tds_rules_2024",
+          "tds_rules_2025"
+        ]
+      },
+      "schedules_1st_8th": {
+        "authority_level": 95,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      },
+      "tds_rules_2025": {
+        "authority_level": 85,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      },
+      "tds_rules_2024": {
+        "authority_level": 85,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      },
+      "income_tax_circulars_2025": {
+        "authority_level": 70,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      },
+      "sro_orders": {
+        "authority_level": 80,
+        "document_type": "unknown",
+        "effective_year": 2023,
+        "overrides": [],
+        "references": []
+      }
+    }
+  },
+  "temporal_precedence": {
+    "current_financial_year": "2025-26",
+    "version_timeline": {
+      "2025-07-01_to_2026-06-30": {
+        "primary_law": "finance_ordinance_2025",
+        "tax_rates": "schedule_2025",
+        "rules": "tds_rules_2025",
+        "status": "current"
+      },
+      "2024-07-01_to_2025-06-30": {
+        "primary_law": "finance_act_2024",
+        "tax_rates": "schedule_2024",
+        "rules": "tds_rules_2024",
+        "status": "previous"
+      },
+      "2023-07-01_to_2024-06-30": {
+        "primary_law": "income_tax_act_2023",
+        "tax_rates": "schedule_2023",
+        "rules": "tds_rules_2023",
+        "status": "historical"
+      }
+    },
+    "amendment_tracking": {},
+    "effective_dates": {}
+  },
+  "semantic_clusters": {
+    "tax_computation": {
+      "concepts": [
+        "minimum tax",
+        "ন্যূনতম কর",
+        "tax calculation",
+        "কর গণনা"
+      ],
+      "related_sections": [
+        "163",
+        "164",
+        "165"
+      ],
+      "related_schedules": [
+        "4th",
+        "6th"
+      ]
+    },
+    "tax_deduction": {
+      "concepts": [
+        "TDS",
+        "উৎসে কর কর্তন",
+        "withholding tax",
+        "advance tax"
+      ],
+      "related_sections": [
+        "89",
+        "90",
+        "91"
+      ],
+      "related_rules": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "tax_exemptions": {
+      "concepts": [
+        "tax exemption",
+        "কর অব্যাহতি",
+        "tax holiday",
+        "কর অবকাশ"
+      ],
+      "related_schedules": [
+        "6th"
+      ],
+      "related_sections": [
+        "76",
+        "77",
+        "78"
+      ]
+    },
+    "schedules_computation": {
+      "concepts": [
+        "depreciation",
+        "অবচয়",
+        "amortization",
+        "computation"
+      ],
+      "related_schedules": [
+        "3rd",
+        "4th",
+        "5th"
+      ],
+      "calculation_methods": [
+        "straight_line",
+        "reducing_balance"
+      ]
+    }
+  },
+  "precision_metrics": {
+    "data_quality_score": 36.5,
+    "citation_coverage": 0.06527742907356264,
+    "bilingual_completeness": 0.8472222222222222,
+    "cross_reference_density": 1.0,
+    "temporal_accuracy": 0.95,
+    "overall_precision_score": 9.655
+  }
+}

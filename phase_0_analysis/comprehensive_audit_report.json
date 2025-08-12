@@ -1,0 +1,4447 @@
+{
+  "total_files": 79,
+  "successful_audits": 79,
+  "failed_audits": 0,
+  "structure_analysis": {},
+  "content_quality": {},
+  "consistency_report": {
+    "structure_type_distribution": {
+      "enriched_content": 1,
+      "hierarchical_legal_act": 2,
+      "standard_legal_document": 76
+    },
+    "quality_statistics": {
+      "average_content_completeness": 0.8085949367088607,
+      "files_with_meaningful_content": 72,
+      "bilingual_files_count": 61
+    },
+    "recommendations": [
+      "Review 7 files with minimal content",
+      "Consider adding bilingual support to 18 files"
+    ]
+  },
+  "recommendations": [],
+  "file_details": [
+    {
+      "file_path": "circulars/income_tax_circular_2024_25_ultra_enriched.json",
+      "file_size": 17948454,
+      "structure": {
+        "top_level_keys": [
+          "metadata",
+          "topics_index",
+          "structured_content",
+          "calculation_engine"
+        ],
+        "has_main_content": false,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "enriched_content",
+        "nested_levels": 8
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {},
+        "data_completeness": {}
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "core_acts/income_tax_act_2023_cleaned.json",
+      "file_size": 2408389,
+      "structure": {
+        "top_level_keys": [
+          "header",
+          "chapters",
+          "parts",
+          "has_parts",
+          "scraped_at",
+          "structure_summary"
+        ],
+        "has_main_content": false,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "hierarchical_legal_act",
+        "nested_levels": 11
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {},
+        "data_completeness": {}
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "finance_laws/finance_ordinance_2025_cleaned.json",
+      "file_size": 1059489,
+      "structure": {
+        "top_level_keys": [
+          "header",
+          "chapters",
+          "parts",
+          "schedules"
+        ],
+        "has_main_content": false,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "hierarchical_legal_act",
+        "nested_levels": 11
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {},
+        "data_completeness": {}
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+      "file_size": 10942,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6283,
+        "table_count": 1,
+        "total_table_rows": 14
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6283,
+            "has_bengali": false,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 14,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "212",
+          "171",
+          "5",
+          "22",
+          "345"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 6,
+        "acts_found": [
+          "Income Tax Act"
+        ]
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": true,
+        "bengali_percentage": 0.0,
+        "english_percentage": 75.83956708578704,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-act-2023-6th-schedule-part-4.json",
+      "file_size": 9167,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6684,
+        "table_count": 3,
+        "total_table_rows": 25
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6684,
+            "has_bengali": false,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 3,
+            "total_rows": 25,
+            "has_headers": true,
+            "average_columns": 2.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "76",
+          "3",
+          "3",
+          "345"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 5,
+        "acts_found": [
+          "Income Tax Act"
+        ]
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": true,
+        "bengali_percentage": 0.0,
+        "english_percentage": 77.07959305804907,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+      "file_size": 25702,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6481,
+        "table_count": 1,
+        "total_table_rows": 14
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6481,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 14,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 78.04351180373399,
+        "english_percentage": 0.5863292701743559,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json",
+      "file_size": 6380,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 2458,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2458,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 77.86818551668023,
+        "english_percentage": 1.1391375101708707,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-1st-schedule-part-3-display-of-undisplayed-assets.json",
+      "file_size": 22451,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 5531,
+        "table_count": 2,
+        "total_table_rows": 10
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 5531,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 10,
+            "has_headers": true,
+            "average_columns": 3.5
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 78.21370457421804,
+        "english_percentage": 1.0486349665521606,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-2nd-schedule-part-1-approved-superannuation-fund-or-pension-fund.json",
+      "file_size": 17290,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 6524,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6524,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 81.13120784794604,
+        "english_percentage": 0.2145922746781116,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-2nd-schedule-part-2-approved-gratuity-fund.json",
+      "file_size": 14677,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 5509,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 5509,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 81.43038664004357,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-2nd-schedule-part-3-recognized-provident-funds.json",
+      "file_size": 37788,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 14263,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 14263,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 81.46953656313538,
+        "english_percentage": 0.20332328402159436,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-3rd-schedule-part-1-computation-of-depreciation-allowance.json",
+      "file_size": 38872,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 11257,
+        "table_count": 4,
+        "total_table_rows": 54
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 11257,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 4,
+            "total_rows": 54,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 80.16345385093719,
+        "english_percentage": 0.05330016878386781,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-3rd-schedule-part-2-computation-of-amortization.json",
+      "file_size": 6844,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 2566,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2566,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 80.3975058456742,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json",
+      "file_size": 33136,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 12569,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 12569,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 80.92131434481661,
+        "english_percentage": 0.40576020367571003,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-5th-schedule-part-1-computation-of-the-profits-or-gains-from-the-explorat.json",
+      "file_size": 18219,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 6945,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6945,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 79.97120230381569,
+        "english_percentage": 1.1807055435565155,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json",
+      "file_size": 12966,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 4924,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 4924,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 80.44272948822095,
+        "english_percentage": 0.5686433793663688,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-6th-schedule-part-1-exclusions-from-computation-of-total-income.json",
+      "file_size": 45463,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 18031,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 18031,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.45338583550551,
+        "english_percentage": 3.6548167045643614,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-6th-schedule-part-2-exclusions-from-total-income.json",
+      "file_size": 5319,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 2081,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2081,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.86785199423353,
+        "english_percentage": 1.3455069678039404,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-6th-schedule-part-3-investments-and-expenses-applicable-for-general-tax-r.json",
+      "file_size": 12842,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 4944,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 4944,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 78.3373786407767,
+        "english_percentage": 1.0720064724919094,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-6th-schedule-part-4-tax-holidays.json",
+      "file_size": 19450,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6147,
+        "table_count": 3,
+        "total_table_rows": 25
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6147,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 3,
+            "total_rows": 25,
+            "has_headers": true,
+            "average_columns": 2.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 78.05433544818611,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-7th-schedule-special-tax-rate.json",
+      "file_size": 9693,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 3711,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 3711,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 78.49636216653192,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-8th-schedule-part-1-business-restructuring.json",
+      "file_size": 19577,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 7431,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 7431,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 80.67554837841475,
+        "english_percentage": 2.2877136320818194,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json",
+      "file_size": 6382,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 2474,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2474,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.39450282942603,
+        "english_percentage": 3.354890864995958,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-bangla.json",
+      "file_size": 60804,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 10416,
+        "table_count": 1,
+        "total_table_rows": 74
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 10416,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 74,
+            "has_headers": true,
+            "average_columns": 6.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 80.03072196620585,
+        "english_percentage": 1.660906298003072,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "schedules/income-tax-schedule-english.json",
+      "file_size": 32454,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 12629,
+        "table_count": 1,
+        "total_table_rows": 76
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 12629,
+            "has_bengali": false,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 76,
+            "has_headers": true,
+            "average_columns": 6.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "24",
+          "24",
+          "24",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 77,
+        "acts_found": [
+          "Income Tax Act"
+        ]
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": true,
+        "bengali_percentage": 0.0,
+        "english_percentage": 80.5051864755721,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+      "file_size": 10027,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 2028,
+        "table_count": 1,
+        "total_table_rows": 27
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2028,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 27,
+            "has_headers": true,
+            "average_columns": 2.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.5069033530572,
+        "english_percentage": 4.191321499013807,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-bd.json",
+      "file_size": 9959,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 2037,
+        "table_count": 1,
+        "total_table_rows": 27
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2037,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 27,
+            "has_headers": true,
+            "average_columns": 2.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.17771232204223,
+        "english_percentage": 4.369170348551791,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-1-bd.json",
+      "file_size": 1022,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 360,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.36,
+        "text_quality": {
+          "main_content": {
+            "length": 360,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 80.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-10-bd.json",
+      "file_size": 1796,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 655,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.655,
+        "text_quality": {
+          "main_content": {
+            "length": 655,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 80.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-11-bd.json",
+      "file_size": 3892,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1482,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1482,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "145"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 77.80026990553306,
+        "english_percentage": 1.8218623481781375,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-12-bd.json",
+      "file_size": 1670,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 594,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.594,
+        "text_quality": {
+          "main_content": {
+            "length": 594,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 83.5016835016835,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-13-bd.json",
+      "file_size": 2817,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1080,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1080,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "141"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.83333333333333,
+        "english_percentage": 2.5,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-14-bd.json",
+      "file_size": 3117,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1209,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1209,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "142"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.26881720430107,
+        "english_percentage": 2.2332506203473943,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-15-bd.json",
+      "file_size": 987,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 373,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.373,
+        "text_quality": {
+          "main_content": {
+            "length": 373,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "177"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 71.31367292225201,
+        "english_percentage": 7.238605898123325,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-16-bd.json",
+      "file_size": 1617,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 591,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.591,
+        "text_quality": {
+          "main_content": {
+            "length": 591,
+            "has_bengali": true,
+            "has_english": false,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": false,
+        "bengali_percentage": 79.69543147208121,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-2-bd.json",
+      "file_size": 8138,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 3153,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 3153,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.37170948303203,
+        "english_percentage": 1.4272121788772598,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-3-bd.json",
+      "file_size": 26288,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6078,
+        "table_count": 2,
+        "total_table_rows": 34
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6078,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 34,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "89"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.17637380717342,
+        "english_percentage": 2.813425468904245,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-4-bd.json",
+      "file_size": 27198,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6272,
+        "table_count": 2,
+        "total_table_rows": 45
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6272,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 45,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "90"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.39413265306123,
+        "english_percentage": 2.9496173469387754,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-5-bd.json",
+      "file_size": 28283,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 6128,
+        "table_count": 2,
+        "total_table_rows": 63
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 6128,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 63,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "119"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.19582245430809,
+        "english_percentage": 3.7695822454308097,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-6-bd.json",
+      "file_size": 49221,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 11945,
+        "table_count": 4,
+        "total_table_rows": 19
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 11945,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 4,
+            "total_rows": 19,
+            "has_headers": true,
+            "average_columns": 4.25
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "17",
+          "125"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 2
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.9024696525743,
+        "english_percentage": 0.9627459187944746,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-7-bd.json",
+      "file_size": 19964,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 4833,
+        "table_count": 3,
+        "total_table_rows": 14
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 4833,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 3,
+            "total_rows": 14,
+            "has_headers": true,
+            "average_columns": 3.3333333333333335
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "126"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.66045934202359,
+        "english_percentage": 2.813987171529071,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-8-bd.json",
+      "file_size": 98738,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 34275,
+        "table_count": 8,
+        "total_table_rows": 359
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 34275,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 8,
+            "total_rows": 359,
+            "has_headers": true,
+            "average_columns": 4.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "120"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 8.726477024070022,
+        "english_percentage": 54.269876002917584,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-fy-2025-26-rule-9-bd.json",
+      "file_size": 4351,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 964,
+        "table_count": 1,
+        "total_table_rows": 5
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.964,
+        "text_quality": {
+          "main_content": {
+            "length": 964,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 5,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "146"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 77.9045643153527,
+        "english_percentage": 2.8008298755186725,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-1-fy-2024-2025-bangladesh.json",
+      "file_size": 1116,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 394,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.394,
+        "text_quality": {
+          "main_content": {
+            "length": 394,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.09644670050761,
+        "english_percentage": 7.1065989847715745,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-10-fy-2024-2025-bangladesh.json",
+      "file_size": 1513,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 540,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.54,
+        "text_quality": {
+          "main_content": {
+            "length": 540,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.85185185185185,
+        "english_percentage": 5.185185185185185,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-11-fy-2024-2025-bangladesh.json",
+      "file_size": 3987,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1516,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1516,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "145"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.05540897097626,
+        "english_percentage": 3.6279683377308705,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-12-fy-2024-2025-bangladesh.json",
+      "file_size": 1765,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 628,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.628,
+        "text_quality": {
+          "main_content": {
+            "length": 628,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 78.98089171974523,
+        "english_percentage": 4.45859872611465,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-13-fy-2024-2025-bangladesh.json",
+      "file_size": 2912,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1114,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1114,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "141"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.51885098743267,
+        "english_percentage": 4.937163375224417,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-14-fy-2024-2025-bangladesh.json",
+      "file_size": 2763,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1056,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1056,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "142"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.95833333333334,
+        "english_percentage": 5.208333333333334,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-15-fy-2024-2025-bangladesh.json",
+      "file_size": 1082,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 407,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.407,
+        "text_quality": {
+          "main_content": {
+            "length": 407,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "177"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 65.35626535626535,
+        "english_percentage": 13.513513513513514,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-16-fy-2024-2025-bangladesh.json",
+      "file_size": 1712,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 625,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.625,
+        "text_quality": {
+          "main_content": {
+            "length": 625,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.36,
+        "english_percentage": 4.4799999999999995,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-2-fy-2024-2025-bangladesh.json",
+      "file_size": 6762,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 2589,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2589,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.63190421011974,
+        "english_percentage": 2.8196214754731557,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-3-fy-2024-2025-bangladesh.json",
+      "file_size": 22925,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 5396,
+        "table_count": 2,
+        "total_table_rows": 27
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 5396,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 27,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "89"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.44477390659749,
+        "english_percentage": 3.687916975537435,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-4-fy-2024-2025-bangladesh.json",
+      "file_size": 13793,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 3297,
+        "table_count": 1,
+        "total_table_rows": 21
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 3297,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 21,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "90"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.58204428268122,
+        "english_percentage": 4.064300879587504,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-5-fy-2024-2025-bangladesh.json",
+      "file_size": 14872,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 3427,
+        "table_count": 1,
+        "total_table_rows": 29
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 3427,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 29,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "119"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.04318646046104,
+        "english_percentage": 3.7350452290633203,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-6-fy-2024-2025-bangladesh.json",
+      "file_size": 41484,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 9850,
+        "table_count": 4,
+        "total_table_rows": 19
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 9850,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 4,
+            "total_rows": 19,
+            "has_headers": true,
+            "average_columns": 4.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "17",
+          "125"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 2
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 77.47208121827411,
+        "english_percentage": 1.4619289340101522,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-7-fy-2024-2025-bangladesh.json",
+      "file_size": 19626,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 4669,
+        "table_count": 3,
+        "total_table_rows": 14
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 4669,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 3,
+            "total_rows": 14,
+            "has_headers": true,
+            "average_columns": 3.3333333333333335
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "126"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.91154422788605,
+        "english_percentage": 2.9128292996358964,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-8-fy-2024-2025-bangladesh.json",
+      "file_size": 96529,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 33285,
+        "table_count": 9,
+        "total_table_rows": 351
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 33285,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 9,
+            "total_rows": 351,
+            "has_headers": true,
+            "average_columns": 3.888888888888889
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "120"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 8.983025386810876,
+        "english_percentage": 53.94922637824846,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-2024-rule-9-fy-2024-2025-bangladesh.json",
+      "file_size": 4445,
+      "structure": {
+        "top_level_keys": [
+          "title",
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 998,
+        "table_count": 1,
+        "total_table_rows": 5
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.998,
+        "text_quality": {
+          "main_content": {
+            "length": 998,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 5,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "146"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.25050100200401,
+        "english_percentage": 5.511022044088176,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-1-short-title-and-commencement.json",
+      "file_size": 998,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 372,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.372,
+        "text_quality": {
+          "main_content": {
+            "length": 372,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 72.58064516129032,
+        "english_percentage": 7.526881720430108,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-10-issuance-of-certificate-of-tax-deduction-or-collection.json",
+      "file_size": 3868,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1494,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1494,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "145"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.97054886211512,
+        "english_percentage": 3.681392235609103,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-11-deduction-or-collection-of-tax-after-gross-up-in-case-of-payment-without-t.json",
+      "file_size": 2793,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1092,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1092,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "141"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.35164835164835,
+        "english_percentage": 5.0366300366300365,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-12-general-provisions-for-deduction-or-collection-of-tax-at-source.json",
+      "file_size": 2644,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 1034,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1034,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "142"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.79110251450676,
+        "english_percentage": 5.319148936170213,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-13-filling-return-of-withholding-tax.json",
+      "file_size": 963,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 385,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.385,
+        "text_quality": {
+          "main_content": {
+            "length": 385,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "177"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 64.41558441558442,
+        "english_percentage": 14.285714285714285,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-2-definitions.json",
+      "file_size": 2417,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 943,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.943,
+        "text_quality": {
+          "main_content": {
+            "length": 943,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 72.00424178154825,
+        "english_percentage": 2.9692470837751856,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-3-deduction-from-payment-to-contractors-etc.json",
+      "file_size": 16132,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 4367,
+        "table_count": 2,
+        "total_table_rows": 16
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 4367,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 2,
+            "total_rows": 16,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "89"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 75.42935653766888,
+        "english_percentage": 2.9081749484772152,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-4-deduction-from-the-payment-of-services.json",
+      "file_size": 14559,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 3796,
+        "table_count": 1,
+        "total_table_rows": 17
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 3796,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 17,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "90"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 73.65648050579557,
+        "english_percentage": 3.530031612223393,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-5-deduction-or-collection-of-tax-from-income-of-non-residents.json",
+      "file_size": 12223,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 2725,
+        "table_count": 1,
+        "total_table_rows": 29
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 2725,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 29,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "119"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.89908256880734,
+        "english_percentage": 4.697247706422019,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-6-collection-of-tax-on-transfer-of-property.json",
+      "file_size": 40634,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 9651,
+        "table_count": 4,
+        "total_table_rows": 15
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 9651,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 4,
+            "total_rows": 15,
+            "has_headers": true,
+            "average_columns": 4.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "17",
+          "125"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 2
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 78.68614651331468,
+        "english_percentage": 1.4299036369288156,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-6a-collection-of-tax-from-persons-engaged-in-real-estate-or-land-development-.json",
+      "file_size": 21256,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 5344,
+        "table_count": 3,
+        "total_table_rows": 12
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 5344,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 3,
+            "total_rows": 12,
+            "has_headers": true,
+            "average_columns": 3.3333333333333335
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "126"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 77.43263473053892,
+        "english_percentage": 2.5449101796407185,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-7-collection-of-tax-from-importers.json",
+      "file_size": 93396,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 29801,
+        "table_count": 1,
+        "total_table_rows": 294
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 29801,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 294,
+            "has_headers": true,
+            "average_columns": 7.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "120"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 7.573571356665884,
+        "english_percentage": 51.998255092111,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-8-timelimit-for-payment-of-tax-deducted-at-source.json",
+      "file_size": 4544,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": true,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 5,
+        "main_content_length": 1090,
+        "table_count": 1,
+        "total_table_rows": 4
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 1.0,
+        "text_quality": {
+          "main_content": {
+            "length": 1090,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 1,
+            "total_rows": 4,
+            "has_headers": true,
+            "average_columns": 3.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [
+          "146"
+        ],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 1
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 74.77064220183486,
+        "english_percentage": 5.045871559633028,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-rules-9-manner-of-payment-of-tax-deducted-or-collected-at-source.json",
+      "file_size": 1391,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 517,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.517,
+        "text_quality": {
+          "main_content": {
+            "length": 517,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 76.59574468085107,
+        "english_percentage": 5.415860735009671,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-schedule-1-return-of-withholding-tax.json",
+      "file_size": 78,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 0,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {
+          "main_content": {
+            "length": 0,
+            "has_bengali": false,
+            "has_english": false,
+            "has_numbers": false
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-schedule-2-certificate-of-tax-deduction-collection-at-source-for-salary-income.json",
+      "file_size": 78,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 0,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {
+          "main_content": {
+            "length": 0,
+            "has_bengali": false,
+            "has_english": false,
+            "has_numbers": false
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-schedule-3-certificate-of-tax-deduction-collection-at-source-other-then-salary-inco.json",
+      "file_size": 78,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 0,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {
+          "main_content": {
+            "length": 0,
+            "has_bengali": false,
+            "has_english": false,
+            "has_numbers": false
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla-schedule-4-certificate-of-tax-deduction-collection-at-source-details-of-tax-deducte.json",
+      "file_size": 78,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 0,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": false,
+        "content_completeness": 0.0,
+        "text_quality": {
+          "main_content": {
+            "length": 0,
+            "has_bengali": false,
+            "has_english": false,
+            "has_numbers": false
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": false,
+        "has_english": false,
+        "bengali_percentage": 0.0,
+        "english_percentage": 0.0,
+        "mixed_content": false
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-bangla.json",
+      "file_size": 882,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 363,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.363,
+        "text_quality": {
+          "main_content": {
+            "length": 363,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": true
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 60.05509641873278,
+        "english_percentage": 20.110192837465565,
+        "mixed_content": true
+      },
+      "status": "success"
+    },
+    {
+      "file_path": "tds_rules/tds-rules-english.json",
+      "file_size": 496,
+      "structure": {
+        "top_level_keys": [
+          "main_content",
+          "tables",
+          "forms",
+          "status"
+        ],
+        "has_main_content": true,
+        "has_tables": false,
+        "has_forms": false,
+        "structure_type": "standard_legal_document",
+        "nested_levels": 1,
+        "main_content_length": 170,
+        "table_count": 0,
+        "total_table_rows": 0
+      },
+      "content_quality": {
+        "has_meaningful_content": true,
+        "content_completeness": 0.17,
+        "text_quality": {
+          "main_content": {
+            "length": 170,
+            "has_bengali": true,
+            "has_english": true,
+            "has_numbers": false
+          }
+        },
+        "data_completeness": {
+          "tables": {
+            "count": 0,
+            "total_rows": 0,
+            "has_headers": true,
+            "average_columns": 0.0
+          }
+        }
+      },
+      "legal_elements": {
+        "sections_found": [],
+        "schedules_found": [],
+        "rules_found": [],
+        "citations_found": [],
+        "legal_references": 0
+      },
+      "bilingual_support": {
+        "has_bengali": true,
+        "has_english": true,
+        "bengali_percentage": 71.17647058823529,
+        "english_percentage": 12.352941176470589,
+        "mixed_content": true
+      },
+      "status": "success"
+    }
+  ],
+  "audit_summary": {
+    "success_rate": 100.0,
+    "files_with_meaningful_content": 72,
+    "bilingual_files": 61,
+    "total_legal_references": 124
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "law_versions": {
+    "income_tax_act_2023": {
+      "version_id": "ITA_2023_V1",
+      "document_type": "income_tax_act",
+      "effective_date": "2023-07-01",
+      "expiry_date": null,
+      "financial_year": "2023-24",
+      "authority_level": 95,
+      "provisions": [
+        {
+          "section": "44",
+          "topic": "tax_free_limit",
+          "value": "350000",
+          "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা"
+        },
+        {
+          "section": "163",
+          "topic": "minimum_tax",
+          "value": "applicable",
+          "text": "ন্যূনতম কর প্রযোজ্য হবে"
+        }
+      ],
+      "changes_from_previous": [],
+      "supersedes": [],
+      "metadata": {
+        "is_baseline": true,
+        "act_number": "Act No. 48 of 2023"
+      }
+    },
+    "finance_ordinance_2024": {
+      "version_id": "FO_2024_V1",
+      "document_type": "finance_ordinance",
+      "effective_date": "2024-07-01",
+      "expiry_date": "2025-06-30",
+      "financial_year": "2024-25",
+      "authority_level": 100,
+      "provisions": [
+        {
+          "section": "44_override",
+          "topic": "tax_free_limit",
+          "value": "350000",
+          "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা (অপরিবর্তিত)"
+        }
+      ],
+      "changes_from_previous": [
+        "TDS rate adjustments",
+        "New digital service provisions"
+      ],
+      "supersedes": [
+        "income_tax_act_2023"
+      ],
+      "metadata": {
+        "ordinance_number": "Ordinance No. 5 of 2024"
+      }
+    },
+    "finance_ordinance_2025": {
+      "version_id": "FO_2025_V1",
+      "document_type": "finance_ordinance",
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "financial_year": "2025-26",
+      "authority_level": 100,
+      "provisions": [
+        {
+          "section": "44_override",
+          "topic": "tax_free_limit",
+          "value": "400000",
+          "text": "করমুক্ত আয়ের সীমা ৪ লক্ষ টাকা (বৃদ্ধি)"
+        },
+        {
+          "section": "digital_income",
+          "topic": "youtube_income_tax",
+          "value": "business_income",
+          "text": "ইউটিউব আয় ব্যবসায়িক আয় হিসেবে গণ্য"
+        }
+      ],
+      "changes_from_previous": [
+        "Tax free limit increased from 3.5 lakh to 4 lakh",
+        "YouTube income specifically classified as business income",
+        "Digital platform tax clarifications"
+      ],
+      "supersedes": [
+        "finance_ordinance_2024",
+        "income_tax_act_2023"
+      ],
+      "metadata": {
+        "ordinance_number": "Ordinance No. 3 of 2025"
+      }
+    }
+  },
+  "financial_year_mapping": {
+    "2023-24": {
+      "start_date": "2023-07-01",
+      "end_date": "2024-06-30",
+      "primary_law": "income_tax_act_2023",
+      "budget_document": "budget_2023",
+      "major_changes": [
+        "New Income Tax Act enacted"
+      ],
+      "is_baseline": true
+    },
+    "2024-25": {
+      "start_date": "2024-07-01",
+      "end_date": "2025-06-30",
+      "primary_law": "finance_ordinance_2024",
+      "budget_document": "budget_2024",
+      "major_changes": [
+        "Tax threshold adjustments",
+        "New TDS rules"
+      ],
+      "is_baseline": false
+    },
+    "2025-26": {
+      "start_date": "2025-07-01",
+      "end_date": "2026-06-30",
+      "primary_law": "finance_ordinance_2025",
+      "budget_document": "budget_2025",
+      "major_changes": [
+        "Tax free limit increased to 4 lakh",
+        "Digital tax provisions"
+      ],
+      "is_baseline": false
+    }
+  },
+  "temporal_patterns": {
+    "financial_years": [
+      "(\\d{4})-(\\d{2,4})\\s*অর্থবছর",
+      "FY\\s*(\\d{4})-(\\d{2,4})",
+      "অর্থবছর\\s*(\\d{4})-(\\d{2,4})",
+      "Financial\\s*Year\\s*(\\d{4})-(\\d{2,4})",
+      "(\\d{4})\\s*সালের\\s*বাজেট",
+      "(\\d{4})\\s*budget"
+    ],
+    "calendar_years": [
+      "(\\d{4})\\s*সাল",
+      "year\\s*(\\d{4})",
+      "(\\d{4})\\s*এ",
+      "in\\s*(\\d{4})"
+    ],
+    "relative_time": [
+      "চলতি\\s*অর্থবছর",
+      "current\\s*financial\\s*year",
+      "এ\\s*বছর",
+      "this\\s*year",
+      "গত\\s*অর্থবছর",
+      "last\\s*financial\\s*year",
+      "আগামী\\s*অর্থবছর",
+      "next\\s*financial\\s*year"
+    ],
+    "change_indicators": [
+      "নতুন\\s*আইন",
+      "new\\s*law",
+      "সংশোধন",
+      "amendment",
+      "পরিবর্তন",
+      "change",
+      "আপডেট",
+      "update"
+    ]
+  },
+  "current_financial_year": "2025-26",
+  "metadata": {
+    "version": "2.5.1",
+    "export_date": "2025-08-10T14:25:26.994409",
+    "description": "Temporal Law Version Control Data"
+  }
+}

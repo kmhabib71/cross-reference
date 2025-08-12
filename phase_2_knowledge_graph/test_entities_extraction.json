@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "entity_type": "SECTION_DIRECT",
+      "text": "ধারা ১৬৩",
+      "normalized_form": "ধারা 163",
+      "confidence": 0.85,
+      "context": "mock context",
+      "document_source": "test_document",
+      "section_context": null,
+      "bengali_equivalent": "ধারা ১৬৩",
+      "english_equivalent": null,
+      "numerical_value": null
+    },
+    {
+      "entity_type": "sections",
+      "text": "ধারা ১৬৩",
+      "normalized_form": "ধারা 163",
+      "confidence": 0.8999999999999999,
+      "context": "আয়কর আইন ২০২৩ এর ধারা ১৬৩ অনুযায়ী ন্যূনতম কর প্রযোজ্য হবে।\n    ৬ষ্ঠ তফসিলে",
+      "document_source": "test_document",
+      "section_context": null,
+      "bengali_equivalent": null,
+      "english_equivalent": null,
+      "numerical_value": null
+    },
+    {
+      "entity_type": "sections",
+      "text": "Section 75",
+      "normalized_form": "Section 75",
+      "confidence": 0.7999999999999999,
+      "context": "৫ অর্থবছরে ৩.৫ লক্ষ টাকা পর্যন্ত আয় করমুক্ত।\n    Section 75 of Income Tax Act 2023 requires return filing.",
+      "document_source": "test_document",
+      "section_context": null,
+      "bengali_equivalent": null,
+      "english_equivalent": null,
+      "numerical_value": null
+    },
+    {
+      "entity_type": "financial_years",
+      "text": "২০২৪-২৫ অর্থবছর",
+      "normalized_form": "2024-25 অর্থবছর",
+      "confidence": 1.0,
+      "context": "ঠ তফসিলের ৪র্থ অংশে কর অবকাশের বিধান রয়েছে। \n    ২০২৪-২৫ অর্থবছরে ৩.৫ লক্ষ টাকা পর্যন্ত আয় করমুক্ত।\n    Section 7",
+      "document_source": "test_document",
+      "section_context": null,
+      "bengali_equivalent": null,
+      "english_equivalent": null,
+      "numerical_value": null
+    },
+    {
+      "entity_type": "amounts",
+      "text": "৫ লক্ষ টাকা",
+      "normalized_form": "5 লক্ষ টাকা",
+      "confidence": 0.9,
+      "context": "কর অবকাশের বিধান রয়েছে। \n    ২০২৪-২৫ অর্থবছরে ৩.৫ লক্ষ টাকা পর্যন্ত আয় করমুক্ত।\n    Section 75 of Income Tax",
+      "document_source": "test_document",
+      "section_context": null,
+      "bengali_equivalent": null,
+      "english_equivalent": null,
+      "numerical_value": 500000.0
+    }
+  ],
+  "total_count": 5,
+  "entity_types": {
+    "SECTION_DIRECT": 1,
+    "sections": 2,
+    "financial_years": 1,
+    "amounts": 1
+  },
+  "extraction_metadata": {
+    "version": "2.1.0",
+    "phase": "Phase 2 - Task 2.1",
+    "features": [
+      "Bengali NER Integration",
+      "Pattern-based Extraction",
+      "Cross-reference Detection",
+      "Bilingual Mapping",
+      "Context Analysis",
+      "Confidence Scoring"
+    ]
+  }
+}

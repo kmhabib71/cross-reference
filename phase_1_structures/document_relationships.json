@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "created_date": "2025-01-15",
+    "phase": "Phase_1_Document_Structure_Analysis",
+    "version": "1.0",
+    "total_documents_analyzed": 7,
+    "relationship_types": 4
+  },
+  "hierarchical_relationships": {
+    "authority_chain": [
+      {
+        "level": 1,
+        "authority": 100,
+        "documents": [
+          "finance_ordinance_2025"
+        ],
+        "overrides": [
+          "income_tax_act_2023",
+          "schedules",
+          "tds_rules",
+          "circulars"
+        ],
+        "effective_period": "2025-07-01 to 2026-06-30"
+      },
+      {
+        "level": 2,
+        "authority": 100,
+        "documents": [
+          "income_tax_act_2023"
+        ],
+        "overridden_by": [
+          "finance_ordinance_2025"
+        ],
+        "contains": [
+          "schedules"
+        ],
+        "implemented_by": [
+          "tds_rules"
+        ],
+        "interpreted_by": [
+          "circulars"
+        ]
+      },
+      {
+        "level": 3,
+        "authority": 95,
+        "documents": [
+          "schedules_1st_8th"
+        ],
+        "parent": "income_tax_act_2023",
+        "referenced_by": [
+          "section_163",
+          "tds_rules"
+        ]
+      },
+      {
+        "level": 4,
+        "authority": 85,
+        "documents": [
+          "tds_rules_2025",
+          "tds_rules_2024"
+        ],
+        "implements": [
+          "income_tax_act_2023"
+        ],
+        "temporal_versions": true
+      },
+      {
+        "level": 5,
+        "authority": 80,
+        "documents": [
+          "sro_orders"
+        ],
+        "grants": "specific_exemptions",
+        "references": [
+          "income_tax_act_2023",
+          "schedules"
+        ]
+      },
+      {
+        "level": 6,
+        "authority": 70,
+        "documents": [
+          "income_tax_circulars"
+        ],
+        "interprets": [
+          "income_tax_act_2023"
+        ],
+        "guidance_type": "administrative"
+      }
+    ],
+    "conflict_resolution": {
+      "precedence_order": [
+        "finance_ordinance_2025",
+        "income_tax_act_2023",
+        "schedules",
+        "sro_orders",
+        "tds_rules",
+        "circulars"
+      ],
+      "resolution_rules": {
+        "same_level_conflict": "later_date_prevails",
+        "cross_level_conflict": "higher_authority_prevails",
+        "temporal_conflict": "current_financial_year_prevails"
+      }
+    }
+  },
+  "temporal_relationships": {
+    "financial_year_versions": {
+      "2025-26": {
+        "current": true,
+        "primary_law": "finance_ordinance_2025",
+        "tax_free_limit": 400000,
+        "active_documents": [
+          "finance_ordinance_2025",
+          "income_tax_act_2023",
+          "tds_rules_2025",
+          "schedules_2025"
+        ]
+      },
+      "2024-25": {
+        "current": false,
+        "primary_law": "finance_act_2024",
+        "tax_free_limit": 350000,
+        "superseded_by": "2025-26",
+        "active_documents": [
+          "finance_act_2024",
+          "income_tax_act_2023",
+          "tds_rules_2024"
+        ]
+      },
+      "2023-24": {
+        "current": false,
+        "primary_law": "income_tax_act_2023",
+        "tax_free_limit": 350000,
+        "historical": true,
+        "active_documents": [
+          "income_tax_act_2023",
+          "tds_rules_2023"
+        ]
+      }
+    },
+    "version_changes": {
+      "section_163_changes": {
+        "2024_to_2025": {
+          "changed_provisions": [
+            "minimum_tax_rates",
+            "exemption_categories",
+            "gross_receipt_thresholds"
+          ],
+          "impact": "rate_structure_modified"
+        }
+      },
+      "tds_rule_changes": {
+        "2024_to_2025": {
+          "new_rules": [
+            "rule_6a",
+            "enhanced_rule_3"
+          ],
+          "modified_rates": [
+            "contractors",
+            "services"
+          ],
+          "impact": "compliance_requirements_updated"
+        }
+      }
+    },
+    "effective_date_mapping": {
+      "finance_ordinance_2025": "2025-07-01",
+      "tds_rules_2025": "2025-07-01",
+      "income_tax_act_2023": "2023-07-01",
+      "schedule_updates_2025": "2025-07-01"
+    }
+  },
+  "referential_relationships": {
+    "cross_references": {},
+    "section_networks": {
+      "s১৬৩_২০২৩": {
+        "section_number": "১৬৩",
+        "primary_act": "ন",
+        "year": "২০২৩",
+        "referenced_in_documents": [
+          "section_163_minimum_tax",
+          "section_163_minimum_tax"
+        ],
+        "reference_count": 2,
+        "importance_score": 0.4
+      },
+      "s২২৫_২০২৩": {
+        "section_number": "২২৫",
+        "primary_act": "ন",
+        "year": "২০২৩",
+        "referenced_in_documents": [
+          "finance_ordinance_2025",
+          "finance_ordinance_2025",
+          "finance_ordinance_2025"
+        ],
+        "reference_count": 3,
+        "importance_score": 0.6000000000000001
+      },
+      "s২_২০২৩": {
+        "section_number": "২",
+        "primary_act": "ন",
+        "year": "২০২৩",
+        "referenced_in_documents": [
+          "finance_ordinance_2025",
+          "finance_ordinance_2025",
+          "finance_ordinance_2025"
+        ],
+        "reference_count": 3,
+        "importance_score": 0.6000000000000001
+      },
+      "s২৩৪_২০০৬": {
+        "section_number": "২৩৪",
+        "primary_act": "ন",
+        "year": "২০০৬",
+        "referenced_in_documents": [
+          "finance_ordinance_2025"
+        ],
+        "reference_count": 1,
+        "importance_score": 0.2
+      }
+    },
+    "schedule_dependencies": {
+      "sch১": {
+        "schedule_number": "১",
+        "referenced_in_documents": [
+          "tds_rules_2025",
+          "tds_rules_2025"
+        ],
+        "dependency_strength": 2
+      },
+      "sch২": {
+        "schedule_number": "২",
+        "referenced_in_documents": [
+          "tds_rules_2025",
+          "tds_rules_2025"
+        ],
+        "dependency_strength": 2
+      },
+      "sch৩": {
+        "schedule_number": "৩",
+        "referenced_in_documents": [
+          "tds_rules_2025",
+          "tds_rules_2025"
+        ],
+        "dependency_strength": 2
+      },
+      "sch৪": {
+        "schedule_number": "৪",
+        "referenced_in_documents": [
+          "tds_rules_2025",
+          "tds_rules_2025"
+        ],
+        "dependency_strength": 2
+      }
+    },
+    "indirect_references": [],
+    "critical_relationships": {
+      "section_163_network": {
+        "primary_section": "income_tax_act_2023_s163",
+        "related_sections": [
+          "88",
+          "89",
+          "90",
+          "91",
+          "92",
+          "94",
+          "95",
+          "100-102",
+          "105",
+          "106",
+          "108",
+          "110-118",
+          "120-129",
+          "132-139"
+        ],
+        "related_schedules": [
+          "4th"
+        ],
+        "implementing_rules": [
+          "tds_rules"
+        ],
+        "modifying_ordinances": [
+          "finance_ordinance_2025"
+        ],
+        "relationship_type": "minimum_tax_calculation"
+      },
+      "schedule_4_network": {
+        "primary_schedule": "4th_schedule",
+        "related_sections": [
+          "163",
+          "76",
+          "77",
+          "78"
+        ],
+        "document_type": "tax_exemptions",
+        "dependency_type": "bidirectional"
+      }
+    }
+  },
+  "semantic_relationships": {
+    "topic_clusters": {
+      "minimum_tax": {
+        "primary_documents": [
+          "section_163_minimum_tax",
+          "finance_ordinance_2025"
+        ],
+        "supporting_documents": [
+          "schedules_bangla",
+          "tds_rules_2025"
+        ],
+        "key_concepts": [
+          "ন্যূনতম কর",
+          "minimum tax",
+          "gross receipt",
+          "গ্রস প্রাপ্তি"
+        ],
+        "related_topics": [
+          "tax_calculation",
+          "exemptions",
+          "tds"
+        ]
+      },
+      "tax_deduction_source": {
+        "primary_documents": [
+          "tds_rules_2025",
+          "income_tax_act_bangla"
+        ],
+        "supporting_documents": [
+          "section_163_minimum_tax"
+        ],
+        "key_concepts": [
+          "উৎসে কর কর্তন",
+          "tax deduction at source",
+          "withholding tax"
+        ],
+        "related_topics": [
+          "minimum_tax",
+          "contractors",
+          "services"
+        ]
+      },
+      "tax_exemptions": {
+        "primary_documents": [
+          "schedules_bangla",
+          "schedules_english"
+        ],
+        "supporting_documents": [
+          "finance_ordinance_2025"
+        ],
+        "key_concepts": [
+          "কর অব্যাহতি",
+          "tax exemption",
+          "tax holiday"
+        ],
+        "related_topics": [
+          "minimum_tax",
+          "investment_incentives"
+        ]
+      }
+    },
+    "concept_relationships": {
+      "minimum_tax_concepts": {
+        "core_concept": "ন্যূনতম কর (minimum tax)",
+        "related_concepts": [
+          "গ্রস প্রাপ্তি (gross receipt)",
+          "কর অব্যাহতি (tax exemption)",
+          "উৎসে কর কর্তন (tax deduction at source)",
+          "তফসিল (schedule)",
+          "অর্থবছর (financial year)"
+        ],
+        "calculation_dependencies": [
+          "section_163",
+          "schedule_4",
+          "tds_rules"
+        ]
+      }
+    },
+    "language_mappings": {
+      "section_references": {
+        "bengali": [
+          "ধারা",
+          "অনুচ্ছেদ"
+        ],
+        "english": [
+          "section",
+          "sec",
+          "clause"
+        ],
+        "numerical": [
+          "163",
+          "১৬৩",
+          "একশত তেষট্টি"
+        ]
+      },
+      "schedule_references": {
+        "bengali": [
+          "তফসিল",
+          "তফসিল"
+        ],
+        "english": [
+          "schedule",
+          "sch"
+        ],
+        "numerical": [
+          "4",
+          "৪",
+          "চতুর্থ",
+          "4th",
+          "fourth"
+        ]
+      }
+    }
+  },
+  "integration_points": {
+    "section_163_integration": {
+      "hierarchical_context": "income_tax_act_2023_section",
+      "temporal_context": "modified_by_finance_ordinance_2025",
+      "referential_context": "references_multiple_sections_and_schedules",
+      "semantic_context": "minimum_tax_calculation_cluster",
+      "integration_complexity": "high"
+    },
+    "schedule_4_integration": {
+      "hierarchical_context": "part_of_income_tax_act_2023",
+      "temporal_context": "updated_annually",
+      "referential_context": "referenced_by_section_163",
+      "semantic_context": "tax_exemptions_cluster",
+      "integration_complexity": "medium"
+    },
+    "tds_rules_integration": {
+      "hierarchical_context": "implements_income_tax_act",
+      "temporal_context": "financial_year_specific",
+      "referential_context": "implements_sections_88_to_139",
+      "semantic_context": "tax_deduction_source_cluster",
+      "integration_complexity": "high"
+    }
+  },
+  "validation_rules": {
+    "hierarchical_validation": {
+      "authority_consistency": "higher_authority_must_override_lower",
+      "circular_dependency_check": "no_document_can_override_itself",
+      "temporal_authority_check": "current_law_takes_precedence"
+    },
+    "temporal_validation": {
+      "date_consistency": "effective_dates_must_be_sequential",
+      "version_completeness": "all_current_versions_must_exist",
+      "supersession_logic": "superseded_documents_marked_inactive"
+    },
+    "referential_validation": {
+      "reference_resolution": "all_references_must_resolve_to_valid_targets",
+      "circular_reference_check": "detect_and_flag_circular_references",
+      "broken_link_detection": "identify_references_to_non_existent_sections"
+    },
+    "semantic_validation": {
+      "concept_consistency": "related_concepts_must_be_coherent",
+      "language_mapping_accuracy": "bengali_english_mappings_verified",
+      "topic_cluster_integrity": "topic_clusters_must_have_coherent_boundaries"
+    }
+  }
+}

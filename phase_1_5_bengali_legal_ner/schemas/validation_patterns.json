@@ -1,0 +1,16 @@
+{
+  "mandatory_entities": [
+    "SECTION",
+    "ACT"
+  ],
+  "validation_rules": [
+    "Each sentence should have at least one legal entity",
+    "Section references must include numbers",
+    "Amounts must include currency indicators"
+  ],
+  "quality_metrics": [
+    "Entity coverage percentage",
+    "Boundary accuracy score",
+    "Inter-annotator agreement"
+  ]
+}

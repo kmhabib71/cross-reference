@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "entity_type": "sections",
+      "text": "ধারা ১৬৩",
+      "normalized_form": "ধারা 163",
+      "confidence": 0.9,
+      "context": "আয়কর আইন ২০২৩ এর ধারা ১৬৩ অনুযায়ী ন্যূনতম কর প্রযোজ্য।",
+      "document_source": "income-tax-act-2023",
+      "section_context": null,
+      "bengali_equivalent": null,
+      "english_equivalent": null,
+      "numerical_value": null
+    }
+  ],
+  "total_count": 1,
+  "extraction_metadata": {
+    "sections": 1
+  }
+}

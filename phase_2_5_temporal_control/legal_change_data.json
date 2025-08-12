@@ -1,0 +1,451 @@
+{
+  "tracked_changes": {
+    "addition_FO_2024_V1_44_override": {
+      "change_id": "addition_FO_2024_V1_44_override",
+      "change_type": "ChangeType.ADDITION",
+      "source_provision": {
+        "section": "44_override",
+        "topic": "tax_free_limit",
+        "value": "350000",
+        "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা (অপরিবর্তিত)"
+      },
+      "target_provision": null,
+      "effective_date": "2024-07-01",
+      "expiry_date": "2025-06-30",
+      "impact_severity": "ImpactSeverity.HIGH",
+      "description": "Added new provision: tax_free_limit",
+      "legal_basis": "FO_2024_V1",
+      "affected_sections": [
+        "44_override"
+      ],
+      "cascade_effects": [],
+      "transition_period": 30,
+      "metadata": {
+        "provision_type": "addition",
+        "version": "FO_2024_V1"
+      }
+    },
+    "deprecation_FO_2024_V1_44": {
+      "change_id": "deprecation_FO_2024_V1_44",
+      "change_type": "ChangeType.DEPRECATION",
+      "source_provision": null,
+      "target_provision": {
+        "section": "44",
+        "topic": "tax_free_limit",
+        "value": "350000",
+        "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা"
+      },
+      "effective_date": "2024-07-01",
+      "expiry_date": null,
+      "impact_severity": "ImpactSeverity.HIGH",
+      "description": "Deprecated provision: tax_free_limit",
+      "legal_basis": "FO_2024_V1",
+      "affected_sections": [
+        "44"
+      ],
+      "cascade_effects": [
+        "tax_calculation",
+        "return_filing_requirement",
+        "advance_tax"
+      ],
+      "transition_period": 90,
+      "metadata": {
+        "deprecated_from": "ITA_2023_V1",
+        "deprecation_reason": "not_included_in_new_version"
+      }
+    },
+    "deprecation_FO_2024_V1_163": {
+      "change_id": "deprecation_FO_2024_V1_163",
+      "change_type": "ChangeType.DEPRECATION",
+      "source_provision": null,
+      "target_provision": {
+        "section": "163",
+        "topic": "minimum_tax",
+        "value": "applicable",
+        "text": "ন্যূনতম কর প্রযোজ্য হবে"
+      },
+      "effective_date": "2024-07-01",
+      "expiry_date": null,
+      "impact_severity": "ImpactSeverity.HIGH",
+      "description": "Deprecated provision: minimum_tax",
+      "legal_basis": "FO_2024_V1",
+      "affected_sections": [
+        "163"
+      ],
+      "cascade_effects": [
+        "tax_calculation",
+        "corporate_tax"
+      ],
+      "transition_period": 90,
+      "metadata": {
+        "deprecated_from": "ITA_2023_V1",
+        "deprecation_reason": "not_included_in_new_version"
+      }
+    },
+    "metadata_FO_2024_V1_9008415574162677744": {
+      "change_id": "metadata_FO_2024_V1_9008415574162677744",
+      "change_type": "ChangeType.CLARIFICATION",
+      "source_provision": {
+        "text": "TDS rate adjustments",
+        "type": "metadata"
+      },
+      "target_provision": null,
+      "effective_date": "2024-07-01",
+      "expiry_date": "2025-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "TDS rate adjustments",
+      "legal_basis": "FO_2024_V1",
+      "affected_sections": [],
+      "cascade_effects": [],
+      "transition_period": 0,
+      "metadata": {
+        "source": "version_metadata",
+        "change_description": "TDS rate adjustments"
+      }
+    },
+    "metadata_FO_2024_V1_8014497820438225526": {
+      "change_id": "metadata_FO_2024_V1_8014497820438225526",
+      "change_type": "ChangeType.CLARIFICATION",
+      "source_provision": {
+        "text": "New digital service provisions",
+        "type": "metadata"
+      },
+      "target_provision": null,
+      "effective_date": "2024-07-01",
+      "expiry_date": "2025-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "New digital service provisions",
+      "legal_basis": "FO_2024_V1",
+      "affected_sections": [],
+      "cascade_effects": [],
+      "transition_period": 0,
+      "metadata": {
+        "source": "version_metadata",
+        "change_description": "New digital service provisions"
+      }
+    },
+    "change_FO_2025_V1_44_override": {
+      "change_id": "change_FO_2025_V1_44_override",
+      "change_type": "ChangeType.AMENDMENT",
+      "source_provision": {
+        "section": "44_override",
+        "topic": "tax_free_limit",
+        "value": "400000",
+        "text": "করমুক্ত আয়ের সীমা ৪ লক্ষ টাকা (বৃদ্ধি)"
+      },
+      "target_provision": {
+        "section": "44_override",
+        "topic": "tax_free_limit",
+        "value": "350000",
+        "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা (অপরিবর্তিত)"
+      },
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "impact_severity": "ImpactSeverity.HIGH",
+      "description": "Changed tax_free_limit from 350000 to 400000",
+      "legal_basis": "FO_2025_V1",
+      "affected_sections": [
+        "44_override"
+      ],
+      "cascade_effects": [
+        "tax_calculation",
+        "return_filing_requirement",
+        "advance_tax"
+      ],
+      "transition_period": 60,
+      "metadata": {
+        "old_version": "FO_2024_V1",
+        "new_version": "FO_2025_V1",
+        "comparison_date": "2025-08-10T14:27:47.623749"
+      }
+    },
+    "addition_FO_2025_V1_digital_income": {
+      "change_id": "addition_FO_2025_V1_digital_income",
+      "change_type": "ChangeType.ADDITION",
+      "source_provision": {
+        "section": "digital_income",
+        "topic": "youtube_income_tax",
+        "value": "business_income",
+        "text": "ইউটিউব আয় ব্যবসায়িক আয় হিসেবে গণ্য"
+      },
+      "target_provision": null,
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "Added new provision: youtube_income_tax",
+      "legal_basis": "FO_2025_V1",
+      "affected_sections": [
+        "digital_income"
+      ],
+      "cascade_effects": [],
+      "transition_period": 30,
+      "metadata": {
+        "provision_type": "addition",
+        "version": "FO_2025_V1"
+      }
+    },
+    "metadata_FO_2025_V1_-1400276611805728774": {
+      "change_id": "metadata_FO_2025_V1_-1400276611805728774",
+      "change_type": "ChangeType.CLARIFICATION",
+      "source_provision": {
+        "text": "Tax free limit increased from 3.5 lakh to 4 lakh",
+        "type": "metadata"
+      },
+      "target_provision": null,
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "Tax free limit increased from 3.5 lakh to 4 lakh",
+      "legal_basis": "FO_2025_V1",
+      "affected_sections": [],
+      "cascade_effects": [],
+      "transition_period": 0,
+      "metadata": {
+        "source": "version_metadata",
+        "change_description": "Tax free limit increased from 3.5 lakh to 4 lakh"
+      }
+    },
+    "metadata_FO_2025_V1_2001099821653390387": {
+      "change_id": "metadata_FO_2025_V1_2001099821653390387",
+      "change_type": "ChangeType.CLARIFICATION",
+      "source_provision": {
+        "text": "YouTube income specifically classified as business income",
+        "type": "metadata"
+      },
+      "target_provision": null,
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "YouTube income specifically classified as business income",
+      "legal_basis": "FO_2025_V1",
+      "affected_sections": [],
+      "cascade_effects": [],
+      "transition_period": 0,
+      "metadata": {
+        "source": "version_metadata",
+        "change_description": "YouTube income specifically classified as business income"
+      }
+    },
+    "metadata_FO_2025_V1_-825944348996891428": {
+      "change_id": "metadata_FO_2025_V1_-825944348996891428",
+      "change_type": "ChangeType.CLARIFICATION",
+      "source_provision": {
+        "text": "Digital platform tax clarifications",
+        "type": "metadata"
+      },
+      "target_provision": null,
+      "effective_date": "2025-07-01",
+      "expiry_date": "2026-06-30",
+      "impact_severity": "ImpactSeverity.LOW",
+      "description": "Digital platform tax clarifications",
+      "legal_basis": "FO_2025_V1",
+      "affected_sections": [],
+      "cascade_effects": [],
+      "transition_period": 0,
+      "metadata": {
+        "source": "version_metadata",
+        "change_description": "Digital platform tax clarifications"
+      }
+    }
+  },
+  "impact_analyses": {
+    "impact_addition_FO_2024_V1_44_override_20250810_142747": {
+      "analysis_id": "impact_addition_FO_2024_V1_44_override_20250810_142747",
+      "change": {
+        "change_id": "addition_FO_2024_V1_44_override",
+        "change_type": "ChangeType.ADDITION",
+        "source_provision": {
+          "section": "44_override",
+          "topic": "tax_free_limit",
+          "value": "350000",
+          "text": "করমুক্ত আয়ের সীমা ৩.৫ লক্ষ টাকা (অপরিবর্তিত)"
+        },
+        "target_provision": null,
+        "effective_date": "2024-07-01",
+        "expiry_date": "2025-06-30",
+        "impact_severity": "ImpactSeverity.HIGH",
+        "description": "Added new provision: tax_free_limit",
+        "legal_basis": "FO_2024_V1",
+        "affected_sections": [
+          "44_override"
+        ],
+        "cascade_effects": [],
+        "transition_period": 30,
+        "metadata": {
+          "provision_type": "addition",
+          "version": "FO_2024_V1"
+        }
+      },
+      "direct_impacts": [
+        {
+          "impact_type": "section_modification",
+          "affected_entity": "Section 44_override",
+          "impact_description": "addition affects section 44_override",
+          "severity": "high"
+        }
+      ],
+      "indirect_impacts": [],
+      "stakeholder_effects": {},
+      "compliance_requirements": [
+        "Review new provision requirements",
+        "Update compliance procedures",
+        "Immediate compliance review required",
+        "Stakeholder notification mandatory",
+        "Transition period compliance (30 days)"
+      ],
+      "implementation_timeline": {
+        "effective_date": "2024-07-01",
+        "transition_period_days": 30,
+        "milestones": [
+          {
+            "date": "2024-06-01",
+            "milestone": "Change announcement",
+            "description": "Official announcement of legal change"
+          },
+          {
+            "date": "2024-07-01",
+            "milestone": "Implementation",
+            "description": "Change becomes effective"
+          }
+        ]
+      },
+      "risk_assessment": {
+        "compliance_risk": "medium",
+        "implementation_risk": "medium",
+        "stakeholder_impact_risk": "medium",
+        "legal_interpretation_risk": "low",
+        "mitigation_strategies": []
+      },
+      "confidence_score": 0.8999999999999999
+    }
+  },
+  "change_detection_rules": {
+    "override_indicators": [
+      "overrides",
+      "supersedes",
+      "replaces",
+      "বাতিল",
+      "পরিবর্তন",
+      "replaces the provision",
+      "shall not apply",
+      "is hereby amended"
+    ],
+    "amendment_indicators": [
+      "amended",
+      "modified",
+      "সংশোধন",
+      "পরিবর্তিত",
+      "is hereby substituted",
+      "shall read as follows"
+    ],
+    "deprecation_indicators": [
+      "repealed",
+      "abolished",
+      "discontinued",
+      "বাতিল",
+      "রহিত",
+      "shall cease to have effect",
+      "is hereby repealed"
+    ],
+    "addition_indicators": [
+      "new section",
+      "inserted",
+      "added",
+      "নতুন ধারা",
+      "সংযোজন",
+      "is hereby inserted",
+      "new provision"
+    ],
+    "value_change_patterns": [
+      "(\\d+(?:,\\d+)*)\\s*টাকা.*?(\\d+(?:,\\d+)*)\\s*টাকা",
+      "(\\d+(?:\\.\\d+)?)\\s*%.*?(\\d+(?:\\.\\d+)?)\\s*%",
+      "(\\d{4}-\\d{2}).*?(\\d{4}-\\d{2})"
+    ]
+  },
+  "impact_patterns": {
+    "high_impact_topics": [
+      "tax_free_limit",
+      "tax_rates",
+      "penalty_provisions",
+      "filing_deadlines",
+      "minimum_tax"
+    ],
+    "cascade_relationships": {
+      "tax_free_limit": [
+        "tax_calculation",
+        "return_filing_requirement",
+        "advance_tax"
+      ],
+      "tax_rates": [
+        "tax_calculation",
+        "withholding_tax",
+        "minimum_tax"
+      ],
+      "filing_deadlines": [
+        "penalty_calculation",
+        "late_filing_fee"
+      ],
+      "minimum_tax": [
+        "tax_calculation",
+        "corporate_tax"
+      ]
+    },
+    "stakeholder_impact_map": {
+      "individual_taxpayers": [
+        "tax_free_limit",
+        "tax_rates",
+        "filing_requirements"
+      ],
+      "corporate_taxpayers": [
+        "corporate_tax",
+        "minimum_tax",
+        "advance_tax"
+      ],
+      "tax_practitioners": [
+        "all_changes"
+      ],
+      "nbr_officials": [
+        "compliance_procedures",
+        "penalty_provisions"
+      ]
+    }
+  },
+  "stakeholder_mapping": {
+    "individual_taxpayers": [
+      "Personal income tax rates",
+      "Tax-free income limits",
+      "Filing requirements and deadlines",
+      "Penalty and fine provisions"
+    ],
+    "corporate_taxpayers": [
+      "Corporate tax rates",
+      "Minimum tax provisions",
+      "Advance tax requirements",
+      "TDS/withholding tax rules"
+    ],
+    "tax_practitioners": [
+      "All tax law changes",
+      "Procedural modifications",
+      "Compliance requirements",
+      "Professional responsibility rules"
+    ],
+    "nbr_officials": [
+      "Assessment procedures",
+      "Audit and investigation powers",
+      "Penalty enforcement guidelines",
+      "Administrative rules"
+    ],
+    "digital_platform_operators": [
+      "Digital service tax",
+      "Online income reporting",
+      "Platform-specific regulations",
+      "TDS on digital payments"
+    ]
+  },
+  "metadata": {
+    "version": "2.5.2",
+    "export_date": "2025-08-10T14:27:47.624505",
+    "total_changes": 10,
+    "total_analyses": 1
+  }
+}

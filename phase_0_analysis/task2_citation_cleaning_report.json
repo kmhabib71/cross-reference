@@ -1,0 +1,80 @@
+{
+  "task_2_comparison_summary": {
+    "task": "Clean Citation Pattern False Positives",
+    "status": "COMPLETED",
+    "before": {
+      "total_citations": 23898,
+      "section_references": 7273,
+      "amount_references": 14261,
+      "false_positive_rate": "59.6%"
+    },
+    "after": {
+      "total_clean_citations": 21328,
+      "section_references": 21035,
+      "schedule_references": 28,
+      "rule_references": 265,
+      "false_positives_removed": 531
+    },
+    "improvement": {
+      "false_positive_reduction": 2.22,
+      "citation_quality_score": 2132800.0,
+      "target_achieved": false
+    }
+  },
+  "validation_examples": {
+    "genuine_sections_found": [],
+    "false_positives_removed": [
+      {
+        "file": "circulars/income_tax_circular_2024_25_ultra_enriched.json",
+        "text": "ধারা ৩৪৬",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "finance_laws/finance_ordinance_2025_cleaned.json",
+        "text": "ধারা ১৩৮",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "finance_laws/finance_ordinance_2025_cleaned.json",
+        "text": "ধারা ২২৫ এর",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "finance_laws/finance_ordinance_2025_cleaned.json",
+        "text": "ধারা ২২৫ এর",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+        "text": "ধারা ৩৪৩",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+        "text": "s 2024",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+        "text": "s 2024",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2025-26-bd.json",
+        "text": "ধারা ৩৪৩",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2025-26-bd.json",
+        "text": "s 2024",
+        "type": "invalid_section_number"
+      },
+      {
+        "file": "tds_rules/tds-rules-2024-fy-2025-26-bd.json",
+        "text": "s 2024",
+        "type": "invalid_section_number"
+      }
+    ],
+    "pattern_validation": "Legal sections validated against Act ranges (1-345 for Income Tax Act)"
+  }
+}

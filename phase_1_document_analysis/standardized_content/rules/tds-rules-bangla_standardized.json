@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "original_file": "tds_rules/tds-rules-bangla.json",
+    "category": "rules",
+    "standardization_date": "2025-01-15",
+    "content_length": 363,
+    "standardization_applied": true
+  },
+  "content_versions": {
+    "original": "উৎসে কর বিধিমালা  (TDS Rules) আয়বর্ষ ২০২৫-২০২৬ আয়বর্ষ ২০২৪-২০২৫ আয়বর্ষ ২০২৩-২০২৪ TDS Rules  – Reference/ Source: National Board of Revenue (NBR) ; Bangladesh Gazette; বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "cleaned": "উৎসে কর বিধিমালা (TDS Rules) আয়বর্ষ ২০২৫-২০২৬ আয়বর্ষ ২০২৪-২০২৫ আয়বর্ষ ২০২৩-২০২৪ TDS Rules – Reference/ Source: National Board of Revenue (NBR) ; Bangladesh Gazette; বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "bengali_normalized": "উৎসে কর বিধিমালা (TDS Rules) আয়বর্ষ ২০২৫-২০২৬ আয়বর্ষ ২০২৪-২০২৫ আয়বর্ষ ২০২৩-২০২৪ TDS Rules – Reference/ Source: National Board of Revenue (NBR) ; Bangladesh Gazette; বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।",
+    "english_normalized": "উৎসে কর বিধিমালা (TDS Rules) আয়বর্ষ 2025-2026 আয়বর্ষ 2024-2025 আয়বর্ষ 2023-2024 TDS Rules – Reference/ Source: National Board of Revenue (NBR) ; Bangladesh Gazette; বিশেষ দ্রষ্টব্য: এই ওয়েবসাইটে উল্লিখিত কোনো কিছু যদি সরকার কর্তৃক ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশের সহিত সাংঘর্ষিক হয় সেইক্ষেত্রে উক্ত ইস্যুকৃত আইন, বিধি, প্রজ্ঞাপন ও আদেশই প্রাধান্য পাবে।"
+  },
+  "section_mappings": {},
+  "extracted_entities": {
+    "sections": [],
+    "schedules": [],
+    "rules": [],
+    "amounts": [],
+    "dates": []
+  }
+}

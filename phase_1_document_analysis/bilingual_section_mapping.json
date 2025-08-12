@@ -1,0 +1,784 @@
+{
+  "section_normalization": {
+    "212": {
+      "canonical_id": "ITA_2023_S212",
+      "bengali_variations": [
+        "ধারা ২১২",
+        "ধারা 212"
+      ],
+      "english_variations": [
+        "Section 212",
+        "section 212",
+        "Sec 212"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json"
+      ]
+    },
+    "171": {
+      "canonical_id": "ITA_2023_S171",
+      "bengali_variations": [
+        "ধারা ১৭১",
+        "ধারা 171"
+      ],
+      "english_variations": [
+        "Sec 171",
+        "Section 171",
+        "section 171"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json"
+      ]
+    },
+    "5": {
+      "canonical_id": "ITA_2023_S5",
+      "bengali_variations": [
+        "ধারা 5",
+        "ধারা ৫"
+      ],
+      "english_variations": [
+        "Section 5",
+        "Sec 5"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json"
+      ]
+    },
+    "22": {
+      "canonical_id": "ITA_2023_S22",
+      "bengali_variations": [
+        "ধারা 22",
+        "ধারা ২২"
+      ],
+      "english_variations": [
+        "Section 22",
+        "Sec 22"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json"
+      ]
+    },
+    "345": {
+      "canonical_id": "ITA_2023_S345",
+      "bengali_variations": [],
+      "english_variations": [
+        "Section 345",
+        "Sec 345"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-1st-schedule-part-1.json",
+        "schedules/income-tax-act-2023-6th-schedule-part-4.json"
+      ]
+    },
+    "76": {
+      "canonical_id": "ITA_2023_S76",
+      "bengali_variations": [
+        "ধারা ৭৬",
+        "ধারা 76"
+      ],
+      "english_variations": [
+        "Section 76",
+        "Sec 76"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-6th-schedule-part-4.json",
+        "schedules/income-tax-schedule-bangla-6th-schedule-part-1-exclusions-from-computation-of-total-income.json",
+        "schedules/income-tax-schedule-bangla-6th-schedule-part-2-exclusions-from-total-income.json",
+        "schedules/income-tax-schedule-bangla-6th-schedule-part-3-investments-and-expenses-applicable-for-general-tax-r.json",
+        "schedules/income-tax-schedule-bangla-6th-schedule-part-4-tax-holidays.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json"
+      ]
+    },
+    "3": {
+      "canonical_id": "ITA_2023_S3",
+      "bengali_variations": [
+        "ধারা 3",
+        "ধারা ৩"
+      ],
+      "english_variations": [
+        "Sec 3",
+        "section 3",
+        "Section 3"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-act-2023-6th-schedule-part-4.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json"
+      ]
+    },
+    "24": {
+      "canonical_id": "ITA_2023_S24",
+      "bengali_variations": [
+        "ধারা ২৪",
+        "ধারা 24"
+      ],
+      "english_variations": [
+        "Section 24",
+        "section 24",
+        "Sec 24"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-3-display-of-undisplayed-assets.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json"
+      ]
+    },
+    "311": {
+      "canonical_id": "ITA_2023_S311",
+      "bengali_variations": [
+        "ধারা ৩১১",
+        "ধারা 311"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json"
+      ]
+    },
+    "200": {
+      "canonical_id": "ITA_2023_S200",
+      "bengali_variations": [
+        "ধারা 200",
+        "ধারা ২০০"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-1-disclosure-of-investment-by-paying-special-taxes.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-2-voluntary-disclosure-of-income.json",
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-3-display-of-undisplayed-assets.json"
+      ]
+    },
+    "174": {
+      "canonical_id": "ITA_2023_S174",
+      "bengali_variations": [
+        "ধারা 174",
+        "ধারা ১৭৪"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-1st-schedule-part-3-display-of-undisplayed-assets.json"
+      ]
+    },
+    "2": {
+      "canonical_id": "ITA_2023_S2",
+      "bengali_variations": [
+        "ধারা 2",
+        "ধারা ২"
+      ],
+      "english_variations": [
+        "Sec 2",
+        "Section 2"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-2nd-schedule-part-1-approved-superannuation-fund-or-pension-fund.json",
+        "schedules/income-tax-schedule-bangla-2nd-schedule-part-2-approved-gratuity-fund.json",
+        "schedules/income-tax-schedule-bangla-2nd-schedule-part-3-recognized-provident-funds.json",
+        "schedules/income-tax-schedule-bangla-3rd-schedule-part-2-computation-of-amortization.json",
+        "schedules/income-tax-schedule-bangla-7th-schedule-special-tax-rate.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json",
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-2-bd.json",
+        "tds_rules/tds-rules-2024-rule-2-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-2-definitions.json"
+      ]
+    },
+    "49": {
+      "canonical_id": "ITA_2023_S49",
+      "bengali_variations": [
+        "ধারা 49",
+        "ধারা ৪৯"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-2nd-schedule-part-3-recognized-provident-funds.json",
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-1-computation-of-the-profits-or-gains-from-the-explorat.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json"
+      ]
+    },
+    "42": {
+      "canonical_id": "ITA_2023_S42",
+      "bengali_variations": [
+        "ধারা ৪২",
+        "ধারা 42"
+      ],
+      "english_variations": [
+        "Sec 42",
+        "Section 42"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-3rd-schedule-part-1-computation-of-depreciation-allowance.json",
+        "schedules/income-tax-schedule-bangla-3rd-schedule-part-2-computation-of-amortization.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json"
+      ]
+    },
+    "47": {
+      "canonical_id": "ITA_2023_S47",
+      "bengali_variations": [
+        "ধারা ৪৭",
+        "ধারা 47"
+      ],
+      "english_variations": [
+        "Sec 47",
+        "Section 47"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-1-computation-of-the-profits-or-gains-from-the-explorat.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json"
+      ]
+    },
+    "158": {
+      "canonical_id": "ITA_2023_S158",
+      "bengali_variations": [
+        "ধারা 158",
+        "ধারা ১৫৮"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json"
+      ]
+    },
+    "36": {
+      "canonical_id": "ITA_2023_S36",
+      "bengali_variations": [
+        "ধারা ৩৬",
+        "ধারা 36"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json"
+      ]
+    },
+    "48": {
+      "canonical_id": "ITA_2023_S48",
+      "bengali_variations": [
+        "ধারা 48",
+        "ধারা ৪৮"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-4th-schedule-computation-of-the-profits-and-gains-of-insurance.json"
+      ]
+    },
+    "70": {
+      "canonical_id": "ITA_2023_S70",
+      "bengali_variations": [
+        "ধারা 70",
+        "ধারা ৭০"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-1-computation-of-the-profits-or-gains-from-the-explorat.json",
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json",
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-1-business-restructuring.json"
+      ]
+    },
+    "197": {
+      "canonical_id": "ITA_2023_S197",
+      "bengali_variations": [
+        "ধারা ১৯৭",
+        "ধারা 197"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-5th-schedule-part-2-computation-of-profits-and-gains-from-the-exploration.json"
+      ]
+    },
+    "18": {
+      "canonical_id": "ITA_2023_S18",
+      "bengali_variations": [
+        "ধারা ১৮",
+        "ধারা 18"
+      ],
+      "english_variations": [
+        "Section 18",
+        "Sec 18"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-7th-schedule-special-tax-rate.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json"
+      ]
+    },
+    "166": {
+      "canonical_id": "ITA_2023_S166",
+      "bengali_variations": [
+        "ধারা ১৬৬",
+        "ধারা 166"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-7th-schedule-special-tax-rate.json",
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json"
+      ]
+    },
+    "25": {
+      "canonical_id": "ITA_2023_S25",
+      "bengali_variations": [
+        "ধারা ২৫",
+        "ধারা 25"
+      ],
+      "english_variations": [
+        "Sec 25",
+        "Section 25"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-1-business-restructuring.json",
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json",
+        "schedules/income-tax-schedule-bangla.json",
+        "schedules/income-tax-schedule-english.json",
+        "tds_rules/tds-rules-bangla-rules-7-collection-of-tax-from-importers.json"
+      ]
+    },
+    "55": {
+      "canonical_id": "ITA_2023_S55",
+      "bengali_variations": [
+        "ধারা 55",
+        "ধারা ৫৫"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json"
+      ]
+    },
+    "56": {
+      "canonical_id": "ITA_2023_S56",
+      "bengali_variations": [
+        "ধারা 56",
+        "ধারা ৫৬"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json"
+      ]
+    },
+    "163": {
+      "canonical_id": "ITA_2023_S163",
+      "bengali_variations": [
+        "ধারা ১৬৩",
+        "ধারা 163"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json"
+      ]
+    },
+    "177": {
+      "canonical_id": "ITA_2023_S177",
+      "bengali_variations": [
+        "ধারা ১৭৭",
+        "ধারা 177"
+      ],
+      "english_variations": [
+        "Sec 177",
+        "Section 177"
+      ],
+      "found_in_files": [
+        "schedules/income-tax-schedule-bangla-8th-schedule-part-2-startup-sandbox.json",
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-15-bd.json",
+        "tds_rules/tds-rules-2024-rule-15-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-13-filling-return-of-withholding-tax.json"
+      ]
+    },
+    "343": {
+      "canonical_id": "ITA_2023_S343",
+      "bengali_variations": [
+        "ধারা ৩৪৩",
+        "ধারা 343"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-2024-fy-2025-26-bd.json"
+      ]
+    },
+    "145": {
+      "canonical_id": "ITA_2023_S145",
+      "bengali_variations": [
+        "ধারা ১৪৫",
+        "ধারা 145"
+      ],
+      "english_variations": [
+        "Section 145",
+        "Sec 145"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-11-bd.json",
+        "tds_rules/tds-rules-2024-rule-11-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-10-issuance-of-certificate-of-tax-deduction-or-collection.json"
+      ]
+    },
+    "86": {
+      "canonical_id": "ITA_2023_S86",
+      "bengali_variations": [
+        "ধারা 86",
+        "ধারা ৮৬"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-11-bd.json",
+        "tds_rules/tds-rules-2024-rule-11-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-10-issuance-of-certificate-of-tax-deduction-or-collection.json"
+      ]
+    },
+    "141": {
+      "canonical_id": "ITA_2023_S141",
+      "bengali_variations": [],
+      "english_variations": [
+        "Section 141",
+        "Sec 141"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-13-bd.json",
+        "tds_rules/tds-rules-2024-rule-13-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-11-deduction-or-collection-of-tax-after-gross-up-in-case-of-payment-without-t.json"
+      ]
+    },
+    "119": {
+      "canonical_id": "ITA_2023_S119",
+      "bengali_variations": [
+        "ধারা 119",
+        "ধারা ১১৯"
+      ],
+      "english_variations": [
+        "Section 119",
+        "Sec 119"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-14-bd.json",
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-5-bd.json",
+        "tds_rules/tds-rules-2024-rule-14-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-2024-rule-5-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-12-general-provisions-for-deduction-or-collection-of-tax-at-source.json",
+        "tds_rules/tds-rules-bangla-rules-5-deduction-or-collection-of-tax-from-income-of-non-residents.json"
+      ]
+    },
+    "142": {
+      "canonical_id": "ITA_2023_S142",
+      "bengali_variations": [],
+      "english_variations": [
+        "Section 142",
+        "Sec 142"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-14-bd.json",
+        "tds_rules/tds-rules-2024-rule-14-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-12-general-provisions-for-deduction-or-collection-of-tax-at-source.json"
+      ]
+    },
+    "140": {
+      "canonical_id": "ITA_2023_S140",
+      "bengali_variations": [
+        "ধারা 140",
+        "ধারা ১৪০"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-2-bd.json",
+        "tds_rules/tds-rules-2024-rule-2-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-2-definitions.json"
+      ]
+    },
+    "89": {
+      "canonical_id": "ITA_2023_S89",
+      "bengali_variations": [
+        "ধারা 89",
+        "ধারা ৮৯"
+      ],
+      "english_variations": [
+        "Section 89",
+        "Sec 89"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-3-bd.json",
+        "tds_rules/tds-rules-2024-rule-3-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-3-deduction-from-payment-to-contractors-etc.json"
+      ]
+    },
+    "120": {
+      "canonical_id": "ITA_2023_S120",
+      "bengali_variations": [
+        "ধারা 120",
+        "ধারা ১২০"
+      ],
+      "english_variations": [
+        "Sec 120",
+        "Section 120"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-3-bd.json",
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-8-bd.json",
+        "tds_rules/tds-rules-2024-rule-3-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-2024-rule-8-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-3-deduction-from-payment-to-contractors-etc.json",
+        "tds_rules/tds-rules-bangla-rules-7-collection-of-tax-from-importers.json"
+      ]
+    },
+    "94": {
+      "canonical_id": "ITA_2023_S94",
+      "bengali_variations": [
+        "ধারা 94",
+        "ধারা ৯৪"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-3-bd.json",
+        "tds_rules/tds-rules-2024-rule-3-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-3-deduction-from-payment-to-contractors-etc.json"
+      ]
+    },
+    "90": {
+      "canonical_id": "ITA_2023_S90",
+      "bengali_variations": [
+        "ধারা 90",
+        "ধারা ৯০"
+      ],
+      "english_variations": [
+        "Section 90",
+        "Sec 90"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-4-bd.json",
+        "tds_rules/tds-rules-2024-rule-4-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-4-deduction-from-the-payment-of-services.json"
+      ]
+    },
+    "259": {
+      "canonical_id": "ITA_2023_S259",
+      "bengali_variations": [
+        "ধারা ২৫৯",
+        "ধারা 259"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-5-bd.json",
+        "tds_rules/tds-rules-2024-rule-5-fy-2024-2025-bangladesh.json"
+      ]
+    },
+    "260": {
+      "canonical_id": "ITA_2023_S260",
+      "bengali_variations": [
+        "ধারা 260",
+        "ধারা ২৬০"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-5-bd.json",
+        "tds_rules/tds-rules-2024-rule-5-fy-2024-2025-bangladesh.json"
+      ]
+    },
+    "125": {
+      "canonical_id": "ITA_2023_S125",
+      "bengali_variations": [
+        "ধারা ১২৫",
+        "ধারা 125"
+      ],
+      "english_variations": [
+        "Sec 125",
+        "Section 125"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-6-bd.json",
+        "tds_rules/tds-rules-2024-rule-6-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-6-collection-of-tax-on-transfer-of-property.json"
+      ]
+    },
+    "17": {
+      "canonical_id": "ITA_2023_S17",
+      "bengali_variations": [],
+      "english_variations": [
+        "Section 17",
+        "Sec 17",
+        "section 17"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-6-bd.json",
+        "tds_rules/tds-rules-2024-rule-6-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-6-collection-of-tax-on-transfer-of-property.json"
+      ]
+    },
+    "126": {
+      "canonical_id": "ITA_2023_S126",
+      "bengali_variations": [
+        "ধারা 126",
+        "ধারা ১২৬"
+      ],
+      "english_variations": [
+        "Sec 126",
+        "Section 126"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-7-bd.json",
+        "tds_rules/tds-rules-2024-rule-7-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-6a-collection-of-tax-from-persons-engaged-in-real-estate-or-land-development-.json"
+      ]
+    },
+    "27": {
+      "canonical_id": "ITA_2023_S27",
+      "bengali_variations": [
+        "ধারা 27",
+        "ধারা ২৭"
+      ],
+      "english_variations": [],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-8-bd.json",
+        "tds_rules/tds-rules-2024-rule-8-fy-2024-2025-bangladesh.json"
+      ]
+    },
+    "146": {
+      "canonical_id": "ITA_2023_S146",
+      "bengali_variations": [],
+      "english_variations": [
+        "Sec 146",
+        "Section 146"
+      ],
+      "found_in_files": [
+        "tds_rules/tds-rules-2024-fy-2025-26-rule-9-bd.json",
+        "tds_rules/tds-rules-2024-rule-9-fy-2024-2025-bangladesh.json",
+        "tds_rules/tds-rules-bangla-rules-8-timelimit-for-payment-of-tax-deducted-at-source.json"
+      ]
+    }
+  },
+  "schedule_normalization": {},
+  "rule_normalization": {},
+  "legal_term_mapping": {
+    "tax_terms": {
+      "আয়কর": [
+        "income tax",
+        "income-tax"
+      ],
+      "tax": [
+        "কর"
+      ],
+      "ধারা": [
+        "section",
+        "sec"
+      ],
+      "তফসিল": [
+        "schedule"
+      ],
+      "বিধি": [
+        "rule",
+        "rules"
+      ],
+      "আইন": [
+        "act",
+        "law"
+      ],
+      "অধ্যাদেশ": [
+        "ordinance"
+      ],
+      "অর্থবছর": [
+        "financial year",
+        "FY"
+      ],
+      "করদাতা": [
+        "taxpayer",
+        "assessee"
+      ],
+      "নিবন্ধন": [
+        "registration"
+      ],
+      "রিটার্ন": [
+        "return"
+      ],
+      "নির্ধারণ": [
+        "assessment"
+      ],
+      "আপিল": [
+        "appeal"
+      ],
+      "জরিমানা": [
+        "penalty"
+      ],
+      "সুদ": [
+        "interest"
+      ],
+      "ছাড়": [
+        "exemption",
+        "deduction"
+      ],
+      "হার": [
+        "rate"
+      ],
+      "সীমা": [
+        "limit",
+        "threshold"
+      ]
+    },
+    "procedural_terms": {
+      "দাখিল": [
+        "filing",
+        "submission"
+      ],
+      "প্রদান": [
+        "payment"
+      ],
+      "গ্রহণ": [
+        "acceptance"
+      ],
+      "অনুমোদন": [
+        "approval"
+      ],
+      "বাতিল": [
+        "cancellation"
+      ],
+      "সংশোধন": [
+        "amendment",
+        "modification"
+      ],
+      "প্রত্যাহার": [
+        "withdrawal"
+      ],
+      "স্থগিত": [
+        "postponement",
+        "deferment"
+      ]
+    }
+  },
+  "numerical_standardization": {
+    "bengali_to_english": {
+      "০": "0",
+      "১": "1",
+      "২": "2",
+      "৩": "3",
+      "৪": "4",
+      "৫": "5",
+      "৬": "6",
+      "৭": "7",
+      "৮": "8",
+      "৯": "9"
+    },
+    "english_to_bengali": {
+      "0": "০",
+      "1": "১",
+      "2": "২",
+      "3": "৩",
+      "4": "৪",
+      "5": "৫",
+      "6": "৬",
+      "7": "৭",
+      "8": "৮",
+      "9": "৯"
+    }
+  },
+  "statistics": {
+    "files_processed": 72,
+    "sections_mapped": 45,
+    "total_bengali_variations": 80,
+    "total_english_variations": 55
+  }
+}

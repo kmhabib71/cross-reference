@@ -1,0 +1,62 @@
+🎯 Bengali Legal NER Model Validation Report
+==================================================
+
+Model: bengali-legal-ner-v1.0
+Evaluation Date: 2025-08-12T14:29:53.837705
+Test Samples: 128
+Total Tokens: 45839
+
+📊 Overall Performance:
+  Token Accuracy: 0.994
+  Precision: 0.997
+  Recall: 0.829
+  F1 Score: 0.905
+
+🏷️  Entity-Specific Performance:
+  TAXPAYER:
+    F1: 0.802
+    Precision: 1.000
+    Recall: 0.669
+  RULE:
+    F1: 0.833
+    Precision: 0.769
+    Recall: 0.909
+  PERCENTAGE:
+    F1: 0.910
+    Precision: 0.999
+    Recall: 0.835
+  SCHEDULE:
+    F1: 0.959
+    Precision: 1.000
+    Recall: 0.921
+  AMOUNT:
+    F1: 0.977
+    Precision: 1.000
+    Recall: 0.955
+  FORM:
+    F1: 0.924
+    Precision: 1.000
+    Recall: 0.859
+  DATE:
+    F1: 0.842
+    Precision: 1.000
+    Recall: 0.727
+  AUTHORITY:
+    F1: 0.893
+    Precision: 1.000
+    Recall: 0.807
+  ACT:
+    F1: 1.000
+    Precision: 1.000
+    Recall: 1.000
+  SECTION:
+    F1: 0.938
+    Precision: 1.000
+    Recall: 0.883
+
+🔍 Error Analysis:
+  Total Errors: 293
+  Boundary Errors: 0
+  Entity Confusion: 4
+  False Positives: 0
+  False Negatives: 289

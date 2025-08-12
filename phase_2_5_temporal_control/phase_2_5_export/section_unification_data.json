@@ -1,0 +1,323 @@
+{
+  "section_mappings": {
+    "ITA_2023_S44": {
+      "canonical_id": "ITA_2023_S44",
+      "document_source": "income_tax_act_2023",
+      "section_number": "44",
+      "bengali_variations": [
+        "ধারা ৪৪",
+        "ধারা চুয়াল্লিশ",
+        "৪ৄ নং ধারা"
+      ],
+      "english_variations": [
+        "Section 44",
+        "Sec 44",
+        "s. 44",
+        "§ 44"
+      ],
+      "canonical_text_bengali": "করমুক্ত আয়ের সীমা",
+      "canonical_text_english": "Tax-free income limit",
+      "topic_keywords": [
+        "tax_free_limit",
+        "exemption_threshold",
+        "করমুক্ত",
+        "সীমা"
+      ],
+      "related_sections": [
+        "ITA_2023_S43",
+        "ITA_2023_S45"
+      ],
+      "effective_date": null,
+      "metadata": null
+    },
+    "ITA_2023_S75": {
+      "canonical_id": "ITA_2023_S75",
+      "document_source": "income_tax_act_2023",
+      "section_number": "75",
+      "bengali_variations": [
+        "ধারা ৭৫",
+        "ধারা পঁচাত্তর",
+        "৭৫ নং ধারা"
+      ],
+      "english_variations": [
+        "Section 75",
+        "Sec 75",
+        "s. 75",
+        "§ 75"
+      ],
+      "canonical_text_bengali": "রিটার্ন দাখিল বাধ্যবাধকতা",
+      "canonical_text_english": "Obligation to furnish return",
+      "topic_keywords": [
+        "return_filing",
+        "filing_obligation",
+        "রিটার্ন",
+        "দাখিল"
+      ],
+      "related_sections": [
+        "ITA_2023_S76",
+        "ITA_2023_S77"
+      ],
+      "effective_date": null,
+      "metadata": null
+    },
+    "ITA_2023_S163": {
+      "canonical_id": "ITA_2023_S163",
+      "document_source": "income_tax_act_2023",
+      "section_number": "163",
+      "bengali_variations": [
+        "ধারা ১৬৩",
+        "ধারা একশ তেষট্টি",
+        "১৬৩ নং ধারা"
+      ],
+      "english_variations": [
+        "Section 163",
+        "Sec 163",
+        "s. 163",
+        "§ 163"
+      ],
+      "canonical_text_bengali": "ন্যূনতম কর",
+      "canonical_text_english": "Minimum tax",
+      "topic_keywords": [
+        "minimum_tax",
+        "ন্যূনতম",
+        "কর"
+      ],
+      "related_sections": [
+        "ITA_2023_S162",
+        "ITA_2023_S164"
+      ],
+      "effective_date": null,
+      "metadata": null
+    },
+    "ITA_2023_S102": {
+      "canonical_id": "ITA_2023_S102",
+      "document_source": "income_tax_act_2023",
+      "section_number": "102",
+      "bengali_variations": [
+        "ধারা ১০২",
+        "ধারা একশ দুই",
+        "১০২ নং ধারা"
+      ],
+      "english_variations": [
+        "Section 102",
+        "Sec 102",
+        "s. 102",
+        "§ 102"
+      ],
+      "canonical_text_bengali": "সঞ্চয় আমানত ও সাবধি আমানতের সুদ থেকে উৎসে কর কর্তন",
+      "canonical_text_english": "Deduction at source from interest on savings and fixed deposits",
+      "topic_keywords": [
+        "tds",
+        "interest_tax",
+        "সুদ",
+        "কর_কর্তন"
+      ],
+      "related_sections": [
+        "ITA_2023_S101",
+        "ITA_2023_S103"
+      ],
+      "effective_date": null,
+      "metadata": null
+    },
+    "ITA_2023_SCH4": {
+      "canonical_id": "ITA_2023_SCH4",
+      "document_source": "income_tax_act_2023",
+      "section_number": "schedule_4",
+      "bengali_variations": [
+        "তফসিল ৪",
+        "চতুর্থ তফসিল",
+        "৪ নং তফসিল"
+      ],
+      "english_variations": [
+        "Schedule 4",
+        "4th Schedule",
+        "Fourth Schedule"
+      ],
+      "canonical_text_bengali": "কর হার তফসিল",
+      "canonical_text_english": "Tax rate schedule",
+      "topic_keywords": [
+        "tax_rates",
+        "schedule",
+        "হার",
+        "তফসিল"
+      ],
+      "related_sections": [
+        "ITA_2023_SCH3",
+        "ITA_2023_SCH5"
+      ],
+      "effective_date": null,
+      "metadata": null
+    }
+  },
+  "canonical_index": {
+    "ITA_2023_S44": "ITA_2023_S44",
+    "ITA_2023_S75": "ITA_2023_S75",
+    "ITA_2023_S163": "ITA_2023_S163",
+    "ITA_2023_S102": "ITA_2023_S102",
+    "ITA_2023_SCH4": "ITA_2023_SCH4"
+  },
+  "variation_index": {
+    "section 44": [
+      "ITA_2023_S44",
+      "ITA_2023_S44",
+      "ITA_2023_S44",
+      "ITA_2023_S44",
+      "ITA_2023_S44"
+    ],
+    "ধারা চুয়াল্লিশ": [
+      "ITA_2023_S44"
+    ],
+    "section 4": [
+      "ITA_2023_S44",
+      "ITA_2023_SCH4",
+      "ITA_2023_SCH4",
+      "ITA_2023_SCH4"
+    ],
+    "section 75": [
+      "ITA_2023_S75",
+      "ITA_2023_S75",
+      "ITA_2023_S75",
+      "ITA_2023_S75",
+      "ITA_2023_S75",
+      "ITA_2023_S75"
+    ],
+    "ধারা পঁচাত্তর": [
+      "ITA_2023_S75"
+    ],
+    "section 163": [
+      "ITA_2023_S163",
+      "ITA_2023_S163",
+      "ITA_2023_S163",
+      "ITA_2023_S163",
+      "ITA_2023_S163",
+      "ITA_2023_S163"
+    ],
+    "ধারা একশ তেষট্টি": [
+      "ITA_2023_S163"
+    ],
+    "section 102": [
+      "ITA_2023_S102",
+      "ITA_2023_S102",
+      "ITA_2023_S102",
+      "ITA_2023_S102",
+      "ITA_2023_S102",
+      "ITA_2023_S102"
+    ],
+    "ধারা একশ দুই": [
+      "ITA_2023_S102"
+    ],
+    "চতুর্থ তফসিল": [
+      "ITA_2023_SCH4"
+    ],
+    "4th schedule": [
+      "ITA_2023_SCH4"
+    ],
+    "fourth schedule": [
+      "ITA_2023_SCH4"
+    ]
+  },
+  "section_patterns": {
+    "bengali_sections": [
+      "ধারা\\s*([০-৯\\d]+[ক-ঙাআইউএও]?)",
+      "([০-৯\\d]+)\\s*নং\\s*ধারা",
+      "([০-৯\\d]+)\\s*(?:নম্বর|নং)?\\s*ধারা",
+      "ধারা\\s*([০-৯\\d]+)\\s*এর"
+    ],
+    "english_sections": [
+      "Section\\s*(\\d+[A-Z]?)",
+      "Sec\\.?\\s*(\\d+[A-Z]?)",
+      "s\\.?\\s*(\\d+[A-Z]?)",
+      "§\\s*(\\d+[A-Z]?)",
+      "Section\\s*No\\.?\\s*(\\d+[A-Z]?)"
+    ],
+    "numeric_sections": [
+      "(\\d+)[ক-ঙাআইউএও]?\\s*(?:ধারা|section|sec)",
+      "(?:ধারা|section|sec)\\s*(\\d+[A-Z]?)"
+    ],
+    "schedule_patterns": [
+      "তফসিল\\s*([০-৯\\d]+(?:ম|য়)?)",
+      "Schedule\\s*(\\d+(?:st|nd|rd|th)?)",
+      "([০-৯\\d]+)(?:ম|য়)?\\s*তফসিল"
+    ]
+  },
+  "normalization_rules": {
+    "bengali_to_english_numerals": {
+      "০": "0",
+      "১": "1",
+      "২": "2",
+      "৩": "3",
+      "৪": "4",
+      "৫": "5",
+      "৬": "6",
+      "৭": "7",
+      "৮": "8",
+      "৯": "9"
+    },
+    "section_term_standardization": {
+      "ধারা": "section",
+      "Section": "section",
+      "Sec": "section",
+      "sec": "section",
+      "s": "section",
+      "§": "section"
+    },
+    "ordinal_standardization": {
+      "ক": "A",
+      "খ": "B",
+      "গ": "C",
+      "ঘ": "D",
+      "ঙ": "E",
+      "চ": "F",
+      "ছ": "G",
+      "জ": "H",
+      "ঝ": "I",
+      "ঞ": "J"
+    },
+    "whitespace_normalization": "\\s+",
+    "punctuation_removal": "[।,;:!?]"
+  },
+  "statistics": {
+    "total_mappings": 5,
+    "total_variations": 34,
+    "document_sources": "{'income_tax_act_2023'}",
+    "mapping_distribution": {
+      "income_tax_act_2023": 5
+    },
+    "coverage_analysis": {
+      "bengali_coverage": 5,
+      "english_coverage": 5,
+      "bilingual_mappings": 5
+    },
+    "most_common_sections": [
+      [
+        "ITA_2023_S44",
+        7
+      ],
+      [
+        "ITA_2023_S75",
+        7
+      ],
+      [
+        "ITA_2023_S163",
+        7
+      ],
+      [
+        "ITA_2023_S102",
+        7
+      ],
+      [
+        "ITA_2023_SCH4",
+        6
+      ]
+    ],
+    "metadata": {
+      "generated_date": "2025-08-10",
+      "system_version": "2.5.3"
+    }
+  },
+  "metadata": {
+    "version": "2.5.3",
+    "export_date": "2025-08-10",
+    "description": "Cross-Language Section ID Unification Data"
+  }
+}

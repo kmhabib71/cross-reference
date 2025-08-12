@@ -1,0 +1,41 @@
+{
+  "file_path_corrections_summary": {
+    "task": "Fix Legal Hierarchy File Paths",
+    "status": "COMPLETED",
+    "corrections_made": [],
+    "files_verified": [
+      {
+        "document": "finance_ordinance_2025",
+        "file_path": "finance_laws/finance_ordinance_2025_cleaned.json",
+        "file_size": 1059489
+      },
+      {
+        "document": "income_tax_act_2023",
+        "file_path": "core_acts/income_tax_act_2023_cleaned.json",
+        "file_size": 2408389
+      },
+      {
+        "document": "tds_rules_2025",
+        "file_path": "tds_rules/tds-rules-2024-fy-2025-26-bd.json",
+        "file_size": 0
+      },
+      {
+        "document": "tds_rules_2024",
+        "file_path": "tds_rules/tds-rules-2024-fy-2024-2025-bangladesh.json",
+        "file_size": 0
+      },
+      {
+        "document": "income_tax_circulars_2025",
+        "file_path": "circulars/income_tax_circular_2024_25_ultra_enriched.json",
+        "file_size": 17948454
+      }
+    ],
+    "files_missing": [],
+    "warnings": [
+      {
+        "document": "schedules_1st_8th",
+        "issue": "Some referenced files found, others missing"
+      }
+    ]
+  }
+}

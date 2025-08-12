@@ -1,0 +1,63 @@
+{
+  "entity_types": [
+    "SECTION",
+    "SCHEDULE",
+    "RULE",
+    "ACT",
+    "AMOUNT",
+    "PERCENTAGE",
+    "DATE",
+    "AUTHORITY",
+    "TAXPAYER",
+    "FORM"
+  ],
+  "tag_format": "BIO tagging (B-ENTITY, I-ENTITY, O)",
+  "priority_entities": [
+    "SECTION",
+    "SCHEDULE",
+    "RULE",
+    "ACT"
+  ],
+  "common_patterns": {
+    "SECTION": [
+      "ধারা ১৬৩",
+      "section 163"
+    ],
+    "SCHEDULE": [
+      "৬ষ্ঠ তফসিল",
+      "6th schedule"
+    ],
+    "RULE": [
+      "আয়কর বিধিমালা",
+      "income tax rules"
+    ],
+    "ACT": [
+      "আয়কর আইন",
+      "income tax act"
+    ],
+    "AMOUNT": [
+      "৫০,০০০ টাকা",
+      "50,000 taka"
+    ],
+    "PERCENTAGE": [
+      "১৫ শতাংশ",
+      "15 percent"
+    ],
+    "DATE": [
+      "১ জুলাই, ২০২৩",
+      "1st July, 2023"
+    ],
+    "AUTHORITY": [
+      "জাতীয় রাজস্ব বোর্ড",
+      "national board of revenue"
+    ],
+    "TAXPAYER": [
+      "ব্যক্তি করদাতা",
+      "individual taxpayer"
+    ],
+    "FORM": [
+      "ফরম-১১৬৩",
+      "form-1163"
+    ]
+  }
+}
