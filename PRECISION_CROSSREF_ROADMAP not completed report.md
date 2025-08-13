@@ -63,8 +63,43 @@ CLAIMED: ✅ CompleteACTUAL: ❌ 0% Complete
 - ❌ No temporal law manager
 - ❌ No legal change impact analysis
 - ❌ No cross-language section ID unification
-
-Phase 3: Semantic Understanding Layer
+  Update Todos to fix phase 2.5
+  ⎿ ☐ ROADMAP: Read Phase 2.5 requirements from
+  original roadmap to understand exact
+  specifications
+  ☐ BACKUP: Move old Phase 2.5 files to backup
+  folder to preserve but not interfere
+  ☐ FOUNDATION: Create fresh
+  temporal_law_manager.py that imports from our  
+   graph_database_setup.py
+  ☐ CORE FEATURE: Implement financial year
+  auto-detection for Bengali/English queries
+  (২০২৫ অর্থবছর, FY 2025-26)
+  ☐ CORE FEATURE: Build temporal law override
+  hierarchy system (Finance Ordinance > Income  
+   Tax Act > Rules)
+  ☐ CORE FEATURE: Create legal change tracking
+  system to track law versions across financial  
+   years
+  ☐ INTEGRATION: Connect temporal system with
+  Phase 2 knowledge graph (69 nodes, 562 edges)  
+   ☐ DATA STRUCTURE: Design temporal data model for  
+   law versions, effective dates, and authority  
+   levels
+  ☐ QUERY RESOLVER: Build query resolution system  
+   that picks correct law version based on
+  financial year
+  ☐ SECTION UNIFICATION: Implement cross-language  
+   section mapping (Bengali ধারা ১৬৩ = English
+  Section 163)
+  ☐ TEST FRAMEWORK: Create comprehensive tests for  
+   temporal query resolution
+  ☐ INTEGRATION TEST: Build Phase 2.5 integration  
+   test that works with Phase 2 system
+  ☐ VALIDATION: Ensure Phase 2.5 meets roadmap
+  requirements and integrates properly with
+  Phase 2
+  Phase 3: Semantic Understanding Layer
 
 CLAIMED: ✅ CompleteACTUAL: ❌ 0% Complete
 

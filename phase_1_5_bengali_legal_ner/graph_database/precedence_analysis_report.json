@@ -1,0 +1,548 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-08-12T21:29:05.666226",
+    "phase": "Phase 2.3 - Precedence Resolution",
+    "engine_version": "legal_precedence_engine_v1.0"
+  },
+  "conflict_analysis": {
+    "analysis_date": "2025-08-12T21:29:05.460199",
+    "detected_conflicts": [
+      {
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "section_163_income_tax",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "SECTION_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '১৫']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_act_2023",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "rule_25_income_tax",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "hierarchical_conflicts",
+        "conflict_indicators": [
+          "Bengali conflict keyword: বিপরীত",
+          "Bengali conflict keyword: তবে",
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '২০']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.6000000000000001,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "section_164_amended",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "SECTION_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '১৮']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_act_2023",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "act_vat_2012",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "ACT_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '১৫']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "vat_act_2012",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "rule_special_case",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['১০']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "rule_25_income_tax",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "hierarchical_conflicts",
+        "conflict_indicators": [
+          "Bengali conflict keyword: বিপরীত",
+          "Bengali conflict keyword: তবে",
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '২০']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.6000000000000001,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "section_164_amended",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "SECTION_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '১৮']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_act_2023",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "act_vat_2012",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "ACT_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['৫০,০০০', '১৫']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "vat_act_2012",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "rule_special_case",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['১০']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "section_164_amended",
+        "entity1_type": "RULE_NODE",
+        "entity2_type": "SECTION_NODE",
+        "conflict_type": "hierarchical_conflicts",
+        "conflict_indicators": [
+          "Bengali conflict keyword: বিপরীত",
+          "Bengali conflict keyword: তবে",
+          "Different amounts: ['৫০,০০০', '২০'] vs ['৫০,০০০', '১৮']"
+        ],
+        "entity1_document": "income_tax_rules_2024",
+        "entity2_document": "income_tax_act_2023",
+        "confidence": 0.6000000000000001,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "act_vat_2012",
+        "entity1_type": "RULE_NODE",
+        "entity2_type": "ACT_NODE",
+        "conflict_type": "hierarchical_conflicts",
+        "conflict_indicators": [
+          "Bengali conflict keyword: বিপরীত",
+          "Bengali conflict keyword: তবে",
+          "Different amounts: ['৫০,০০০', '২০'] vs ['৫০,০০০', '১৫']"
+        ],
+        "entity1_document": "income_tax_rules_2024",
+        "entity2_document": "vat_act_2012",
+        "confidence": 0.6000000000000001,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "rule_special_case",
+        "entity1_type": "RULE_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "implicit_conflicts",
+        "conflict_indicators": [
+          "Bengali conflict keyword: বিপরীত",
+          "Bengali conflict keyword: তবে",
+          "Different amounts: ['৫০,০০০', '২০'] vs ['১০']"
+        ],
+        "entity1_document": "income_tax_rules_2024",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.6000000000000001,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_164_amended",
+        "entity2_id": "act_vat_2012",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "ACT_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৮'] vs ['৫০,০০০', '১৫']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "vat_act_2012",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "section_164_amended",
+        "entity2_id": "rule_special_case",
+        "entity1_type": "SECTION_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৮'] vs ['১০']"
+        ],
+        "entity1_document": "income_tax_act_2023",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      },
+      {
+        "entity1_id": "act_vat_2012",
+        "entity2_id": "rule_special_case",
+        "entity1_type": "ACT_NODE",
+        "entity2_type": "RULE_NODE",
+        "conflict_type": "direct_conflicts",
+        "conflict_indicators": [
+          "Different amounts: ['৫০,০০০', '১৫'] vs ['১০']"
+        ],
+        "entity1_document": "vat_act_2012",
+        "entity2_document": "income_tax_rules_2024",
+        "confidence": 0.2,
+        "detection_method": "keyword_analysis"
+      }
+    ],
+    "potential_conflicts": [],
+    "conflict_categories": {
+      "direct_conflicts": 10,
+      "implicit_conflicts": 1,
+      "hierarchical_conflicts": 4,
+      "temporal_conflicts": 0
+    },
+    "conflict_summary": {
+      "total_conflicts": 15,
+      "entities_involved": 6,
+      "conflict_density": 1.0,
+      "most_common_conflict_type": "direct_conflicts"
+    }
+  },
+  "resolution_results": {
+    "resolution_date": "2025-08-12T21:29:05.460716",
+    "total_conflicts": 15,
+    "resolved_conflicts": [
+      {
+        "conflict_id": "act_income_tax_2023_vs_section_163_income_tax",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "section_163_income_tax",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_163_income_tax",
+        "losing_entity": "act_income_tax_2023",
+        "resolution_method": "specificity_based",
+        "confidence": 0.7,
+        "reasoning": "More specific provision (specificity: 0.9) overrides general (specificity: 0.8)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "act_income_tax_2023_vs_rule_25_income_tax",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "rule_25_income_tax",
+        "conflict_type": "hierarchical_conflicts",
+        "resolved": true,
+        "winning_entity": "rule_25_income_tax",
+        "losing_entity": "act_income_tax_2023",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2024-01-01) overrides earlier (2023-07-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "act_income_tax_2023_vs_section_164_amended",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "section_164_amended",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_164_amended",
+        "losing_entity": "act_income_tax_2023",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2024-06-01) overrides earlier (2023-07-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "act_income_tax_2023_vs_act_vat_2012",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "act_vat_2012",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "act_income_tax_2023",
+        "losing_entity": "act_vat_2012",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2023-07-01) overrides earlier (2012-07-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "act_income_tax_2023_vs_rule_special_case",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "rule_special_case",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "act_income_tax_2023",
+        "losing_entity": "rule_special_case",
+        "resolution_method": "hierarchy_based",
+        "confidence": 0.9,
+        "reasoning": "act (level 2) takes precedence over rule (level 3)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_163_income_tax_vs_rule_25_income_tax",
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "rule_25_income_tax",
+        "conflict_type": "hierarchical_conflicts",
+        "resolved": true,
+        "winning_entity": "rule_25_income_tax",
+        "losing_entity": "section_163_income_tax",
+        "resolution_method": "specificity_based",
+        "confidence": 0.7,
+        "reasoning": "More specific provision (specificity: 1.0) overrides general (specificity: 0.9)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_163_income_tax_vs_section_164_amended",
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "section_164_amended",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_164_amended",
+        "losing_entity": "section_163_income_tax",
+        "resolution_method": "specificity_based",
+        "confidence": 0.7,
+        "reasoning": "More specific provision (specificity: 1.0) overrides general (specificity: 0.9)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_163_income_tax_vs_act_vat_2012",
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "act_vat_2012",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_163_income_tax",
+        "losing_entity": "act_vat_2012",
+        "resolution_method": "specificity_based",
+        "confidence": 0.7,
+        "reasoning": "More specific provision (specificity: 0.9) overrides general (specificity: 0.8)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_163_income_tax_vs_rule_special_case",
+        "entity1_id": "section_163_income_tax",
+        "entity2_id": "rule_special_case",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": null,
+        "losing_entity": null,
+        "resolution_method": "harmonious_construction",
+        "confidence": 0.6,
+        "reasoning": "Provisions have different scopes and can coexist through harmonious construction",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "rule_25_income_tax_vs_section_164_amended",
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "section_164_amended",
+        "conflict_type": "hierarchical_conflicts",
+        "resolved": true,
+        "winning_entity": "section_164_amended",
+        "losing_entity": "rule_25_income_tax",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2024-06-01) overrides earlier (2024-01-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "rule_25_income_tax_vs_act_vat_2012",
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "act_vat_2012",
+        "conflict_type": "hierarchical_conflicts",
+        "resolved": true,
+        "winning_entity": "rule_25_income_tax",
+        "losing_entity": "act_vat_2012",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2024-01-01) overrides earlier (2012-07-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "rule_25_income_tax_vs_rule_special_case",
+        "entity1_id": "rule_25_income_tax",
+        "entity2_id": "rule_special_case",
+        "conflict_type": "implicit_conflicts",
+        "resolved": true,
+        "winning_entity": "rule_25_income_tax",
+        "losing_entity": "rule_special_case",
+        "resolution_method": "hierarchy_based",
+        "confidence": 0.9,
+        "reasoning": "act (level 2) takes precedence over rule (level 3)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_164_amended_vs_act_vat_2012",
+        "entity1_id": "section_164_amended",
+        "entity2_id": "act_vat_2012",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_164_amended",
+        "losing_entity": "act_vat_2012",
+        "resolution_method": "temporal_based",
+        "confidence": 0.8,
+        "reasoning": "Later provision (2024-06-01) overrides earlier (2012-07-01)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "section_164_amended_vs_rule_special_case",
+        "entity1_id": "section_164_amended",
+        "entity2_id": "rule_special_case",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "section_164_amended",
+        "losing_entity": "rule_special_case",
+        "resolution_method": "specificity_based",
+        "confidence": 0.7,
+        "reasoning": "More specific provision (specificity: 1.0) overrides general (specificity: 0.9)",
+        "precedence_created": false
+      },
+      {
+        "conflict_id": "act_vat_2012_vs_rule_special_case",
+        "entity1_id": "act_vat_2012",
+        "entity2_id": "rule_special_case",
+        "conflict_type": "direct_conflicts",
+        "resolved": true,
+        "winning_entity": "act_vat_2012",
+        "losing_entity": "rule_special_case",
+        "resolution_method": "hierarchy_based",
+        "confidence": 0.9,
+        "reasoning": "act (level 2) takes precedence over rule (level 3)",
+        "precedence_created": false
+      }
+    ],
+    "unresolved_conflicts": [],
+    "resolution_methods": {
+      "hierarchy_based": 3,
+      "temporal_based": 6,
+      "specificity_based": 5,
+      "harmonious_construction": 1
+    },
+    "resolution_statistics": {
+      "resolution_rate": 1.0,
+      "most_common_method": "temporal_based",
+      "avg_confidence": 0.7733333333333333
+    }
+  },
+  "precedence_hierarchy": {
+    "constitution": {
+      "precedence_level": 1,
+      "description": "Constitution of Bangladesh",
+      "overrides": [
+        "act",
+        "rule",
+        "policy",
+        "circular"
+      ]
+    },
+    "act": {
+      "precedence_level": 2,
+      "description": "Parliamentary Acts",
+      "overrides": [
+        "rule",
+        "policy",
+        "circular",
+        "notification"
+      ],
+      "examples": [
+        "Income Tax Act",
+        "VAT Act"
+      ]
+    },
+    "ordinance": {
+      "precedence_level": 2,
+      "description": "Presidential Ordinances",
+      "overrides": [
+        "rule",
+        "policy",
+        "circular",
+        "notification"
+      ]
+    },
+    "rule": {
+      "precedence_level": 3,
+      "description": "Rules made under Acts",
+      "overrides": [
+        "policy",
+        "circular",
+        "notification"
+      ],
+      "examples": [
+        "Income Tax Rules",
+        "VAT Rules"
+      ]
+    },
+    "regulation": {
+      "precedence_level": 4,
+      "description": "Regulations",
+      "overrides": [
+        "circular",
+        "notification"
+      ]
+    },
+    "policy": {
+      "precedence_level": 5,
+      "description": "Government Policies",
+      "overrides": [
+        "circular",
+        "notification"
+      ]
+    },
+    "circular": {
+      "precedence_level": 6,
+      "description": "Administrative Circulars",
+      "overrides": [
+        "notification"
+      ]
+    },
+    "notification": {
+      "precedence_level": 7,
+      "description": "Official Notifications",
+      "overrides": []
+    }
+  },
+  "system_performance": {
+    "total_entities_analyzed": 8,
+    "conflicts_detected": 15,
+    "conflicts_resolved": 15,
+    "resolution_rate": 1.0,
+    "precedence_edges_created": 14
+  },
+  "recommendations": [
+    "Review unresolved conflicts manually",
+    "Consider adding more specific precedence rules",
+    "Validate precedence decisions with legal experts",
+    "Monitor system performance with real legal documents"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-08-12T21:28:45.297502",
+    "phase": "Phase 2.3 - Legal Hierarchy Engine",
+    "engine_version": "legal_hierarchy_engine_v1.0"
+  },
+  "hierarchy_framework": {
+    "levels": {
+      "1": {
+        "name": "Constitution",
+        "bengali_name": "সংবিধান",
+        "authority": "Constitutional Assembly",
+        "scope": "Supreme law of Bangladesh",
+        "amendment_process": "Constitutional amendment procedure"
+      },
+      "2": {
+        "name": "Parliamentary Acts",
+        "bengali_name": "সংসদীয় আইন",
+        "authority": "Parliament of Bangladesh",
+        "scope": "Primary legislation",
+        "examples": [
+          "Income Tax Act",
+          "VAT Act",
+          "Customs Act"
+        ]
+      },
+      "3": {
+        "name": "Presidential Ordinances",
+        "bengali_name": "রাষ্ট্রপতির অধ্যাদেশ",
+        "authority": "President of Bangladesh",
+        "scope": "Emergency legislation when Parliament not in session",
+        "validity": "Temporary unless ratified by Parliament"
+      },
+      "4": {
+        "name": "Rules and Regulations",
+        "bengali_name": "বিধি ও প্রবিধান",
+        "authority": "Government ministries and departments",
+        "scope": "Implementation details for Acts",
+        "examples": [
+          "Income Tax Rules",
+          "VAT Rules"
+        ]
+      },
+      "5": {
+        "name": "Government Policies",
+        "bengali_name": "সরকারি নীতিমালা",
+        "authority": "Cabinet and ministries",
+        "scope": "Policy guidance and directives"
+      },
+      "6": {
+        "name": "Circulars and Notifications",
+        "bengali_name": "পরিপত্র ও বিজ্ঞপ্তি",
+        "authority": "Administrative departments",
+        "scope": "Operational instructions and clarifications"
+      },
+      "7": {
+        "name": "Administrative Orders",
+        "bengali_name": "প্রশাসনিক আদেশ",
+        "authority": "Department heads and officials",
+        "scope": "Day-to-day administrative decisions"
+      }
+    }
+  },
+  "analysis_results": {
+    "analysis_date": "2025-08-12T21:28:45.246441",
+    "document_levels": {
+      "act_income_tax_2023": {
+        "hierarchy_level": 2,
+        "authority": null,
+        "document_type": "ACT_NODE",
+        "title": "আয়কর আইন ২০২৩",
+        "date": "2023-07-01"
+      },
+      "act_vat_2012": {
+        "hierarchy_level": 2,
+        "authority": null,
+        "document_type": "ACT_NODE",
+        "title": "মূল্য সংযোজন কর আইন ২০১২",
+        "date": "2012-07-01"
+      },
+      "rule_25_income_tax": {
+        "hierarchy_level": 2,
+        "authority": null,
+        "document_type": "RULE_NODE",
+        "title": "কর হার নির্ধারণ",
+        "date": "2024-01-01"
+      },
+      "rule_special_case": {
+        "hierarchy_level": 4,
+        "authority": null,
+        "document_type": "RULE_NODE",
+        "title": "রপ্তানিকারক বিশেষ সুবিধা",
+        "date": "unknown"
+      },
+      "section_163_income_tax": {
+        "hierarchy_level": 0,
+        "authority": null,
+        "document_type": "SECTION_NODE",
+        "title": "কর নির্ধারণ",
+        "date": "unknown"
+      },
+      "section_164_amended": {
+        "hierarchy_level": 0,
+        "authority": null,
+        "document_type": "SECTION_NODE",
+        "title": "সংশোধিত কর নির্ধারণ",
+        "date": "2024-06-01"
+      }
+    },
+    "authority_chains": [
+      {
+        "authority": "Unknown",
+        "chain_length": 6,
+        "entities": [
+          {
+            "entity_id": "section_163_income_tax",
+            "level": 0,
+            "type": "SECTION_NODE",
+            "title": "কর নির্ধারণ"
+          },
+          {
+            "entity_id": "section_164_amended",
+            "level": 0,
+            "type": "SECTION_NODE",
+            "title": "সংশোধিত কর নির্ধারণ"
+          },
+          {
+            "entity_id": "act_income_tax_2023",
+            "level": 2,
+            "type": "ACT_NODE",
+            "title": "আয়কর আইন ২০২৩"
+          },
+          {
+            "entity_id": "act_vat_2012",
+            "level": 2,
+            "type": "ACT_NODE",
+            "title": "মূল্য সংযোজন কর আইন ২০১২"
+          },
+          {
+            "entity_id": "rule_25_income_tax",
+            "level": 2,
+            "type": "RULE_NODE",
+            "title": "কর হার নির্ধারণ"
+          },
+          {
+            "entity_id": "rule_special_case",
+            "level": 4,
+            "type": "RULE_NODE",
+            "title": "রপ্তানিকারক বিশেষ সুবিধা"
+          }
+        ]
+      }
+    ],
+    "hierarchy_conflicts": [
+      {
+        "conflict_type": "temporal_hierarchy_conflict",
+        "entity1_id": "act_vat_2012",
+        "entity2_id": "act_income_tax_2023",
+        "hierarchy_level": 2,
+        "authority": null,
+        "entity1_date": "2012-07-01",
+        "entity2_date": "2023-07-01",
+        "resolution": "Later document (act_income_tax_2023) should take precedence"
+      },
+      {
+        "conflict_type": "temporal_hierarchy_conflict",
+        "entity1_id": "act_income_tax_2023",
+        "entity2_id": "rule_25_income_tax",
+        "hierarchy_level": 2,
+        "authority": null,
+        "entity1_date": "2023-07-01",
+        "entity2_date": "2024-01-01",
+        "resolution": "Later document (rule_25_income_tax) should take precedence"
+      }
+    ],
+    "orphaned_documents": [
+      "section_163_income_tax",
+      "section_164_amended"
+    ],
+    "hierarchy_completeness": 0.6666666666666666
+  },
+  "build_results": {
+    "build_date": "2025-08-12T21:28:45.246857",
+    "hierarchy_edges_created": 4,
+    "authority_relationships": 2,
+    "temporal_relationships": 2,
+    "subordination_relationships": 0
+  },
+  "validation_results": {
+    "validation_date": "2025-08-12T21:28:45.297333",
+    "total_hierarchy_edges": 4,
+    "circular_dependencies": [],
+    "disconnected_components": [],
+    "authority_consistency": {},
+    "integrity_score": 100.0
+  },
+  "system_performance": {
+    "total_entities": 6,
+    "entities_classified": 4,
+    "classification_rate": 0.6666666666666666,
+    "hierarchy_edges": 4,
+    "authority_chains": 1,
+    "conflicts_identified": 2
+  },
+  "recommendations": [
+    "Review orphaned documents and classify them properly",
+    "Resolve identified hierarchy conflicts",
+    "Add more explicit authority information to documents",
+    "Validate hierarchy relationships with legal experts"
+  ]
+}

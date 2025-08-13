@@ -1,0 +1,196 @@
+{
+  "database_config": {
+    "type": "hybrid",
+    "graph_engine": "NetworkX",
+    "persistence": "SQLite",
+    "database_path": "bengali_legal_knowledge_graph.db"
+  },
+  "node_types": {
+    "DOCUMENT_NODE": {
+      "description": "Root document nodes representing legal documents",
+      "properties": [
+        "document_id",
+        "title",
+        "type",
+        "date",
+        "authority",
+        "language"
+      ],
+      "examples": [
+        "Income Tax Act 2023",
+        "VAT Law 2012"
+      ]
+    },
+    "SECTION_NODE": {
+      "description": "Legal section nodes from documents",
+      "properties": [
+        "section_id",
+        "document_id",
+        "text",
+        "section_number",
+        "title"
+      ],
+      "examples": [
+        "Section 163 of Income Tax Act",
+        "ধারা ১৬৩"
+      ]
+    },
+    "SCHEDULE_NODE": {
+      "description": "Schedule and appendix nodes",
+      "properties": [
+        "schedule_id",
+        "document_id",
+        "schedule_number",
+        "title",
+        "content"
+      ],
+      "examples": [
+        "6th Schedule",
+        "তৃতীয় তফসিল"
+      ]
+    },
+    "RULE_NODE": {
+      "description": "Rules and regulation nodes",
+      "properties": [
+        "rule_id",
+        "document_id",
+        "rule_number",
+        "title",
+        "content"
+      ],
+      "examples": [
+        "Income Tax Rules",
+        "আয়কর বিধিমালা"
+      ]
+    },
+    "ACT_NODE": {
+      "description": "Act and law nodes",
+      "properties": [
+        "act_id",
+        "title",
+        "year",
+        "authority",
+        "status"
+      ],
+      "examples": [
+        "Income Tax Act",
+        "মূল্য সংযোজন কর আইন"
+      ]
+    },
+    "CONCEPT_NODE": {
+      "description": "Legal concept nodes (amounts, dates, authorities, etc.)",
+      "properties": [
+        "concept_id",
+        "type",
+        "value",
+        "context",
+        "document_id"
+      ],
+      "examples": [
+        "50,000 Taka",
+        "15 percent",
+        "National Board of Revenue"
+      ]
+    }
+  },
+  "edge_types": {
+    "REFERENCES": {
+      "description": "One legal provision references another",
+      "properties": [
+        "reference_type",
+        "context",
+        "confidence"
+      ],
+      "examples": [
+        "Section A references Schedule B",
+        "উক্ত ধারার অনুসারে"
+      ]
+    },
+    "OVERRIDES": {
+      "description": "One provision overrides/supersedes another",
+      "properties": [
+        "override_type",
+        "effective_date",
+        "authority"
+      ],
+      "examples": [
+        "New section overrides old section",
+        "সংশোধিত ধারা পূর্বের রহিত করে"
+      ]
+    },
+    "IMPLEMENTS": {
+      "description": "One provision implements/executes another",
+      "properties": [
+        "implementation_method",
+        "scope",
+        "requirements"
+      ],
+      "examples": [
+        "Rule implements Act provision",
+        "বিধি আইনের বাস্তবায়ন"
+      ]
+    },
+    "MODIFIES": {
+      "description": "One provision modifies another",
+      "properties": [
+        "modification_type",
+        "changes",
+        "version"
+      ],
+      "examples": [
+        "Amendment modifies original",
+        "সংশোধনী মূল পরিবর্তন করে"
+      ]
+    },
+    "CONDITIONS": {
+      "description": "Conditional relationships between provisions",
+      "properties": [
+        "condition_type",
+        "requirements",
+        "exceptions"
+      ],
+      "examples": [
+        "If taxpayer income > 50K then Section X applies",
+        "শর্তসাপেক্ষে প্রযোজ্য"
+      ]
+    },
+    "HIERARCHY": {
+      "description": "Hierarchical relationships (parent-child)",
+      "properties": [
+        "hierarchy_level",
+        "authority",
+        "precedence"
+      ],
+      "examples": [
+        "Act > Rules > Guidelines",
+        "আইন > বিধিমালা > নির্দেশনা"
+      ]
+    },
+    "CONTAINS": {
+      "description": "Document contains sections/schedules",
+      "properties": [
+        "container_type",
+        "position",
+        "sequence"
+      ],
+      "examples": [
+        "Act contains Section",
+        "আইন ধারা ধারণ করে"
+      ]
+    },
+    "APPLIES_TO": {
+      "description": "Provision applies to specific concepts/entities",
+      "properties": [
+        "application_scope",
+        "conditions",
+        "exceptions"
+      ],
+      "examples": [
+        "Tax rate applies to income range",
+        "কর হার আয়ের পরিসরে প্রযোজ্য"
+      ]
+    }
+  },
+  "setup_date": "2025-08-12T21:08:05.926770",
+  "status": "READY"
+}

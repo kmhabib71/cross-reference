@@ -1,0 +1,39 @@
+{
+  "generation_date": "2025-08-12T21:10:49.855376",
+  "phase": "Phase 2.2 - Knowledge Graph Construction",
+  "graph_statistics": {
+    "total_nodes": 20,
+    "total_edges": 1,
+    "node_type_distribution": {
+      "DOCUMENT_NODE": 2,
+      "ACT_NODE": 2,
+      "SECTION_NODE": 3,
+      "CONCEPT_NODE": 13
+    },
+    "edge_type_distribution": {
+      "REFERENCES": 1
+    },
+    "connectivity_metrics": {
+      "density": 0.002631578947368421,
+      "is_connected": false,
+      "number_of_components": 19
+    }
+  },
+  "validation_status": "CRITICAL",
+  "graph_health": {
+    "validation_date": "2025-08-12T21:10:49.855316",
+    "total_nodes": 20,
+    "total_edges": 1,
+    "issues": [
+      "Found 18 isolated nodes"
+    ],
+    "recommendations": [
+      "Review isolated nodes - they may need connections"
+    ],
+    "overall_status": "CRITICAL"
+  },
+  "builder_stats": {
+    "total_nodes_created": 20,
+    "total_edges_created": 0
+  }
+}

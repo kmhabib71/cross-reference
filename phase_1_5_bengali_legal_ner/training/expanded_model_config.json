@@ -1,0 +1,214 @@
+{
+  "model_name": "sagorsarker/bangla-bert-base",
+  "phase": "Phase 2.1 - Relationship Entity Expansion",
+  "expansion_date": "2025-08-12",
+  "base_model_performance": {
+    "phase_1_5_f1": 0.876,
+    "phase_1_5_entities": 10,
+    "phase_1_5_labels": 21
+  },
+  
+  "expanded_entity_labels": {
+    "O": 0,
+    "B-SECTION": 1,
+    "I-SECTION": 2,
+    "B-ACT": 3,
+    "I-ACT": 4,
+    "B-SCHEDULE": 5,
+    "I-SCHEDULE": 6,
+    "B-RULE": 7,
+    "I-RULE": 8,
+    "B-AMOUNT": 9,
+    "I-AMOUNT": 10,
+    "B-PERCENTAGE": 11,
+    "I-PERCENTAGE": 12,
+    "B-DATE": 13,
+    "I-DATE": 14,
+    "B-AUTHORITY": 15,
+    "I-AUTHORITY": 16,
+    "B-TAXPAYER": 17,
+    "I-TAXPAYER": 18,
+    "B-FORM": 19,
+    "I-FORM": 20,
+    "B-REFERENCE": 21,
+    "I-REFERENCE": 22,
+    "B-OVERRIDE": 23,
+    "I-OVERRIDE": 24,
+    "B-IMPLEMENT": 25,
+    "I-IMPLEMENT": 26,
+    "B-MODIFY": 27,
+    "I-MODIFY": 28,
+    "B-CONDITION": 29,
+    "I-CONDITION": 30,
+    "B-HIERARCHY": 31,
+    "I-HIERARCHY": 32
+  },
+  
+  "training_config": {
+    "base_model": "sagorsarker/bangla-bert-base",
+    "max_length": 128,
+    "batch_size": 16,
+    "learning_rate": 1e-05,
+    "num_epochs": 3,
+    "warmup_steps": 300,
+    "weight_decay": 0.01,
+    "num_labels": 33,
+    "expansion_strategy": "incremental_training",
+    "freeze_base_layers": false,
+    "fine_tune_all_layers": true
+  },
+  
+  "transfer_learning_strategy": {
+    "approach": "incremental_expansion",
+    "base_model_path": "./phase_1_5_model_checkpoint",
+    "strategy_details": {
+      "step_1": "Load Phase 1.5 trained model",
+      "step_2": "Expand output layer from 21 to 33 labels", 
+      "step_3": "Initialize new relationship embeddings",
+      "step_4": "Fine-tune on relationship-augmented dataset",
+      "step_5": "Validate on combined entity + relationship test set"
+    }
+  },
+  
+  "training_data_expansion": {
+    "original_data": {
+      "source": "real_training_dataset.json",
+      "lines": 4762,
+      "entity_types": 10,
+      "annotations": "BIO format with 21 labels"
+    },
+    "expanded_data": {
+      "target_lines": 7000,
+      "additional_relationship_samples": 2238,
+      "entity_types": 16,
+      "annotations": "BIO format with 33 labels",
+      "augmentation_strategy": "relationship-focused generation"
+    }
+  },
+  
+  "performance_targets": {
+    "overall_metrics": {
+      "target_f1": 0.85,
+      "target_precision": 0.87,
+      "target_recall": 0.83,
+      "target_accuracy": 0.96
+    },
+    
+    "entity_specific_targets": {
+      "base_entities": {
+        "SECTION": 0.90,
+        "ACT": 0.85, 
+        "SCHEDULE": 0.88,
+        "RULE": 0.85,
+        "AMOUNT": 0.80,
+        "PERCENTAGE": 0.82,
+        "DATE": 0.75,
+        "AUTHORITY": 0.80,
+        "TAXPAYER": 0.75,
+        "FORM": 0.78
+      },
+      "relationship_entities": {
+        "REFERENCE": 0.80,
+        "OVERRIDE": 0.75,
+        "IMPLEMENT": 0.75,
+        "MODIFY": 0.75,
+        "CONDITION": 0.70,
+        "HIERARCHY": 0.80
+      }
+    },
+    
+    "relationship_extraction_targets": {
+      "relationship_precision": 0.85,
+      "relationship_recall": 0.80,
+      "relationship_f1": 0.82,
+      "relationship_type_accuracy": 0.78
+    }
+  },
+  
+  "validation_strategy": {
+    "cross_validation": {
+      "folds": 5,
+      "validation_split": 0.2,
+      "test_split": 0.1
+    },
+    
+    "evaluation_metrics": [
+      "precision",
+      "recall", 
+      "f1_score",
+      "accuracy",
+      "entity_level_f1",
+      "relationship_extraction_accuracy"
+    ],
+    
+    "early_stopping": {
+      "monitor": "val_f1",
+      "patience": 3,
+      "min_delta": 0.001
+    }
+  },
+  
+  "model_architecture_changes": {
+    "output_layer_expansion": {
+      "from_labels": 21,
+      "to_labels": 33,
+      "new_parameters": 2304
+    },
+    
+    "embedding_adjustments": {
+      "relationship_vocabulary": [
+        "উক্ত", "সংশ্লিষ্ট", "অনুসারে", "রহিত", "বাতিল", "প্রতিস্থাপন",
+        "বাস্তবায়ন", "কার্যকর", "প্রয়োগ", "সংশোধন", "পরিবর্তন", 
+        "শর্ত", "যদি", "তাহলে", "অধীন", "প্রধান"
+      ],
+      "enhanced_attention": "Multi-head attention for relationship detection"
+    }
+  },
+  
+  "inference_optimization": {
+    "target_inference_speed": {
+      "avg_time_per_sample_ms": 50,
+      "tokens_per_second": 2500,
+      "batch_processing": true
+    },
+    
+    "memory_optimization": {
+      "model_size_mb": 450,
+      "gpu_memory_requirement_gb": 4,
+      "cpu_fallback": true
+    }
+  },
+  
+  "knowledge_graph_integration": {
+    "output_format": {
+      "entities": "standard NER output",
+      "relationships": "source-target-type triplets",
+      "confidence_scores": "per entity and relationship"
+    },
+    
+    "graph_node_mapping": {
+      "SECTION": "section_node",
+      "ACT": "act_node", 
+      "SCHEDULE": "schedule_node",
+      "RULE": "rule_node",
+      "REFERENCE": "reference_edge",
+      "OVERRIDE": "override_edge",
+      "IMPLEMENT": "implement_edge",
+      "MODIFY": "modify_edge",
+      "CONDITION": "condition_edge",
+      "HIERARCHY": "hierarchy_edge"
+    }
+  },
+  
+  "production_deployment": {
+    "model_format": "pytorch",
+    "deployment_targets": ["cpu", "gpu"],
+    "containerization": "docker",
+    "api_integration": "rest_api",
+    "monitoring": {
+      "performance_tracking": true,
+      "error_logging": true,
+      "usage_analytics": true
+    }
+  }
+}

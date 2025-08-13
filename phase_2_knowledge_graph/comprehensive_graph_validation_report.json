@@ -1,0 +1,211 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-08-13T10:27:15.115873",
+    "phase": "Phase 2.2 - Graph Validation",
+    "validator_version": "comprehensive_graph_validator_v1.0",
+    "validation_scope": "structure + semantics + performance"
+  },
+  "overall_assessment": {
+    "structure_score": 100.0,
+    "semantic_score": 20.0,
+    "performance_score": 55.0,
+    "overall_score": 58.333333333333336,
+    "validation_status": "ACCEPTABLE"
+  },
+  "detailed_results": {
+    "structure_validation": {
+      "validation_date": "2025-08-13T10:27:15.103454",
+      "basic_metrics": {
+        "total_nodes": 69,
+        "total_edges": 555,
+        "nodes_per_edge_ratio": 0.12432432432432433,
+        "density": 0.11828644501278772
+      },
+      "node_validation": {
+        "node_type_distribution": {
+          "ACT_NODE": 12,
+          "SECTION_NODE": 11,
+          "DOCUMENT_NODE": 9,
+          "CONCEPT_NODE": 32,
+          "RULE_NODE": 4,
+          "SCHEDULE_NODE": 1
+        },
+        "nodes_with_properties": 69,
+        "nodes_missing_critical_props": 0,
+        "property_coverage": 1.0
+      },
+      "edge_validation": {
+        "edge_type_distribution": {
+          "CONTAINS": 257,
+          "HIERARCHY": 194,
+          "REFERENCES": 6,
+          "OVERRIDES": 74,
+          "MODIFIES": 24
+        },
+        "edges_with_properties": 555,
+        "bidirectional_edges": 130,
+        "property_coverage": 1.0
+      },
+      "connectivity_validation": {
+        "is_weakly_connected": false,
+        "number_of_components": 11,
+        "isolated_nodes": 2,
+        "average_degree": 16.08695652173913
+      },
+      "structure_issues": [],
+      "structure_score": 100.0
+    },
+    "semantic_validation": {
+      "validation_date": "2025-08-13T10:27:15.107622",
+      "document_coverage": {
+        "total_documents": 0,
+        "document_analysis": {},
+        "avg_entities_per_doc": 0.0,
+        "avg_entity_diversity": 0.0
+      },
+      "legal_entity_validation": {
+        "SECTION_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "ACT_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "RULE_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "SCHEDULE_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        }
+      },
+      "relationship_semantics": {
+        "CONTAINS": {
+          "count": 257,
+          "source_types": [
+            "DOCUMENT_NODE",
+            "ACT_NODE"
+          ],
+          "target_types": [
+            "SECTION_NODE",
+            "ACT_NODE",
+            "RULE_NODE",
+            "SCHEDULE_NODE",
+            "CONCEPT_NODE"
+          ],
+          "avg_confidence": 0.0,
+          "with_context": 0
+        },
+        "HIERARCHY": {
+          "count": 194,
+          "source_types": [
+            "SECTION_NODE",
+            "ACT_NODE",
+            "RULE_NODE",
+            "SCHEDULE_NODE",
+            "CONCEPT_NODE"
+          ],
+          "target_types": [
+            "SECTION_NODE",
+            "ACT_NODE",
+            "RULE_NODE",
+            "SCHEDULE_NODE",
+            "CONCEPT_NODE"
+          ],
+          "avg_confidence": 0.5938144329896887,
+          "with_context": 192
+        },
+        "REFERENCES": {
+          "count": 6,
+          "source_types": [
+            "SECTION_NODE"
+          ],
+          "target_types": [
+            "SECTION_NODE"
+          ],
+          "avg_confidence": 0.7999999999999999,
+          "with_context": 6
+        },
+        "OVERRIDES": {
+          "count": 74,
+          "source_types": [
+            "SECTION_NODE",
+            "RULE_NODE",
+            "ACT_NODE",
+            "CONCEPT_NODE"
+          ],
+          "target_types": [
+            "SECTION_NODE",
+            "RULE_NODE",
+            "ACT_NODE",
+            "CONCEPT_NODE"
+          ],
+          "avg_confidence": 0.6540540540540549,
+          "with_context": 44
+        },
+        "MODIFIES": {
+          "count": 24,
+          "source_types": [
+            "SECTION_NODE",
+            "ACT_NODE",
+            "CONCEPT_NODE"
+          ],
+          "target_types": [
+            "SECTION_NODE",
+            "ACT_NODE",
+            "CONCEPT_NODE"
+          ],
+          "avg_confidence": 0.5999999999999998,
+          "with_context": 24
+        }
+      },
+      "semantic_issues": [],
+      "semantic_score": 20.0
+    },
+    "performance_validation": {
+      "validation_date": "2025-08-13T10:27:15.109723",
+      "query_performance": {
+        "node_query_time_ms": 0.04,
+        "relationship_query_time_ms": 0.0,
+        "stats_query_time_ms": 1.44,
+        "total_query_time_ms": 1.47
+      },
+      "memory_usage": {
+        "rss_mb": "unavailable (psutil not installed)",
+        "vms_mb": "unavailable (psutil not installed)"
+      },
+      "scalability_metrics": {
+        "nodes_per_second_estimate": 48058.0,
+        "edges_per_second_estimate": 386556.0,
+        "graph_complexity": 38295,
+        "projected_10x_performance": {
+          "estimated_nodes": 690,
+          "estimated_edges": 5550,
+          "estimated_query_time_ms": 14.36
+        }
+      },
+      "performance_score": 55.0
+    }
+  },
+  "critical_issues": [],
+  "warnings": [],
+  "recommendations": [
+    "Enhance legal semantics - improve entity relationships and context",
+    "Optimize performance - consider indexing and caching strategies"
+  ],
+  "production_readiness": {
+    "ready_for_phase_2_3": true,
+    "blocking_issues": [],
+    "improvement_suggestions": []
+  }
+}

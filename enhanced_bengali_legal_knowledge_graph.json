@@ -1,0 +1,926 @@
+{
+  "metadata": {
+    "export_date": "2025-08-13T10:01:05.101115",
+    "graph_version": "2.0",
+    "phase": "Phase 2.2 - Graph Database Export"
+  },
+  "statistics": {
+    "total_nodes": 39,
+    "total_edges": 34,
+    "node_type_distribution": {
+      "DOCUMENT_NODE": 5,
+      "ACT_NODE": 7,
+      "SECTION_NODE": 5,
+      "CONCEPT_NODE": 19,
+      "RULE_NODE": 2,
+      "SCHEDULE_NODE": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "doc_income_tax_act_2023",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Unknown Document",
+        "type": "legal_document",
+        "date": "2025-08-13T10:01:02.950613",
+        "authority": "Unknown Authority",
+        "language": "bengali",
+        "source": "ner_processing"
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_act_আযকর_আইন_২০২৩_1",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "আয়কর আইন ২০২৩ ",
+        "entity_type": "ACT",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 0,
+        "end_position": 15,
+        "extraction_method": "phase_2_1_ner",
+        "title": "আয়কর আইন ২০২৩ ",
+        "year": "২০২৩",
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_section_র_১৬৩_2",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "ারা ১৬৩ ",
+        "entity_type": "SECTION",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 19,
+        "end_position": 27,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "১৬৩",
+        "title": "ারা ১৬৩ "
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_taxpayer_যকত_করদত_3",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "্যক্তি করদাতা",
+        "entity_type": "TAXPAYER",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 36,
+        "end_position": 49,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "taxpayer",
+        "value": "্যক্তি করদাতা",
+        "context": "extracted from doc_income_tax_act_2023"
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_amount_০০০০_টক_4",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "০,০০০ টাকা",
+        "entity_type": "AMOUNT",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 56,
+        "end_position": 66,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "amount",
+        "value": "০,০০০ টাকা",
+        "context": "extracted from doc_income_tax_act_2023"
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_percentage_শতশ_ক_5",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " শতাংশ ক",
+        "entity_type": "PERCENTAGE",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 79,
+        "end_position": 87,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "percentage",
+        "value": " শতাংশ ক",
+        "context": "extracted from doc_income_tax_act_2023"
+      }
+    },
+    {
+      "id": "doc_income_tax_act_2023_authority_জতয_রজসব_6",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ি জাতীয় রাজস্ব ",
+        "entity_type": "AUTHORITY",
+        "document_id": "doc_income_tax_act_2023",
+        "start_position": 110,
+        "end_position": 126,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "authority",
+        "value": "ি জাতীয় রাজস্ব ",
+        "context": "extracted from doc_income_tax_act_2023"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Unknown Document",
+        "type": "legal_document",
+        "date": "2025-08-13T10:01:03.442419",
+        "authority": "Unknown Authority",
+        "language": "bengali",
+        "source": "ner_processing"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_rule_আযকর_বধমল_২০২_8",
+      "type": "RULE_NODE",
+      "properties": {
+        "text": "আয়কর বিধিমালা ২০২",
+        "entity_type": "RULE",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 0,
+        "end_position": 18,
+        "extraction_method": "phase_2_1_ner",
+        "rule_number": "২০২",
+        "title": "আয়কর বিধিমালা ২০২"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_section_বধ_২_9",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": " বিধি ২",
+        "entity_type": "SECTION",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 22,
+        "end_position": 29,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "২",
+        "title": " বিধি ২"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_act_আযকর_আইন_২০২_10",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "ী আয়কর আইন ২০২",
+        "entity_type": "ACT",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 38,
+        "end_position": 53,
+        "extraction_method": "phase_2_1_ner",
+        "title": "ী আয়কর আইন ২০২",
+        "year": null,
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_implements_বসতবয_11",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " বাস্তবায",
+        "entity_type": "IMPLEMENTS",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 57,
+        "end_position": 66,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_taxpayer_বযকত_করদ_12",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " ব্যক্তি করদা",
+        "entity_type": "TAXPAYER",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 75,
+        "end_position": 88,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "taxpayer",
+        "value": " ব্যক্তি করদা",
+        "context": "extracted from doc_income_tax_rules_2024"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_percentage_র_২০_শত_13",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "র ২০ শতা",
+        "entity_type": "PERCENTAGE",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 96,
+        "end_position": 104,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "percentage",
+        "value": "র ২০ শতা",
+        "context": "extracted from doc_income_tax_rules_2024"
+      }
+    },
+    {
+      "id": "doc_income_tax_rules_2024_override_র_আইন_14",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ার আইন",
+        "entity_type": "OVERRIDE",
+        "document_id": "doc_income_tax_rules_2024",
+        "start_position": 132,
+        "end_position": 138,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Unknown Document",
+        "type": "legal_document",
+        "date": "2025-08-13T10:01:03.937240",
+        "authority": "Unknown Authority",
+        "language": "bengali",
+        "source": "ner_processing"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_act_মলয_সযজন_কর_আইন_২০১২_16",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "মূল্য সংযোজন কর আইন ২০১২",
+        "entity_type": "ACT",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 0,
+        "end_position": 24,
+        "extraction_method": "phase_2_1_ner",
+        "title": "মূল্য সংযোজন কর আইন ২০১২",
+        "year": "২০১২",
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_section_ধর_৫০_17",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "ধারা ৫০",
+        "entity_type": "SECTION",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 28,
+        "end_position": 35,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "৫০",
+        "title": "ধারা ৫০"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_concept_বকর_18",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "বিক্র",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 44,
+        "end_position": 49,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_percentage_১৫_শত_19",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " ১৫ শতাং",
+        "entity_type": "PERCENTAGE",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 57,
+        "end_position": 65,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "percentage",
+        "value": " ১৫ শতাং",
+        "context": "extracted from doc_vat_act_2012"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_concept_ভয_20",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " ভ্য",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 66,
+        "end_position": 70,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_act_ন_আযকর_আ_21",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "ন আয়কর আ",
+        "entity_type": "ACT",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 88,
+        "end_position": 97,
+        "extraction_method": "phase_2_1_ner",
+        "title": "ন আয়কর আ",
+        "year": null,
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_vat_act_2012_reference_সয_22",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ে সংযু",
+        "entity_type": "REFERENCE",
+        "document_id": "doc_vat_act_2012",
+        "start_position": 105,
+        "end_position": 111,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Unknown Document",
+        "type": "legal_document",
+        "date": "2025-08-13T10:01:04.332236",
+        "authority": "Unknown Authority",
+        "language": "bengali",
+        "source": "ner_processing"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_act_শলক_আইন_১৯৬৯_24",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "শুল্ক আইন ১৯৬৯",
+        "entity_type": "ACT",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 0,
+        "end_position": 14,
+        "extraction_method": "phase_2_1_ner",
+        "title": "শুল্ক আইন ১৯৬৯",
+        "year": "১৯৬৯",
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_schedule_তফসল_১_25",
+      "type": "SCHEDULE_NODE",
+      "properties": {
+        "text": "তফসিল ১",
+        "entity_type": "SCHEDULE",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 18,
+        "end_position": 25,
+        "extraction_method": "phase_2_1_ner",
+        "schedule_number": "১",
+        "title": "তফসিল ১"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_concept_আমদন_শল_26",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " আমদানি শুল্",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 34,
+        "end_position": 46,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_act_এই_আইন_মলয_সয_27",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "়। এই আইন মূল্য সংয",
+        "entity_type": "ACT",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 63,
+        "end_position": 82,
+        "extraction_method": "phase_2_1_ner",
+        "title": "়। এই আইন মূল্য সংয",
+        "year": null,
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_reference_ইনর_সথ_স_28",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ইনের সাথে সা",
+        "entity_type": "REFERENCE",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 90,
+        "end_position": 102,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_customs_act_1969_authority_যপরণ_এব_জত_29",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "্যপূর্ণ এবং জাতী",
+        "entity_type": "AUTHORITY",
+        "document_id": "doc_customs_act_1969",
+        "start_position": 107,
+        "end_position": 123,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "authority",
+        "value": "্যপূর্ণ এবং জাতী",
+        "context": "extracted from doc_customs_act_1969"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Unknown Document",
+        "type": "legal_document",
+        "date": "2025-08-13T10:01:04.682755",
+        "authority": "Unknown Authority",
+        "language": "bengali",
+        "source": "ner_processing"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_rule_কর_টরইবযনল_বধমল_২০_31",
+      "type": "RULE_NODE",
+      "properties": {
+        "text": "কর ট্রাইব্যুনাল বিধিমালা ২০",
+        "entity_type": "RULE",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 0,
+        "end_position": 27,
+        "extraction_method": "phase_2_1_ner",
+        "rule_number": "২০",
+        "title": "কর ট্রাইব্যুনাল বিধিমালা ২০"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_section_র_বধ_32",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "র বিধি ",
+        "entity_type": "SECTION",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 31,
+        "end_position": 38,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "unknown",
+        "title": "র বিধি "
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_concept_আয_33",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "়ী আয",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 47,
+        "end_position": 52,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_concept_র_ভ_34",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "র, ভ",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 54,
+        "end_position": 58,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_concept_ট_ও_35",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ট ও ",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 61,
+        "end_position": 65,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_concept_রনত_বরধ_36",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "রান্ত বিরোধ ",
+        "entity_type": "CONCEPT",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 75,
+        "end_position": 87,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_act_হয_এই_37",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "হয়। এই",
+        "entity_type": "ACT",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 101,
+        "end_position": 108,
+        "extraction_method": "phase_2_1_ner",
+        "title": "হয়। এই",
+        "year": null,
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_tax_tribunal_rules_2020_section_সবধনর_38",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "ি সংবিধানের",
+        "entity_type": "SECTION",
+        "document_id": "doc_tax_tribunal_rules_2020",
+        "start_position": 112,
+        "end_position": 123,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "unknown",
+        "title": "ি সংবিধানের"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_act_আযকর_আইন_২০২৩_1",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 0,
+        "length": 15,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_section_র_১৬৩_2",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 19,
+        "length": 8,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_taxpayer_যকত_করদত_3",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 36,
+        "length": 13,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_amount_০০০০_টক_4",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 56,
+        "length": 10,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_percentage_শতশ_ক_5",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 79,
+        "length": 8,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_act_2023",
+      "target": "doc_income_tax_act_2023_authority_জতয_রজসব_6",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 110,
+        "length": 16,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_rule_আযকর_বধমল_২০২_8",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 0,
+        "length": 18,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_section_বধ_২_9",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 22,
+        "length": 7,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_act_আযকর_আইন_২০২_10",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 38,
+        "length": 15,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_implements_বসতবয_11",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 57,
+        "length": 9,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_taxpayer_বযকত_করদ_12",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 75,
+        "length": 13,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_percentage_র_২০_শত_13",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 96,
+        "length": 8,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_income_tax_rules_2024",
+      "target": "doc_income_tax_rules_2024_override_র_আইন_14",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 132,
+        "length": 6,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_act_মলয_সযজন_কর_আইন_২০১২_16",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 0,
+        "length": 24,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_section_ধর_৫০_17",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 28,
+        "length": 7,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_concept_বকর_18",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 44,
+        "length": 5,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_percentage_১৫_শত_19",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 57,
+        "length": 8,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_concept_ভয_20",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 66,
+        "length": 4,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_act_ন_আযকর_আ_21",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 88,
+        "length": 9,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_vat_act_2012",
+      "target": "doc_vat_act_2012_reference_সয_22",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 105,
+        "length": 6,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_act_শলক_আইন_১৯৬৯_24",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 0,
+        "length": 14,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_schedule_তফসল_১_25",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 18,
+        "length": 7,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_concept_আমদন_শল_26",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 34,
+        "length": 12,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_act_এই_আইন_মলয_সয_27",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 63,
+        "length": 19,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_reference_ইনর_সথ_স_28",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 90,
+        "length": 12,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_customs_act_1969",
+      "target": "doc_customs_act_1969_authority_যপরণ_এব_জত_29",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 107,
+        "length": 16,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_rule_কর_টরইবযনল_বধমল_২০_31",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 0,
+        "length": 27,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_section_র_বধ_32",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 31,
+        "length": 7,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_concept_আয_33",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 47,
+        "length": 5,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_concept_র_ভ_34",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 54,
+        "length": 4,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_concept_ট_ও_35",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 61,
+        "length": 4,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_concept_রনত_বরধ_36",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 75,
+        "length": 12,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_act_হয_এই_37",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 101,
+        "length": 7,
+        "extraction_confidence": 0.9
+      }
+    },
+    {
+      "source": "doc_tax_tribunal_rules_2020",
+      "target": "doc_tax_tribunal_rules_2020_section_সবধনর_38",
+      "type": "CONTAINS",
+      "weight": 1.0,
+      "properties": {
+        "position": 112,
+        "length": 11,
+        "extraction_confidence": 0.9
+      }
+    }
+  ]
+}

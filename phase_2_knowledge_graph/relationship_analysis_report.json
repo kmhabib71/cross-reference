@@ -1,0 +1,66 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-08-13T10:25:20.716216",
+    "phase": "Phase 2.2 - Advanced Relationship Building",
+    "engine_version": "advanced_relationship_engine_v1.0"
+  },
+  "graph_overview": {
+    "total_nodes": 39,
+    "total_edges": 132,
+    "density": 0.08906882591093117,
+    "connected": false,
+    "components": 5
+  },
+  "node_distribution": {
+    "DOCUMENT_NODE": 5,
+    "ACT_NODE": 7,
+    "SECTION_NODE": 5,
+    "CONCEPT_NODE": 19,
+    "RULE_NODE": 2,
+    "SCHEDULE_NODE": 1
+  },
+  "edge_distribution": {
+    "CONTAINS": 34,
+    "HIERARCHY": 64,
+    "OVERRIDES": 22,
+    "MODIFIES": 12
+  },
+  "relationship_opportunities": {
+    "total_opportunities": 98,
+    "created_relationships": 98,
+    "success_rate": 100.0
+  },
+  "relationship_quality": {
+    "CONTAINS": {
+      "count": 34,
+      "avg_confidence": 0.5,
+      "high_quality": 0,
+      "low_quality": 34
+    },
+    "HIERARCHY": {
+      "count": 64,
+      "avg_confidence": 0.6000000000000008,
+      "high_quality": 0,
+      "low_quality": 0
+    },
+    "OVERRIDES": {
+      "count": 22,
+      "avg_confidence": 0.5999999999999998,
+      "high_quality": 0,
+      "low_quality": 0
+    },
+    "MODIFIES": {
+      "count": 12,
+      "avg_confidence": 0.5999999999999999,
+      "high_quality": 0,
+      "low_quality": 0
+    }
+  },
+  "quality_score": 0.5742424242424246,
+  "quality_issues": 34,
+  "recommendations": [
+    "Graph is not fully connected - consider adding more cross-references",
+    "Overall relationship quality is low - review confidence thresholds",
+    "Found 34 low-quality relationships - manual review recommended"
+  ]
+}

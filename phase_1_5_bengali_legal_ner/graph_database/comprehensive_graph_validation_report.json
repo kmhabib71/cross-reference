@@ -1,0 +1,143 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-08-13T10:06:12.997890",
+    "phase": "Phase 2.2 - Graph Validation",
+    "validator_version": "comprehensive_graph_validator_v1.0",
+    "validation_scope": "structure + semantics + performance"
+  },
+  "overall_assessment": {
+    "structure_score": 85.0,
+    "semantic_score": 0.0,
+    "performance_score": 75.0,
+    "overall_score": 53.333333333333336,
+    "validation_status": "ACCEPTABLE"
+  },
+  "detailed_results": {
+    "structure_validation": {
+      "validation_date": "2025-08-13T10:06:12.990869",
+      "basic_metrics": {
+        "total_nodes": 39,
+        "total_edges": 34,
+        "nodes_per_edge_ratio": 1.1470588235294117,
+        "density": 0.022941970310391364
+      },
+      "node_validation": {
+        "node_type_distribution": {
+          "DOCUMENT_NODE": 5,
+          "ACT_NODE": 7,
+          "SECTION_NODE": 5,
+          "CONCEPT_NODE": 19,
+          "RULE_NODE": 2,
+          "SCHEDULE_NODE": 1
+        },
+        "nodes_with_properties": 39,
+        "nodes_missing_critical_props": 0,
+        "property_coverage": 1.0
+      },
+      "edge_validation": {
+        "edge_type_distribution": {
+          "CONTAINS": 34
+        },
+        "edges_with_properties": 34,
+        "bidirectional_edges": 0,
+        "property_coverage": 1.0
+      },
+      "connectivity_validation": {
+        "is_weakly_connected": false,
+        "number_of_components": 5,
+        "isolated_nodes": 0,
+        "average_degree": 1.7435897435897436
+      },
+      "structure_issues": [],
+      "structure_score": 85.0
+    },
+    "semantic_validation": {
+      "validation_date": "2025-08-13T10:06:12.993308",
+      "document_coverage": {
+        "total_documents": 0,
+        "document_analysis": {},
+        "avg_entities_per_doc": 0.0,
+        "avg_entity_diversity": 0.0
+      },
+      "legal_entity_validation": {
+        "SECTION_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "ACT_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "RULE_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        },
+        "SCHEDULE_NODE": {
+          "count": 0,
+          "with_numbers": 0,
+          "with_titles": 0,
+          "connected": 0
+        }
+      },
+      "relationship_semantics": {
+        "CONTAINS": {
+          "count": 34,
+          "source_types": [
+            "DOCUMENT_NODE"
+          ],
+          "target_types": [
+            "ACT_NODE",
+            "SECTION_NODE",
+            "RULE_NODE",
+            "CONCEPT_NODE",
+            "SCHEDULE_NODE"
+          ],
+          "avg_confidence": 0.0,
+          "with_context": 0
+        }
+      },
+      "semantic_issues": [],
+      "semantic_score": 0.0
+    },
+    "performance_validation": {
+      "validation_date": "2025-08-13T10:06:12.993584",
+      "query_performance": {
+        "node_query_time_ms": 0.01,
+        "relationship_query_time_ms": 0.0,
+        "stats_query_time_ms": 0.26,
+        "total_query_time_ms": 0.27
+      },
+      "memory_usage": {
+        "rss_mb": "unavailable (psutil not installed)",
+        "vms_mb": "unavailable (psutil not installed)"
+      },
+      "scalability_metrics": {
+        "nodes_per_second_estimate": 39000.0,
+        "edges_per_second_estimate": 34000.0,
+        "graph_complexity": 1326,
+        "projected_10x_performance": {
+          "estimated_nodes": 390,
+          "estimated_edges": 340,
+          "estimated_query_time_ms": 2.59
+        }
+      },
+      "performance_score": 75.0
+    }
+  },
+  "critical_issues": [],
+  "warnings": [],
+  "recommendations": [
+    "Enhance legal semantics - improve entity relationships and context"
+  ],
+  "production_readiness": {
+    "ready_for_phase_2_3": true,
+    "blocking_issues": [],
+    "improvement_suggestions": []
+  }
+}

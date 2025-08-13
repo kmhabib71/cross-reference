@@ -1,0 +1,41 @@
+{
+  "total_samples": 7162,
+  "entity_type_distribution": {
+    "ACT": 3120,
+    "RULE": 2855,
+    "TAXPAYER": 1339,
+    "AUTHORITY": 1425,
+    "AMOUNT": 921,
+    "DATE": 649,
+    "SCHEDULE": 412,
+    "SECTION": 598,
+    "PERCENTAGE": 483,
+    "FORM": 1340,
+    "HIERARCHY": 378,
+    "MODIFY": 111,
+    "CONDITION": 372,
+    "OVERRIDE": 281,
+    "REFERENCE": 348,
+    "IMPLEMENT": 60
+  },
+  "relationship_type_distribution": {
+    "MODIFY": 400,
+    "IMPLEMENT": 400,
+    "CONDITION": 400,
+    "HIERARCHY": 400,
+    "OVERRIDE": 400,
+    "REFERENCE": 400
+  },
+  "language_distribution": {
+    "mixed": 456,
+    "english": 735,
+    "unknown": 4762,
+    "bengali": 1209
+  },
+  "quality_metrics": {
+    "avg_entities_per_sample": 2.0513822954481986,
+    "samples_with_relationships": 2400,
+    "base_entity_coverage": 16,
+    "relationship_coverage": 6
+  }
+}

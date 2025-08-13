@@ -1,0 +1,365 @@
+{
+  "schema_version": "2.0",
+  "creation_date": "2025-08-12",
+  "phase": "Phase 2.1 - Relationship Entity Expansion",
+  "description": "Expanded Bengali Legal NER Schema with relationship entities for knowledge graph construction",
+  
+  "base_entities": {
+    "note": "Original 10 entities from Phase 1.5 - maintained for compatibility",
+    "entities": ["SECTION", "SCHEDULE", "RULE", "ACT", "AMOUNT", "PERCENTAGE", "DATE", "AUTHORITY", "TAXPAYER", "FORM"]
+  },
+  
+  "relationship_entities": {
+    "REFERENCE": {
+      "description": "References to other legal provisions",
+      "bengali_indicators": [
+        "উক্ত",
+        "সংশ্লিষ্ট", 
+        "উল্লেখিত",
+        "বর্ণিত",
+        "নির্দেশিত",
+        "অনুসারে",
+        "মতে",
+        "ভিত্তিতে"
+      ],
+      "english_indicators": [
+        "according to",
+        "as per",
+        "mentioned in",
+        "referred to",
+        "specified in",
+        "pursuant to",
+        "in accordance with"
+      ],
+      "patterns": [
+        "উক্ত ধারার বিধান অনুসারে",
+        "according to the said section",
+        "সংশ্লিষ্ট তফসিলে বর্ণিত",
+        "as specified in the related schedule",
+        "উল্লেখিত বিধি অনুযায়ী",
+        "pursuant to the mentioned rule"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP",
+      "relationship_type": "REFERENCES"
+    },
+    
+    "OVERRIDE": {
+      "description": "Legal provisions that override or supersede others",
+      "bengali_indicators": [
+        "রহিত",
+        "বাতিল",
+        "প্রতিস্থাপন",
+        "পরিবর্তন",
+        "সংশোধন",
+        "নতুন",
+        "পরিবর্তে",
+        "স্থলে"
+      ],
+      "english_indicators": [
+        "override",
+        "supersede",
+        "replace",
+        "substitute",
+        "amend",
+        "repeal",
+        "cancel",
+        "modify"
+      ],
+      "patterns": [
+        "এই ধারা পূর্বের বিধান রহিত করে",
+        "this section overrides the previous provision",
+        "নতুন তফসিল পুরাতন তফসিল প্রতিস্থাপন করবে",
+        "the new schedule shall replace the old schedule",
+        "সংশোধিত বিধি পূর্বের বিধি বাতিল করে",
+        "the amended rule cancels the previous rule"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP",
+      "relationship_type": "OVERRIDES"
+    },
+    
+    "IMPLEMENT": {
+      "description": "Implementation or execution of legal provisions",
+      "bengali_indicators": [
+        "বাস্তবায়ন",
+        "কার্যকর",
+        "প্রয়োগ",
+        "পালন",
+        "অনুসরণ",
+        "বাস্তবায়িত",
+        "কার্যকরী",
+        "প্রয়োগকারী"
+      ],
+      "english_indicators": [
+        "implement",
+        "execute",
+        "enforce",
+        "apply",
+        "carry out",
+        "put into effect",
+        "operationalize"
+      ],
+      "patterns": [
+        "এই বিধি বাস্তবায়নের জন্য",
+        "for implementing this rule",
+        "ধারাটি কার্যকর করার উদ্দেশ্যে",
+        "for the purpose of enforcing the section",
+        "তফসিল প্রয়োগের নির্দেশনা",
+        "guidelines for applying the schedule"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP",
+      "relationship_type": "IMPLEMENTS"
+    },
+    
+    "MODIFY": {
+      "description": "Modifications or amendments to existing provisions",
+      "bengali_indicators": [
+        "সংশোধন",
+        "পরিবর্তন",
+        "সংযোজন",
+        "বিয়োজন",
+        "সংস্কার",
+        "হালনাগাদ",
+        "সংশোধিত",
+        "পরিবর্তিত"
+      ],
+      "english_indicators": [
+        "modify",
+        "amend",
+        "alter",
+        "change",
+        "revise",
+        "update",
+        "adjust",
+        "reform"
+      ],
+      "patterns": [
+        "ধারা ১৬৩ সংশোধন করা হয়েছে",
+        "section 163 has been amended",
+        "তফসিল পরিবর্তনের বিজ্ঞপ্তি",
+        "notification of schedule modification",
+        "বিধি সংস্কারের প্রস্তাব",
+        "proposal for rule reform"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP",
+      "relationship_type": "MODIFIES"
+    },
+    
+    "CONDITION": {
+      "description": "Conditional relationships between provisions",
+      "bengali_indicators": [
+        "শর্ত",
+        "যদি",
+        "তাহলে",
+        "কিন্তু",
+        "তবে",
+        "শর্তসাপেক্ষে",
+        "ব্যতিক্রম",
+        "ক্ষেত্রে"
+      ],
+      "english_indicators": [
+        "condition",
+        "if",
+        "then",
+        "provided that",
+        "subject to",
+        "except",
+        "unless",
+        "in case of"
+      ],
+      "patterns": [
+        "যদি করদাতা শর্ত পূরণ করে তাহলে",
+        "if the taxpayer meets the condition then",
+        "তবে শর্ত সাপেক্ষে এই ধারা প্রযোজ্য",
+        "however this section applies subject to conditions",
+        "ব্যতিক্রম ছাড়া সকল ক্ষেত্রে প্রযোজ্য",
+        "applicable in all cases except exceptions"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP",
+      "relationship_type": "CONDITIONS"
+    },
+    
+    "HIERARCHY": {
+      "description": "Hierarchical relationships between legal documents",
+      "bengali_indicators": [
+        "আইন",
+        "বিধিমালা", 
+        "নীতিমালা",
+        "নির্দেশনা",
+        "প্রধান",
+        "গৌণ",
+        "উপ",
+        "অধীন"
+      ],
+      "english_indicators": [
+        "act",
+        "rules",
+        "policy",
+        "guidelines", 
+        "primary",
+        "secondary",
+        "subordinate",
+        "under"
+      ],
+      "patterns": [
+        "আইনের অধীনে প্রণীত বিধিমালা",
+        "rules made under the act",
+        "প্রধান আইন ও গৌণ বিধিমালা",
+        "primary act and secondary rules",
+        "উপ-নীতিমালা ও নির্দেশনা",
+        "sub-policies and guidelines"
+      ],
+      "entity_type": "LEGAL_RELATIONSHIP", 
+      "relationship_type": "HIERARCHY"
+    }
+  },
+  
+  "expanded_annotation_format": {
+    "format_type": "BIO_tagging",
+    "description": "Extended BIO tagging with relationship entities",
+    "original_tags": ["B-SECTION", "I-SECTION", "B-SCHEDULE", "I-SCHEDULE", "B-RULE", "I-RULE", "B-ACT", "I-ACT", "B-AMOUNT", "I-AMOUNT", "B-PERCENTAGE", "I-PERCENTAGE", "B-DATE", "I-DATE", "B-AUTHORITY", "I-AUTHORITY", "B-TAXPAYER", "I-TAXPAYER", "B-FORM", "I-FORM", "O"],
+    "new_relationship_tags": ["B-REFERENCE", "I-REFERENCE", "B-OVERRIDE", "I-OVERRIDE", "B-IMPLEMENT", "I-IMPLEMENT", "B-MODIFY", "I-MODIFY", "B-CONDITION", "I-CONDITION", "B-HIERARCHY", "I-HIERARCHY"],
+    "complete_tag_set": ["B-SECTION", "I-SECTION", "B-SCHEDULE", "I-SCHEDULE", "B-RULE", "I-RULE", "B-ACT", "I-ACT", "B-AMOUNT", "I-AMOUNT", "B-PERCENTAGE", "I-PERCENTAGE", "B-DATE", "I-DATE", "B-AUTHORITY", "I-AUTHORITY", "B-TAXPAYER", "I-TAXPAYER", "B-FORM", "I-FORM", "B-REFERENCE", "I-REFERENCE", "B-OVERRIDE", "I-OVERRIDE", "B-IMPLEMENT", "I-IMPLEMENT", "B-MODIFY", "I-MODIFY", "B-CONDITION", "I-CONDITION", "B-HIERARCHY", "I-HIERARCHY", "O"],
+    "total_tags": 27
+  },
+  
+  "relationship_examples": [
+    {
+      "text": "উক্ত ধারার বিধান অনুসারে কর নির্ধারণ করা হবে।",
+      "entities": [
+        [0, 3, "B-REFERENCE"],
+        [4, 8, "B-SECTION"],
+        [10, 15, "B-REFERENCE"],
+        [16, 24, "I-REFERENCE"]
+      ],
+      "relationships": {
+        "source": "current provision",
+        "target": "previous section",
+        "type": "REFERENCES"
+      },
+      "context": "Reference to previously mentioned section"
+    },
+    
+    {
+      "text": "এই ধারা পূর্বের বিধান রহিত করে এবং নতুন বিধান প্রবর্তন করে।",
+      "entities": [
+        [5, 9, "B-SECTION"],
+        [10, 16, "B-OVERRIDE"],
+        [17, 22, "I-OVERRIDE"],
+        [23, 27, "I-OVERRIDE"],
+        [35, 40, "B-IMPLEMENT"],
+        [41, 46, "I-IMPLEMENT"],
+        [47, 54, "I-IMPLEMENT"]
+      ],
+      "relationships": [
+        {
+          "source": "এই ধারা",
+          "target": "পূর্বের বিধান", 
+          "type": "OVERRIDES"
+        },
+        {
+          "source": "এই ধারা",
+          "target": "নতুন বিধান",
+          "type": "IMPLEMENTS"
+        }
+      ],
+      "context": "Section that overrides previous provision and implements new one"
+    },
+    
+    {
+      "text": "আয়কর আইনের অধীনে প্রণীত এই বিধিমালা কার্যকর হবে।",
+      "entities": [
+        [0, 9, "B-ACT"],
+        [10, 15, "I-ACT"],
+        [16, 21, "B-HIERARCHY"],
+        [22, 28, "I-HIERARCHY"],
+        [34, 43, "B-RULE"],
+        [44, 51, "B-IMPLEMENT"]
+      ],
+      "relationships": {
+        "source": "বিধিমালা",
+        "target": "আয়কর আইন",
+        "type": "HIERARCHY"
+      },
+      "context": "Rules made under primary income tax act"
+    },
+    
+    {
+      "text": "যদি করদাতার আয় ৫০ হাজার টাকার বেশি হয় তাহলে এই ধারা প্রযোজ্য।",
+      "entities": [
+        [0, 3, "B-CONDITION"],
+        [4, 12, "B-TAXPAYER"],
+        [15, 17, "B-AMOUNT"],
+        [18, 20, "I-AMOUNT"],
+        [21, 25, "I-AMOUNT"],
+        [26, 31, "I-AMOUNT"],
+        [39, 43, "I-CONDITION"],
+        [49, 53, "B-SECTION"]
+      ],
+      "relationships": {
+        "source": "এই ধারা",
+        "target": "করদাতার আয় ৫০ হাজার টাকার বেশি",
+        "type": "CONDITIONS"
+      },
+      "context": "Conditional application based on taxpayer income"
+    }
+  ],
+  
+  "training_strategy": {
+    "phase_1_compatibility": {
+      "maintain_existing_model": "Keep trained Phase 1.5 model as base",
+      "incremental_training": "Add relationship entities through transfer learning",
+      "data_augmentation": "Expand existing 4,762 lines with relationship annotations"
+    },
+    
+    "new_training_data": {
+      "relationship_focused_samples": "Generate 2,000+ relationship-specific training examples",
+      "complex_sentence_structures": "Include multi-entity, multi-relationship sentences",
+      "bilingual_relationships": "Bengali-English mixed relationship expressions"
+    },
+    
+    "model_architecture": {
+      "expand_output_layer": "Increase from 21 to 27 BIO tags",
+      "fine_tune_embeddings": "Adjust embeddings for relationship words",
+      "preserve_base_performance": "Maintain 87.6% F1 on original entities"
+    }
+  },
+  
+  "knowledge_graph_mapping": {
+    "node_types": [
+      "DOCUMENT_NODE",
+      "SECTION_NODE", 
+      "SCHEDULE_NODE",
+      "RULE_NODE",
+      "ACT_NODE"
+    ],
+    
+    "edge_types": [
+      "REFERENCES",
+      "OVERRIDES", 
+      "IMPLEMENTS",
+      "MODIFIES",
+      "CONDITIONS",
+      "HIERARCHY"
+    ],
+    
+    "graph_construction": {
+      "entity_to_node": "Convert NER entities to graph nodes",
+      "relationship_to_edge": "Convert relationship entities to graph edges",
+      "precedence_weights": "Assign hierarchy weights for precedence resolution"
+    }
+  },
+  
+  "validation_metrics": {
+    "entity_recognition": {
+      "target_f1": "≥85% F1 on all entity types",
+      "relationship_f1": "≥80% F1 on relationship entities",
+      "overall_performance": "≥82% macro F1 across all 16 entity types"
+    },
+    
+    "relationship_extraction": {
+      "precision": "≥85% precision on relationship identification",
+      "recall": "≥80% recall on relationship extraction", 
+      "relationship_accuracy": "≥80% accuracy on relationship type classification"
+    }
+  }
+}

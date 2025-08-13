@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "export_date": "2025-08-12T21:10:49.857818",
+    "graph_version": "2.0",
+    "phase": "Phase 2.2"
+  },
+  "statistics": {
+    "total_nodes": 20,
+    "total_edges": 1,
+    "node_type_distribution": {
+      "DOCUMENT_NODE": 2,
+      "ACT_NODE": 2,
+      "SECTION_NODE": 3,
+      "CONCEPT_NODE": 13
+    },
+    "edge_type_distribution": {
+      "REFERENCES": 1
+    },
+    "connectivity_metrics": {
+      "density": 0.002631578947368421,
+      "is_connected": false,
+      "number_of_components": 19
+    }
+  },
+  "nodes": [
+    {
+      "id": "doc_sample_1",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "আয়কর আইন ২০২৩",
+        "type": "act",
+        "date": "2023-07-01",
+        "authority": "জাতীয় রাজস্ব বোর্ড",
+        "language": "bengali",
+        "source": "ner_extraction"
+      }
+    },
+    {
+      "id": "doc_sample_1_act_আযকর_আইন_২০২৩_এ_1",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": "আয়কর আইন ২০২৩ এ",
+        "entity_type": "ACT",
+        "document_id": "doc_sample_1",
+        "start_position": 0,
+        "end_position": 16,
+        "extraction_method": "phase_2_1_ner",
+        "title": "আয়কর আইন ২০২৩ এ",
+        "year": "২০২৩",
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_sample_1_section_র_১৬৩_অ_2",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "রা ১৬৩ অ",
+        "entity_type": "SECTION",
+        "document_id": "doc_sample_1",
+        "start_position": 20,
+        "end_position": 28,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "১৬৩",
+        "title": "রা ১৬৩ অ"
+      }
+    },
+    {
+      "id": "doc_sample_1_reference_সর_কর_3",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ুসারে কর",
+        "entity_type": "REFERENCE",
+        "document_id": "doc_sample_1",
+        "start_position": 29,
+        "end_position": 37,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_sample_1_taxpayer_তর_আয_4",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "াতার আয়",
+        "entity_type": "TAXPAYER",
+        "document_id": "doc_sample_1",
+        "start_position": 38,
+        "end_position": 46,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "taxpayer",
+        "value": "াতার আয়",
+        "context": "extracted from doc_sample_1"
+      }
+    },
+    {
+      "id": "doc_sample_1_amount_হজর_টক_5",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": " হাজার টাকা",
+        "entity_type": "AMOUNT",
+        "document_id": "doc_sample_1",
+        "start_position": 49,
+        "end_position": 60,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "amount",
+        "value": " হাজার টাকা",
+        "context": "extracted from doc_sample_1"
+      }
+    },
+    {
+      "id": "doc_sample_1_percentage_হল_১৫_শত_6",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "হলে ১৫ শতা",
+        "entity_type": "PERCENTAGE",
+        "document_id": "doc_sample_1",
+        "start_position": 67,
+        "end_position": 77,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "percentage",
+        "value": "হলে ১৫ শতা",
+        "context": "extracted from doc_sample_1"
+      }
+    },
+    {
+      "id": "doc_sample_1_reference_যজ_7",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "যোজ",
+        "entity_type": "REFERENCE",
+        "document_id": "doc_sample_1",
+        "start_position": 86,
+        "end_position": 89,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_sample_1_section_য_উক_8",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "য। উক",
+        "entity_type": "SECTION",
+        "document_id": "doc_sample_1",
+        "start_position": 90,
+        "end_position": 95,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "unknown",
+        "title": "য। উক"
+      }
+    },
+    {
+      "id": "doc_sample_1_implement_রর_9",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "ারার ",
+        "entity_type": "IMPLEMENT",
+        "document_id": "doc_sample_1",
+        "start_position": 99,
+        "end_position": 104,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_sample_1_authority_ধন_জতয_রজসব_10",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "িধান জাতীয় রাজস্ব ",
+        "entity_type": "AUTHORITY",
+        "document_id": "doc_sample_1",
+        "start_position": 105,
+        "end_position": 124,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "authority",
+        "value": "িধান জাতীয় রাজস্ব ",
+        "context": "extracted from doc_sample_1"
+      }
+    },
+    {
+      "id": "doc_sample_2",
+      "type": "DOCUMENT_NODE",
+      "properties": {
+        "title": "Income Tax Rules 2024",
+        "type": "rules",
+        "date": "2024-01-01",
+        "authority": "National Board of Revenue",
+        "language": "english",
+        "source": "ner_extraction"
+      }
+    },
+    {
+      "id": "doc_sample_2_section_section_16_12",
+      "type": "SECTION_NODE",
+      "properties": {
+        "text": "section 16",
+        "entity_type": "SECTION",
+        "document_id": "doc_sample_2",
+        "start_position": 13,
+        "end_position": 23,
+        "extraction_method": "phase_2_1_ner",
+        "section_number": "16",
+        "title": "section 16"
+      }
+    },
+    {
+      "id": "doc_sample_2_act_Income_Tax_Act_2_13",
+      "type": "ACT_NODE",
+      "properties": {
+        "text": " Income Tax Act 2",
+        "entity_type": "ACT",
+        "document_id": "doc_sample_2",
+        "start_position": 27,
+        "end_position": 44,
+        "extraction_method": "phase_2_1_ner",
+        "title": " Income Tax Act 2",
+        "year": null,
+        "status": "active"
+      }
+    },
+    {
+      "id": "doc_sample_2_taxpayer_taxpayer_14",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "taxpayer",
+        "entity_type": "TAXPAYER",
+        "document_id": "doc_sample_2",
+        "start_position": 52,
+        "end_position": 60,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "taxpayer",
+        "value": "taxpayer",
+        "context": "extracted from doc_sample_2"
+      }
+    },
+    {
+      "id": "doc_sample_2_amount_0000_taka_15",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "0,000 taka ",
+        "entity_type": "AMOUNT",
+        "document_id": "doc_sample_2",
+        "start_position": 77,
+        "end_position": 88,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "amount",
+        "value": "0,000 taka ",
+        "context": "extracted from doc_sample_2"
+      }
+    },
+    {
+      "id": "doc_sample_2_percentage_5_percent_16",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "5 percent ",
+        "entity_type": "PERCENTAGE",
+        "document_id": "doc_sample_2",
+        "start_position": 94,
+        "end_position": 104,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "percentage",
+        "value": "5 percent ",
+        "context": "extracted from doc_sample_2"
+      }
+    },
+    {
+      "id": "doc_sample_2_reference_aid_section_s_17",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "aid section s",
+        "entity_type": "REFERENCE",
+        "document_id": "doc_sample_2",
+        "start_position": 122,
+        "end_position": 135,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_sample_2_implement_emented_by_18",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "emented by ",
+        "entity_type": "IMPLEMENT",
+        "document_id": "doc_sample_2",
+        "start_position": 147,
+        "end_position": 158,
+        "extraction_method": "phase_2_1_ner"
+      }
+    },
+    {
+      "id": "doc_sample_2_authority_onal_Board_of_Revenue_19",
+      "type": "CONCEPT_NODE",
+      "properties": {
+        "text": "onal Board of Revenue.",
+        "entity_type": "AUTHORITY",
+        "document_id": "doc_sample_2",
+        "start_position": 162,
+        "end_position": 187,
+        "extraction_method": "phase_2_1_ner",
+        "concept_type": "authority",
+        "value": "onal Board of Revenue.",
+        "context": "extracted from doc_sample_2"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_sample_1_section_র_১৬৩_অ_2",
+      "target": "doc_sample_1_section_য_উক_8",
+      "type": "REFERENCES",
+      "weight": 1.0,
+      "properties": {
+        "relationship_text": "ুসারে কর",
+        "context": "আয়কর আইন ২০২৩ এর ধারা ১৬৩ অনুসারে করদাতার আয় ৫০ হাজার টাকার বেশি হলে ১৫ শতাংশ কর প্রয",
+        "confidence": 0.8,
+        "extraction_method": "phase_2_1_ner"
+      }
+    }
+  ]
+}
