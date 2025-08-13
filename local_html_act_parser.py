@@ -409,15 +409,35 @@ class LocalActParser:
 
             # For div/p/ul/li etc., extract meaningful text blocks
             if child.name in ['p', 'div', 'li']:
-                raw_text = self.clean_content_text(child.get_text("\n"))
+                # Parse any nested tables first and attach them
+                try:
+                    nested_tables = child.find_all('table')
+                except Exception:
+                    nested_tables = []
+                for tbl in nested_tables:
+                    table_obj = self.parse_table(tbl, section_title)
+                    if table_obj:
+                        attach_table(table_obj)
+
+                # Prepare text without table content to avoid duplication
+                try:
+                    child_soup = BeautifulSoup(str(child), 'html.parser')
+                    for t in child_soup.find_all('table'):
+                        t.decompose()
+                    raw_text = self.clean_content_text(child_soup.get_text("\n"))
+                except Exception:
+                    raw_text = self.clean_content_text(child.get_text("\n"))
                 if not raw_text:
                     continue
 
                 # Detect markers
-                sub_match = self._re_subsection.match(raw_text)
-                clause_match = self._re_clause.match(raw_text)
-                subclause_match = self._re_subclause.match(raw_text)
-                article_match = self._re_article.match(raw_text)
+                # Normalize by removing leading section number like "১। " if present so that (১) is detectable
+                normalized_for_match = re.sub(r'^\s*[০-৯]+(?:\[[^\]]*\])?।\s*', '', raw_text)
+
+                sub_match = self._re_subsection.match(normalized_for_match)
+                clause_match = self._re_clause.match(normalized_for_match)
+                subclause_match = self._re_subclause.match(normalized_for_match)
+                article_match = self._re_article.match(normalized_for_match)
 
                 if article_match:
                     # Starting a new Article closes the previous one
@@ -425,7 +445,7 @@ class LocalActParser:
                     # Start new article
                     art_id = self.convert_to_bengali_numerals(article_match.group(2))
                     art_title = self.clean_text(article_match.group(3) or "")
-                    remaining_text = self.clean_text(raw_text[article_match.end():])
+                    remaining_text = self.clean_text(normalized_for_match[article_match.end():])
                     current_article = Article(identifier=art_id, title=art_title, text=remaining_text, tables=[])
                     content_lines.append(raw_text)
                     continue
@@ -437,7 +457,7 @@ class LocalActParser:
                     finalize_subsection_if_open()
 
                     sub_id = sub_match.group(1)
-                    sub_text = self.clean_text(raw_text[sub_match.end():])
+                    sub_text = self.clean_text(normalized_for_match[sub_match.end():])
                     current_subsection = Subsection(identifier=sub_id, text=sub_text, clauses=[], articles=[], tables=[])
                     content_lines.append(raw_text)
                     # Reset deeper levels
@@ -449,7 +469,7 @@ class LocalActParser:
                     finalize_article_if_open()
                     finalize_clause_if_open()
                     clause_id = clause_match.group(1)
-                    clause_text = self.clean_text(raw_text[clause_match.end():])
+                    clause_text = self.clean_text(normalized_for_match[clause_match.end():])
                     current_clause = Clause(identifier=clause_id, text=clause_text, sub_clauses=[], articles=[], tables=[])
                     content_lines.append(raw_text)
                     current_subclause = None
@@ -458,7 +478,7 @@ class LocalActParser:
                 if subclause_match:
                     finalize_article_if_open()
                     subc_id = subclause_match.group(1)
-                    subc_text = self.clean_text(raw_text[subclause_match.end():])
+                    subc_text = self.clean_text(normalized_for_match[subclause_match.end():])
                     current_subclause = SubClause(identifier=subc_id, text=subc_text, tables=[])
                     # Attach new subclause to current clause if any; if no clause, create a synthetic one
                     if current_clause is None:
@@ -474,13 +494,13 @@ class LocalActParser:
                 # Regular paragraph: append to deepest open node
                 content_lines.append(raw_text)
                 if current_article is not None:
-                    current_article.text = self._append_text(current_article.text, raw_text)
+                    current_article.text = self._append_text(current_article.text, normalized_for_match)
                 elif current_subclause is not None:
-                    current_subclause.text = self._append_text(current_subclause.text, raw_text)
+                    current_subclause.text = self._append_text(current_subclause.text, normalized_for_match)
                 elif current_clause is not None:
-                    current_clause.text = self._append_text(current_clause.text, raw_text)
+                    current_clause.text = self._append_text(current_clause.text, normalized_for_match)
                 elif current_subsection is not None:
-                    current_subsection.text = self._append_text(current_subsection.text, raw_text)
+                    current_subsection.text = self._append_text(current_subsection.text, normalized_for_match)
                 continue
 
             # Any other tag: extract and append cleaned text
@@ -514,6 +534,21 @@ class LocalActParser:
 
         # Determine section number from content_text
         section_number: Optional[str] = None
+        # Heuristic: try first paragraph to catch leading "১।"
+        try:
+            txt_details_fp = section_div.find('div', class_='txt-details') or section_div
+            first_p = txt_details_fp.find('p') if txt_details_fp else None
+            if first_p:
+                fp_text = self.clean_content_text(first_p.get_text())
+                m_bn = re.match(r'^\s*([০-৯]+)\s*।', fp_text)
+                if m_bn:
+                    section_number = m_bn.group(1)
+                else:
+                    m_en = re.match(r'^\s*([0-9]+)\s*[\.|)]', fp_text)
+                    if m_en:
+                        section_number = self.convert_to_bengali_numerals(m_en.group(1))
+        except Exception:
+            pass
         candidates: List[str] = []
         # Bengali number followed by danda (।), possibly with footnotes in brackets
         candidates += re.findall(r'([০-৯]+)(?:\[[^\]]*\])*।', content_text)
@@ -529,14 +564,21 @@ class LocalActParser:
             eng2 = re.findall(r'([0-9]+)', content_text)
             candidates += [self.convert_to_bengali_numerals(x) for x in eng2]
 
-        for cand in candidates:
-            try:
-                val = int(self.convert_to_english_numerals(cand))
-                if 1 <= val <= 999:
-                    section_number = cand
-                    break
-            except Exception:
-                continue
+        if not section_number:
+            for cand in candidates:
+                try:
+                    val = int(self.convert_to_english_numerals(cand))
+                    if 1 <= val <= 999:
+                        section_number = cand
+                        break
+                except Exception:
+                    continue
+
+        # Final fallback: detect classic Section 1 phrasing
+        if not section_number:
+            # Typical first section wording present in Bangla acts
+            if re.search(r'এই আইন.*অভিহিত হইবে', content_text):
+                section_number = '১'
 
         if not section_number:
             return None
